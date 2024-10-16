@@ -1,0 +1,13 @@
+<map id="AdministradorInterface::AdministradorInterface" name="AdministradorInterface::AdministradorInterface">
+<area shape="rect" id="Node000001" title="Constructs the AdministradorInterface object." alt="" coords="5,39,166,81"/>
+<area shape="rect" id="Node000002" href="$class_administrador_interface.html#a66b10f9815efc7adf02d737890b60b95" title="Slot to handle the action of registering a new aircraft." alt="" coords="214,5,366,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,44,198,39,199,44,166,50"/>
+<area shape="rect" id="Node000005" href="$class_administrador_interface.html#a9ff26e3b2242c0ed567d2fd355efe8df" title="Slot to handle the action of returning to the login screen." alt="" coords="214,72,366,115"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="166,70,199,76,198,81,166,76"/>
+<area shape="rect" id="Node000003" href="$class_admin.html#a33d496351157262ef3e6b0703a8c18df" title="Registers a new aircraft into the fleet." alt="" coords="414,13,589,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="366,24,398,24,398,29,366,29"/>
+<area shape="rect" id="Node000004" href="$class_aeronave.html#a5551ebaa2134c823f9019818da5ea1de" title="Gets the registration code of the aircraft." alt="" coords="637,13,793,40"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="590,24,622,24,622,29,590,29"/>
+<area shape="rect" id="Node000006" href="$class_administrador_interface.html#ac02ab2406eb3b449664e2329ed503109" title="Signal emitted to return to the login screen." alt="" coords="426,72,578,115"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="366,91,410,91,410,96,366,96"/>
+</map>

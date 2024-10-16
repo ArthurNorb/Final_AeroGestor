@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,81,78,108"/>
+<area shape="rect" id="Node000001" href="$class_administrador_interface.html" title="The AdministradorInterface class provides the user interface for the admin role." alt="" coords="126,5,278,32"/>
+<area shape="poly" id="edge2_Node000000_Node000001" title=" " alt="" coords="74,70,125,42,153,30,155,35,127,46,77,75"/>
+<area shape="rect" id="Node000002" href="$class_gestor_interface.html" title="The GestorInterface class provides the user interface for the fleet manager role." alt="" coords="146,56,258,83"/>
+<area shape="poly" id="edge3_Node000000_Node000002" title=" " alt="" coords="93,84,146,75,146,81,93,89"/>
+<area shape="rect" id="Node000003" href="$class_login_window.html" title="The LoginWindow class represents the login interface for the application." alt="" coords="152,107,252,133"/>
+<area shape="poly" id="edge4_Node000000_Node000003" title=" " alt="" coords="94,100,153,110,152,115,93,105"/>
+<area shape="rect" id="Node000004" href="$class_mecanico_interface.html" title="The MecanicoInterface class provides the user interface for the mechanic role." alt="" coords="138,157,266,184"/>
+<area shape="poly" id="edge5_Node000000_Node000004" title=" " alt="" coords="77,114,127,143,155,154,153,159,125,148,74,119"/>
+</map>

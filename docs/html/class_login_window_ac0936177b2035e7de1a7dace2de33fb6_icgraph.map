@@ -1,0 +1,5 @@
+<map id="LoginWindow::onLoginButtonClicked" name="LoginWindow::onLoginButtonClicked">
+<area shape="rect" id="Node000001" title="Slot called when the login button is clicked." alt="" coords="239,5,429,48"/>
+<area shape="rect" id="Node000002" href="$class_login_window.html#a3a6b4aff66de55ad665ace12f451d155" title="Constructs the LoginWindow object." alt="" coords="5,13,191,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="223,29,191,29,191,24,223,24"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="GestorInterface::voltar" name="GestorInterface::voltar">
+<area shape="rect" id="Node000001" title="Slot to handle the action of returning to the login screen." alt="" coords="5,13,157,40"/>
+<area shape="rect" id="Node000002" href="$class_gestor_interface.html#a1b4590c31a735dd6983ced3d51889bf7" title="Signal emitted to return to the login screen." alt="" coords="205,5,383,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="157,24,189,24,189,29,157,29"/>
+</map>

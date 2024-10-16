@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$class_user.html" title="The User class represents a base user in the system." alt="" coords="5,56,55,83"/>
+<area shape="rect" id="Node000001" href="$class_admin.html" title="The Admin class represents an administrator in the system." alt="" coords="112,5,170,32"/>
+<area shape="poly" id="edge6_Node000000_Node000001" title=" " alt="" coords="68,49,111,29,113,34,70,54"/>
+<area shape="rect" id="Node000002" href="$class_manager.html" title="The Manager class represents a fleet manager in the system." alt="" coords="106,56,177,83"/>
+<area shape="poly" id="edge7_Node000000_Node000002" title=" " alt="" coords="70,67,105,67,105,72,70,72"/>
+<area shape="rect" id="Node000003" href="$class_mechanic.html" title="The Mechanic class represents a mechanic in the system." alt="" coords="103,107,180,133"/>
+<area shape="poly" id="edge8_Node000000_Node000003" title=" " alt="" coords="70,84,111,104,109,109,68,89"/>
+</map>

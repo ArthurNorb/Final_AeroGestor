@@ -1,0 +1,16 @@
+<map id="src/model/mechanic.cpp" name="src/model/mechanic.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="52,5,216,32"/>
+<area shape="rect" id="Node000002" href="$mechanic_8h.html" title=" " alt="" coords="38,80,126,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,34,102,69,98,66,123,31"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="150,80,222,107"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="145,31,170,66,166,69,141,34"/>
+<area shape="rect" id="Node000003" href="$user_8h.html" title=" " alt="" coords="5,155,63,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="76,109,53,143,48,140,71,106"/>
+<area shape="rect" id="Node000005" href="$aeronave_8h.html" title=" " alt="" coords="87,155,173,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="93,106,116,140,111,143,88,109"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="15,229,69,256"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="38,182,42,213,36,214,33,182"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="116,184,71,221,67,217,113,180"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="101,229,159,256"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="133,182,133,214,127,214,127,182"/>
+</map>

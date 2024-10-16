@@ -1,0 +1,7 @@
+<map id="src/model/aeronave.h" name="src/model/aeronave.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,152,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="12,80,65,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="74,34,55,68,50,65,69,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="90,80,147,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="88,31,107,65,102,68,83,34"/>
+</map>

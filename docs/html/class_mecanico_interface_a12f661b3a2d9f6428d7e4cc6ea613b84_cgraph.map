@@ -1,0 +1,17 @@
+<map id="MecanicoInterface::MecanicoInterface" name="MecanicoInterface::MecanicoInterface">
+<area shape="rect" id="Node000001" title="Constructs the MecanicoInterface object." alt="" coords="5,81,142,124"/>
+<area shape="rect" id="Node000002" href="$class_mecanico_interface.html#abccf1cfe3d6f86df987fb442acf4acbd" title="Slot to handle the action of marking an aircraft as ready." alt="" coords="190,48,326,91"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,88,174,82,175,87,142,93"/>
+<area shape="rect" id="Node000007" href="$class_mecanico_interface.html#ab2748e581152f44a96676aa9a543afb1" title="Slot to handle the action of returning to the login screen." alt="" coords="190,115,326,157"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="142,112,175,118,174,123,141,118"/>
+<area shape="rect" id="Node000003" href="$class_mechanic.html#aabd49c2ed94dd66e7f993364fa333ef0" title="Marks an aircraft as ready for use." alt="" coords="374,56,537,83"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="326,67,358,67,358,72,326,72"/>
+<area shape="rect" id="Node000004" href="$class_aeronave.html#ab6f1c72551bb33a8d611b6e8efcb2fe8" title="Checks if the aircraft is under maintenance." alt="" coords="585,5,786,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="519,53,606,33,607,39,520,58"/>
+<area shape="rect" id="Node000005" href="$class_aeronave.html#a5551ebaa2134c823f9019818da5ea1de" title="Gets the registration code of the aircraft." alt="" coords="608,56,763,83"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="538,67,592,67,592,72,538,72"/>
+<area shape="rect" id="Node000006" href="$class_aeronave.html#a8a9726ce8b5d2f941b1238b5c1202b9e" title="Sets the status of whether the aircraft is ready for use." alt="" coords="590,107,781,133"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="520,81,607,100,606,105,519,86"/>
+<area shape="rect" id="Node000008" href="$class_mecanico_interface.html#aaa6b9f948d97315129ee821a6acd75d5" title="Signal emitted to return to the login screen." alt="" coords="388,115,524,157"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="326,133,372,133,372,139,326,139"/>
+</map>

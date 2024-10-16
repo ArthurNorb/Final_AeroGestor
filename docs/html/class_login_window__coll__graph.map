@@ -1,0 +1,7 @@
+<map id="LoginWindow" name="LoginWindow">
+<area shape="rect" id="Node000001" title="The LoginWindow class represents the login interface for the application." alt="" coords="45,96,144,123"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,78,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="59,44,89,94,85,97,55,47"/>
+<area shape="rect" id="Node000003" href="$class_auth_system.html" title="The AuthSystem class manages user authentication." alt="" coords="102,5,195,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="135,47,105,97,100,94,130,44"/>
+</map>

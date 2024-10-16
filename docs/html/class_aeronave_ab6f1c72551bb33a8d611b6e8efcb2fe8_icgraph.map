@@ -1,0 +1,11 @@
+<map id="Aeronave::estaEmManutencao" name="Aeronave::estaEmManutencao">
+<area shape="rect" id="Node000001" title="Checks if the aircraft is under maintenance." alt="" coords="608,39,809,65"/>
+<area shape="rect" id="Node000002" href="$class_mechanic.html#aabd49c2ed94dd66e7f993364fa333ef0" title="Marks an aircraft as ready for use." alt="" coords="386,13,549,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="592,42,549,38,550,33,593,37"/>
+<area shape="rect" id="Node000005" href="$class_mechanic.html#aed43f0355905b40655b22f17bc54f92f" title="Checks the status of an aircraft." alt="" coords="374,64,560,91"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="593,67,561,70,561,65,592,61"/>
+<area shape="rect" id="Node000003" href="$class_mecanico_interface.html#abccf1cfe3d6f86df987fb442acf4acbd" title="Slot to handle the action of marking an aircraft as ready." alt="" coords="190,5,326,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="370,29,326,29,326,24,370,24"/>
+<area shape="rect" id="Node000004" href="$class_mecanico_interface.html#a12f661b3a2d9f6428d7e4cc6ea613b84" title="Constructs the MecanicoInterface object." alt="" coords="5,5,142,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="174,29,142,29,142,24,174,24"/>
+</map>

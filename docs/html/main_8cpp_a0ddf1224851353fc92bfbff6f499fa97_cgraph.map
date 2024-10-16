@@ -1,0 +1,16 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,80,55,107"/>
+<area shape="rect" id="Node000002" href="$main_8cpp.html#a1b449fee8ddfb41e9f3d7898f177971f" title=" " alt="" coords="103,80,233,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,91,87,91,87,96,55,96"/>
+<area shape="rect" id="Node000003" href="$class_login_window.html#a8ec6f23317b7488a2cecda5f491557e1" title="Signal emitted upon successful login." alt="" coords="281,29,466,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="225,77,301,58,302,63,226,82"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html#ace8bf616b037a82dc0fe7b4697880414" title=" " alt="" coords="308,80,439,107"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="233,99,292,99,292,105,233,104"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="307,88,249,87,249,82,307,82"/>
+<area shape="rect" id="Node000005" href="$class_administrador_interface.html#ac02ab2406eb3b449664e2329ed503109" title="Signal emitted to return to the login screen." alt="" coords="527,5,680,48"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="426,77,466,65,516,50,517,56,467,71,427,82"/>
+<area shape="rect" id="Node000006" href="$class_gestor_interface.html#a1b4590c31a735dd6983ced3d51889bf7" title="Signal emitted to return to the login screen." alt="" coords="514,72,693,115"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="439,91,499,91,499,96,439,96"/>
+<area shape="rect" id="Node000007" href="$class_mecanico_interface.html#aaa6b9f948d97315129ee821a6acd75d5" title="Signal emitted to return to the login screen." alt="" coords="535,139,672,181"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="423,105,521,133,519,138,422,110"/>
+</map>

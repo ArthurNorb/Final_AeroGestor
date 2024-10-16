@@ -1,0 +1,12 @@
+<map id="src/model/admin.h" name="src/model/admin.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="35,5,163,32"/>
+<area shape="rect" id="Node000002" href="$main_8cpp.html" title=" " alt="" coords="5,155,102,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="58,42,36,59,19,81,15,100,20,119,43,153,39,156,15,121,10,100,14,79,32,55,55,38"/>
+<area shape="rect" id="Node000003" href="$admin_8cpp.html" title=" " alt="" coords="28,80,170,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="102,48,102,80,96,80,96,48"/>
+<area shape="rect" id="Node000004" href="$admin__interface_8h.html" title=" " alt="" coords="194,80,372,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="146,36,252,77,250,82,144,41"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="229,114,95,157,93,151,228,109"/>
+<area shape="rect" id="Node000005" href="$admin__interface_8cpp.html" title=" " alt="" coords="187,155,378,181"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="286,122,286,154,280,154,280,122"/>
+</map>

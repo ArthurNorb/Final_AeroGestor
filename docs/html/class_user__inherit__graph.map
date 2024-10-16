@@ -1,0 +1,9 @@
+<map id="User" name="User">
+<area shape="rect" id="Node000001" title="The User class represents a base user in the system." alt="" coords="99,5,148,32"/>
+<area shape="rect" id="Node000002" href="$class_admin.html" title="The Admin class represents an administrator in the system." alt="" coords="5,80,64,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,44,52,82,48,78,95,40"/>
+<area shape="rect" id="Node000003" href="$class_manager.html" title="The Manager class represents a fleet manager in the system." alt="" coords="88,80,160,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="126,48,126,80,121,80,121,48"/>
+<area shape="rect" id="Node000004" href="$class_mechanic.html" title="The Mechanic class represents a mechanic in the system." alt="" coords="184,80,261,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="155,39,207,77,204,82,152,44"/>
+</map>

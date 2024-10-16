@@ -1,0 +1,5 @@
+<map id="MecanicoInterface::voltar" name="MecanicoInterface::voltar">
+<area shape="rect" id="Node000001" title="Slot to handle the action of returning to the login screen." alt="" coords="5,5,142,48"/>
+<area shape="rect" id="Node000002" href="$class_mecanico_interface.html#aaa6b9f948d97315129ee821a6acd75d5" title="Signal emitted to return to the login screen." alt="" coords="190,5,326,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="142,24,174,24,174,29,142,29"/>
+</map>

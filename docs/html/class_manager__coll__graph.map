@@ -1,0 +1,5 @@
+<map id="Manager" name="Manager">
+<area shape="rect" id="Node000001" title="The Manager class represents a fleet manager in the system." alt="" coords="5,80,77,107"/>
+<area shape="rect" id="Node000002" href="$class_user.html" title="The User class represents a base user in the system." alt="" coords="16,5,66,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="44,48,44,80,38,80,38,48"/>
+</map>

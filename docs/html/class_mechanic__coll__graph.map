@@ -1,0 +1,5 @@
+<map id="Mechanic" name="Mechanic">
+<area shape="rect" id="Node000001" title="The Mechanic class represents a mechanic in the system." alt="" coords="5,80,83,107"/>
+<area shape="rect" id="Node000002" href="$class_user.html" title="The User class represents a base user in the system." alt="" coords="19,5,69,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="47,48,47,80,41,80,41,48"/>
+</map>

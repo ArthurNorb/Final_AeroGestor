@@ -1,0 +1,9 @@
+<map id="AdministradorInterface" name="AdministradorInterface">
+<area shape="rect" id="Node000001" title="The AdministradorInterface class provides the user interface for the admin role." alt="" coords="5,172,158,199"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="12,81,84,108"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="61,122,79,170,74,172,56,124"/>
+<area shape="rect" id="Node000003" href="$class_admin.html" title="The Admin class represents an administrator in the system." alt="" coords="108,81,167,108"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="124,123,92,173,87,170,119,120"/>
+<area shape="rect" id="Node000004" href="$class_user.html" title="The User class represents a base user in the system." alt="" coords="113,5,162,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="140,47,140,81,135,81,135,47"/>
+</map>

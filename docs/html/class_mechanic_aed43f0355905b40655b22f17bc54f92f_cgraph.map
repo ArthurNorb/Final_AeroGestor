@@ -1,0 +1,7 @@
+<map id="Mechanic::verificarAeronave" name="Mechanic::verificarAeronave">
+<area shape="rect" id="Node000001" title="Checks the status of an aircraft." alt="" coords="5,31,192,57"/>
+<area shape="rect" id="Node000002" href="$class_aeronave.html#ab6f1c72551bb33a8d611b6e8efcb2fe8" title="Checks if the aircraft is under maintenance." alt="" coords="240,5,440,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,32,224,28,224,33,192,37"/>
+<area shape="rect" id="Node000003" href="$class_aeronave.html#a5551ebaa2134c823f9019818da5ea1de" title="Gets the registration code of the aircraft." alt="" coords="262,56,418,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="192,51,247,57,246,62,192,56"/>
+</map>

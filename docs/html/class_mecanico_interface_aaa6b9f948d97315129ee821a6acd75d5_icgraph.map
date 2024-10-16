@@ -1,0 +1,14 @@
+<map id="MecanicoInterface::voltarParaLogin" name="MecanicoInterface::voltarParaLogin">
+<area shape="rect" id="Node000001" title="Signal emitted to return to the login screen." alt="" coords="471,27,608,69"/>
+<area shape="rect" id="Node000002" href="$main_8cpp.html#ace8bf616b037a82dc0fe7b4697880414" title=" " alt="" coords="290,5,421,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="456,37,421,32,421,26,457,32"/>
+<area shape="rect" id="Node000005" href="$class_mecanico_interface.html#ab2748e581152f44a96676aa9a543afb1" title="Slot to handle the action of returning to the login screen." alt="" coords="287,56,423,99"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="456,64,424,69,424,64,456,59"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#a1b449fee8ddfb41e9f3d7898f177971f" title=" " alt="" coords="106,5,236,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="274,30,236,30,237,25,274,25"/>
+<area shape="poly" id="edge4_Node000003_Node000002" title=" " alt="" coords="252,7,289,7,289,13,252,12"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="90,21,55,21,55,16,90,16"/>
+<area shape="rect" id="Node000006" href="$class_mecanico_interface.html#a12f661b3a2d9f6428d7e4cc6ea613b84" title="Constructs the MecanicoInterface object." alt="" coords="103,56,239,99"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="272,80,240,80,240,75,272,75"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="Mechanic::marcarPronta" name="Mechanic::marcarPronta">
+<area shape="rect" id="Node000001" title="Marks an aircraft as ready for use." alt="" coords="374,13,537,40"/>
+<area shape="rect" id="Node000002" href="$class_mecanico_interface.html#abccf1cfe3d6f86df987fb442acf4acbd" title="Slot to handle the action of marking an aircraft as ready." alt="" coords="190,5,326,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="359,29,326,29,326,24,359,24"/>
+<area shape="rect" id="Node000003" href="$class_mecanico_interface.html#a12f661b3a2d9f6428d7e4cc6ea613b84" title="Constructs the MecanicoInterface object." alt="" coords="5,5,142,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="174,29,142,29,142,24,174,24"/>
+</map>

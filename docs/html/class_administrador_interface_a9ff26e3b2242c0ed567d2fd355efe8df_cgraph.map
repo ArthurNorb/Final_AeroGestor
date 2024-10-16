@@ -1,0 +1,5 @@
+<map id="AdministradorInterface::voltar" name="AdministradorInterface::voltar">
+<area shape="rect" id="Node000001" title="Slot to handle the action of returning to the login screen." alt="" coords="5,5,158,48"/>
+<area shape="rect" id="Node000002" href="$class_administrador_interface.html#ac02ab2406eb3b449664e2329ed503109" title="Signal emitted to return to the login screen." alt="" coords="206,5,358,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,24,190,24,190,29,158,29"/>
+</map>

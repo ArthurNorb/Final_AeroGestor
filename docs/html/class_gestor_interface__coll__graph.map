@@ -1,0 +1,9 @@
+<map id="GestorInterface" name="GestorInterface">
+<area shape="rect" id="Node000001" title="The GestorInterface class provides the user interface for the fleet manager role." alt="" coords="7,172,118,199"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,81,78,108"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="51,123,62,171,57,172,45,124"/>
+<area shape="rect" id="Node000003" href="$class_manager.html" title="The Manager class represents a fleet manager in the system." alt="" coords="102,81,173,108"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="119,122,76,173,71,170,115,118"/>
+<area shape="rect" id="Node000004" href="$class_user.html" title="The User class represents a base user in the system." alt="" coords="113,5,162,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="140,47,140,81,135,81,135,47"/>
+</map>

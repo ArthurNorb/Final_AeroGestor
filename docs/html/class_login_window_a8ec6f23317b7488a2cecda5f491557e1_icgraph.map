@@ -1,0 +1,14 @@
+<map id="LoginWindow::loginSuccess" name="LoginWindow::loginSuccess">
+<area shape="rect" id="Node000001" title="Signal emitted upon successful login." alt="" coords="477,56,662,83"/>
+<area shape="rect" id="Node000002" href="$class_login_window.html#ac0936177b2035e7de1a7dace2de33fb6" title="Slot called when the login button is clicked." alt="" coords="239,8,429,51"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="471,55,429,48,430,43,472,50"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html#a1b449fee8ddfb41e9f3d7898f177971f" title=" " alt="" coords="269,85,399,112"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="462,85,400,93,399,88,462,80"/>
+<area shape="rect" id="Node000003" href="$class_login_window.html#a3a6b4aff66de55ad665ace12f451d155" title="Constructs the LoginWindow object." alt="" coords="5,5,191,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="223,27,191,26,191,20,223,22"/>
+<area shape="rect" id="Node000005" href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="73,56,123,83"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="253,91,123,75,123,70,253,86"/>
+<area shape="rect" id="Node000006" href="$main_8cpp.html#ace8bf616b037a82dc0fe7b4697880414" title=" " alt="" coords="32,107,164,133"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="254,117,164,125,164,120,254,112"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="178,102,268,94,268,99,178,107"/>
+</map>
