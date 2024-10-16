@@ -1,0 +1,9 @@
+C:/Users/Arthur/OneDrive/Documentos/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/AeroGestor.dir
+C:/Users/Arthur/OneDrive/Documentos/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Arthur/OneDrive/Documentos/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Arthur/OneDrive/Documentos/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+C:/Users/Arthur/OneDrive/Documentos/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/install.dir
+C:/Users/Arthur/OneDrive/Documentos/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+C:/Users/Arthur/OneDrive/Documentos/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+C:/Users/Arthur/OneDrive/Documentos/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/AeroGestor_autogen_timestamp_deps.dir
+C:/Users/Arthur/OneDrive/Documentos/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/AeroGestor_autogen.dir

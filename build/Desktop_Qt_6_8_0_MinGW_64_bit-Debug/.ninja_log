@@ -1,0 +1,9 @@
+# ninja log v6
+8	644	7507917128628059	AeroGestor_autogen/timestamp	b9a31e9aab41cdbb
+8	644	7507917128628059	C:/Users/Arthur/OneDrive/Documentos/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/AeroGestor_autogen/mocs_compilation.cpp	b9a31e9aab41cdbb
+652	2883	7507917129411805	CMakeFiles/AeroGestor.dir/AeroGestor_autogen/mocs_compilation.cpp.obj	3ae6e49a0e7e05f7
+8	644	7507917128628059	AeroGestor_autogen/mocs_compilation.cpp	b9a31e9aab41cdbb
+8	644	7507917128628059	C:/Users/Arthur/OneDrive/Documentos/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/AeroGestor_autogen/timestamp	b9a31e9aab41cdbb
+657	2893	7507917129463256	CMakeFiles/AeroGestor.dir/main.cpp.obj	5a53b9617b0b74e7
+661	2972	7507917129507800	CMakeFiles/AeroGestor.dir/mainwindow.cpp.obj	64f36002fdde5514
+2972	3231	7507917152590063	AeroGestor.exe	e6df5e1544bfefa8
