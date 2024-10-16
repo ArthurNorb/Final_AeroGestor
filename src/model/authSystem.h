@@ -4,7 +4,11 @@
 #include <vector>
 #include <memory>
 #include <string>
-#include "user.h"  // Base class
+#include "user.h"
+#include "admin.h"
+#include "manager.h"
+#include "mechanic.h"
+#include "aeronave.h"
 
 /**
  * @brief The AuthSystem class manages user authentication.
