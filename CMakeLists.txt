@@ -12,43 +12,68 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
+# Defina os arquivos de origem do projeto
 set(PROJECT_SOURCES
-        src/main.cpp
-        src/model/mainwindow.cpp
-        src/model/mainwindow.h
-        src/model/mainwindow.ui
+    src/main.cpp
+    src/model/admin.cpp
+    src/model/aeronave.cpp
+    src/model/authSystem.cpp
+    src/model/mechanic.cpp
+    src/model/manager.cpp
+    src/view/admin_interface.cpp
+    src/view/loginWindow.cpp
+    src/view/mainwindow.cpp
+    src/view/manager_interface.cpp
+    src/view/mechanic_interface.cpp
+)
+
+# Defina os arquivos de cabeçalho do projeto
+set(PROJECT_HEADERS
+    src/model/admin.h
+    src/model/aeronave.h
+    src/model/authSystem.h
+    src/model/mechanic.h
+    src/model/manager.h
+    src/model/user.h
+    src/view/admin_interface.h
+    src/view/loginWindow.h
+    src/view/mainwindow.h
+    src/view/manager_interface.h
+    src/view/mechanic_interface.h
+)
+
+# Defina os arquivos .ui do Qt
+set(PROJECT_UI
+    src/view/mainwindow.ui
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(AeroGestor
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+        ${PROJECT_HEADERS}
+        ${PROJECT_UI}
     )
-# Define target properties for Android with Qt 6 as:
-#    set_property(TARGET AeroGestor APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
-#                 ${CMAKE_CURRENT_SOURCE_DIR}/android)
-# For more information, see https://doc.qt.io/qt-6/qt-add-executable.html#target-creation
 else()
     if(ANDROID)
         add_library(AeroGestor SHARED
             ${PROJECT_SOURCES}
+            ${PROJECT_HEADERS}
+            ${PROJECT_UI}
         )
-# Define properties for Android with Qt 5 after find_package() calls as:
-#    set(ANDROID_PACKAGE_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/android")
     else()
         add_executable(AeroGestor
             ${PROJECT_SOURCES}
+            ${PROJECT_HEADERS}
+            ${PROJECT_UI}
         )
     endif()
 endif()
 
 target_link_libraries(AeroGestor PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
 
-# Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
-# If you are developing for iOS or macOS you should consider setting an
-# explicit, fixed bundle identifier manually though.
 if(${QT_VERSION} VERSION_LESS 6.1.0)
-  set(BUNDLE_ID_OPTION MACOSX_BUNDLE_GUI_IDENTIFIER com.example.AeroGestor)
+    set(BUNDLE_ID_OPTION MACOSX_BUNDLE_GUI_IDENTIFIER com.example.AeroGestor)
 endif()
 set_target_properties(AeroGestor PROPERTIES
     ${BUNDLE_ID_OPTION}

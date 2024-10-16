@@ -296,9 +296,69 @@
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/Arthur/OneDrive/Documentos/AeroGestor/src/model/mainwindow.h",
+			"C:/Users/Arthur/OneDrive/Documentos/AeroGestor/src/model/admin.h",
 			"MU",
-			"VNQA4LF4BW/moc_mainwindow.cpp",
+			"VNQA4LF4BW/moc_admin.cpp",
+			null
+		],
+		[
+			"C:/Users/Arthur/OneDrive/Documentos/AeroGestor/src/model/aeronave.h",
+			"MU",
+			"VNQA4LF4BW/moc_aeronave.cpp",
+			null
+		],
+		[
+			"C:/Users/Arthur/OneDrive/Documentos/AeroGestor/src/model/authSystem.h",
+			"MU",
+			"VNQA4LF4BW/moc_authSystem.cpp",
+			null
+		],
+		[
+			"C:/Users/Arthur/OneDrive/Documentos/AeroGestor/src/model/manager.h",
+			"MU",
+			"VNQA4LF4BW/moc_manager.cpp",
+			null
+		],
+		[
+			"C:/Users/Arthur/OneDrive/Documentos/AeroGestor/src/model/mechanic.h",
+			"MU",
+			"VNQA4LF4BW/moc_mechanic.cpp",
+			null
+		],
+		[
+			"C:/Users/Arthur/OneDrive/Documentos/AeroGestor/src/model/user.h",
+			"MU",
+			"VNQA4LF4BW/moc_user.cpp",
+			null
+		],
+		[
+			"C:/Users/Arthur/OneDrive/Documentos/AeroGestor/src/view/admin_interface.h",
+			"MU",
+			"3JYSCEOBDA/moc_admin_interface.cpp",
+			null
+		],
+		[
+			"C:/Users/Arthur/OneDrive/Documentos/AeroGestor/src/view/loginWindow.h",
+			"MU",
+			"3JYSCEOBDA/moc_loginWindow.cpp",
+			null
+		],
+		[
+			"C:/Users/Arthur/OneDrive/Documentos/AeroGestor/src/view/mainwindow.h",
+			"MU",
+			"3JYSCEOBDA/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"C:/Users/Arthur/OneDrive/Documentos/AeroGestor/src/view/manager_interface.h",
+			"MU",
+			"3JYSCEOBDA/moc_manager_interface.cpp",
+			null
+		],
+		[
+			"C:/Users/Arthur/OneDrive/Documentos/AeroGestor/src/view/mechanic_interface.h",
+			"MU",
+			"3JYSCEOBDA/moc_mechanic_interface.cpp",
 			null
 		]
 	],
@@ -379,7 +439,52 @@
 			null
 		],
 		[
-			"C:/Users/Arthur/OneDrive/Documentos/AeroGestor/src/model/mainwindow.cpp",
+			"C:/Users/Arthur/OneDrive/Documentos/AeroGestor/src/model/admin.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Arthur/OneDrive/Documentos/AeroGestor/src/model/aeronave.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Arthur/OneDrive/Documentos/AeroGestor/src/model/authSystem.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Arthur/OneDrive/Documentos/AeroGestor/src/model/manager.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Arthur/OneDrive/Documentos/AeroGestor/src/model/mechanic.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Arthur/OneDrive/Documentos/AeroGestor/src/view/admin_interface.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Arthur/OneDrive/Documentos/AeroGestor/src/view/loginWindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Arthur/OneDrive/Documentos/AeroGestor/src/view/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Arthur/OneDrive/Documentos/AeroGestor/src/view/manager_interface.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Arthur/OneDrive/Documentos/AeroGestor/src/view/mechanic_interface.cpp",
 			"MU",
 			null
 		]
