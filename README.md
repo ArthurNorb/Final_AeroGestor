@@ -26,3 +26,15 @@ AeroGestor is an aircraft management system developed in **C++** using the **Qt6
    mkdir build && cd build
    cmake ..
    make
+
+### Sprint 2 Objectives
+
+As part of **Sprint 2**, the following tasks are prioritized:
+
+- **Make the project runnable again**: Ensure the system builds and runs smoothly.
+- **Update the Git repository**: Sync the latest changes with the remote repository.
+- **Generate Doxygen documentation**: Maintain updated documentation using Doxygen.
+- **Implement at least one functional test**: Ensure the core features work as expected.
+- **Componentized architecture**: Further modularize the system.
+- **Use of Design Patterns**: Apply software design patterns where applicable.
+- **JSON Database**: Implement the data storage solution using JSON files.
