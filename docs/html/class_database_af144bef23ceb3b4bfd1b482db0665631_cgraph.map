@@ -1,0 +1,7 @@
+<map id="Database::insertUser" name="Database::insertUser">
+<area shape="rect" id="Node000001" title="Inserts a new user into the Users table." alt="" coords="5,31,151,57"/>
+<area shape="rect" id="Node000002" href="$sqlite3_8h.html#a97487ec8150e0bcc8fa392ab8f0e24db" title=" " alt="" coords="199,5,293,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,30,183,25,184,31,152,36"/>
+<area shape="rect" id="Node000003" href="$sqlite3_8h.html#a6552349e36a8a691af5487999ab09519" title=" " alt="" coords="202,56,290,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="152,52,187,58,186,63,151,58"/>
+</map>

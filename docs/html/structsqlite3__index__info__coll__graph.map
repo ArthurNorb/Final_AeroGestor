@@ -1,0 +1,9 @@
+<map id="sqlite3_index_info" name="sqlite3_index_info">
+<area shape="rect" id="Node000001" title=" " alt="" coords="374,80,499,107"/>
+<area shape="rect" id="Node000002" href="$structsqlite3__index__info_1_1sqlite3__index__constraint.html" title=" " alt="" coords="26,5,196,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="211,42,350,69,382,77,381,82,349,75,210,47"/>
+<area shape="rect" id="Node000003" href="$structsqlite3__index__info_1_1sqlite3__index__orderby.html" title=" " alt="" coords="33,72,189,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="204,91,373,91,373,96,204,96"/>
+<area shape="rect" id="Node000004" href="$structsqlite3__index__info_1_1sqlite3__index__constraint__usage.html" title=" " alt="" coords="5,139,217,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="231,136,349,112,381,105,382,110,350,117,232,141"/>
+</map>

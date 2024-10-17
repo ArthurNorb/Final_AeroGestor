@@ -1,0 +1,7 @@
+<map id="Database::createTables" name="Database::createTables">
+<area shape="rect" id="Node000001" title="Creates the necessary tables in the database." alt="" coords="5,31,165,57"/>
+<area shape="rect" id="Node000002" href="$sqlite3_8h.html#a97487ec8150e0bcc8fa392ab8f0e24db" title=" " alt="" coords="213,5,307,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,30,197,25,198,30,165,35"/>
+<area shape="rect" id="Node000003" href="$sqlite3_8h.html#a6552349e36a8a691af5487999ab09519" title=" " alt="" coords="216,56,304,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="165,53,201,58,200,63,164,58"/>
+</map>

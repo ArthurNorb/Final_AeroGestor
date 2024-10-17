@@ -1,0 +1,7 @@
+<map id="sqlite3_exec" name="sqlite3_exec">
+<area shape="rect" id="Node000001" title=" " alt="" coords="213,31,307,57"/>
+<area shape="rect" id="Node000002" href="$class_database.html#a571f9128e8207b0e2fc4b1a06af60a20" title="Creates the necessary tables in the database." alt="" coords="5,5,165,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,38,165,33,166,28,198,32"/>
+<area shape="rect" id="Node000003" href="$class_database.html#af144bef23ceb3b4bfd1b482db0665631" title="Inserts a new user into the Users table." alt="" coords="12,56,158,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="198,56,158,61,158,56,197,50"/>
+</map>
