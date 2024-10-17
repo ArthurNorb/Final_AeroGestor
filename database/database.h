@@ -27,7 +27,7 @@ public:
     // Acesso aos dados do banco de dados
     json getUsers() const;
     json getMechanics() const;
-    json getAeronaves() const;
+    json getAircrafts() const;
     json getManagers() const;
 
 private:

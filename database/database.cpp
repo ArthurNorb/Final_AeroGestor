@@ -53,7 +53,7 @@ void Database::addMechanic(const std::string& username, const std::string& name,
 }
 
 void Database::addAeronave(const std::string& matricula, const std::string& modelo, bool emManutencao) {
-    database["aeronaves"].push_back({
+    database["aircrafts"].push_back({
         {"matricula", matricula},
         {"modelo", modelo},
         {"em_manutencao", emManutencao}
@@ -77,8 +77,8 @@ json Database::getMechanics() const {
     return database["mechanics"];
 }
 
-json Database::getAeronaves() const {
-    return database["aeronaves"];
+json Database::getAircrafts() const {
+    return database["aircrafts"];
 }
 
 json Database::getManagers() const {

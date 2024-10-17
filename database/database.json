@@ -1,0 +1,63 @@
+{
+    "users": [
+      {
+        "username": "admin",
+        "password": "admin123",
+        "role": "admin"
+      },
+      {
+        "username": "manager0",
+        "password": "manager123",
+        "role": "manager"
+      },
+      {
+        "username": "mech0",
+        "password": "mech123",
+        "role": "mechanic"
+      }
+    ],
+
+    "mechanics": [
+        {
+          "username": "mech0",
+          "name": "Admin mech",
+          "password": "mech123"
+        },
+        {
+          "username": "mech1",
+          "name": "Tiago Carneiro",
+          "password": "xxt2104"
+        },
+        {
+          "username": "mech2",
+          "name": "Marco Antônio",
+          "password": "njs6556"
+        },
+        {
+          "username": "mech3",
+          "name": "Guillermo Carrara",
+          "password": "oai3521"
+        }
+      ],
+
+      "aircrafts": [
+      {
+        "id": "0045",
+        "model": "Boeng 737",
+        "capacity": 400,
+        "maintence": false
+      },
+      {
+        "id": "1209",
+        "model": "Airbus A380",
+        "capacity": 520,
+        "maintence": true
+      },
+      {
+        "id": "0573",
+        "model": "Antonov An-255 Mriya",
+        "capacity": 250,
+        "maintence": false
+      }
+    ]
+}
