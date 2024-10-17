@@ -38,7 +38,7 @@ void loadFrotaFromJson(const string& filePath) {
         file.close();
 
         for (const auto& item : data["aeronaves"]) {
-            Aeronave aeronave(item["id"], item["modelo"]);
+            Aeronave aeronave(item["id"], item["model"]);
             aeronave.setMaintence(item["maintence"]);  // Carrega o status de manutenção
             if (aeronave.getMaintence()) {
                 frotaEmManutencao.push_back(aeronave);

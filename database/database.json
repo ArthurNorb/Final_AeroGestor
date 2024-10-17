@@ -3,17 +3,17 @@
       {
         "username": "admin",
         "password": "admin123",
-        "role": "admin"
+        "role": "Admin"
       },
       {
         "username": "manager0",
         "password": "manager123",
-        "role": "manager"
+        "role": "Manager"
       },
       {
         "username": "mech0",
         "password": "mech123",
-        "role": "mechanic"
+        "role": "Mechanic"
       }
     ],
 
@@ -63,7 +63,7 @@
         }
       ],
 
-      "aircrafts": [
+      "aeronaves": [
       {
         "id": "0045",
         "model": "Boeng 737",

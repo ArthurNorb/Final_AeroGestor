@@ -125,7 +125,7 @@ public:
         for (const auto& aeronave : frota) {
             data["aeronaves"].push_back({
                 {"id", aeronave.getId()},
-                {"modelo", aeronave.getModel()},
+                {"model", aeronave.getModel()},
                 {"maintence", aeronave.getMaintence()}  // Caso tenha o status da aeronave
             });
         }

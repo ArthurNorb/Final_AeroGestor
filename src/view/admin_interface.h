@@ -74,7 +74,7 @@ public:
             file.close();
 
             for (const auto& item : data["aeronaves"]) {
-                Aeronave aeronave(item["id"], item["modelo"]);
+                Aeronave aeronave(item["id"], item["model"]);
                 frota.push_back(aeronave);
             }
         }

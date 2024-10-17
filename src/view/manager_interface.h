@@ -58,8 +58,8 @@ public:
 
             // Preencher o vetor frota com os dados das aeronaves do arquivo JSON
             for (const auto& item : data["aeronaves"]) {
-                Aeronave aeronave(item["id"], item["modelo"]);
-                if (item["status"] == "em manutenção") {
+                Aeronave aeronave(item["id"], item["model"]);
+                if (item["maintence"] == true) {
                     frotaEmManutencao.push_back(aeronave);
                 } else {
                     frota.push_back(aeronave);
