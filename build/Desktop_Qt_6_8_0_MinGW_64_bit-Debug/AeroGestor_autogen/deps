@@ -254,10 +254,6 @@ AeroGestor_autogen/timestamp: \
 	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake \
 	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake \
 	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake \
-	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake \
-	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QICNSPluginConfig.cmake \
-	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake \
-	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake \
 	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake \
 	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake \
 	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake \
@@ -282,30 +278,10 @@ AeroGestor_autogen/timestamp: \
 	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake \
 	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake \
 	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake \
-	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake \
-	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake \
-	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake \
-	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake \
-	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake \
-	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake \
-	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake \
-	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake \
 	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake \
 	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake \
 	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake \
 	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake \
-	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake \
-	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake \
-	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake \
-	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake \
-	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake \
-	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake \
-	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake \
-	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake \
-	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake \
-	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake \
-	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake \
-	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake \
 	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginAdditionalTargetInfo.cmake \
 	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginConfig.cmake \
 	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginTargets-relwithdebinfo.cmake \
@@ -594,6 +570,7 @@ AeroGestor_autogen/timestamp: \
 	C:/Users/Arthur/OneDrive/Documentos/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake \
 	C:/Users/Arthur/OneDrive/Documentos/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeRCCompiler.cmake \
 	C:/Users/Arthur/OneDrive/Documentos/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake \
+	C:/Users/Arthur/OneDrive/Documentos/AeroGestor/include/json.hpp \
 	C:/Users/Arthur/OneDrive/Documentos/AeroGestor/src/main.cpp \
 	C:/Users/Arthur/OneDrive/Documentos/AeroGestor/src/model/admin.cpp \
 	C:/Users/Arthur/OneDrive/Documentos/AeroGestor/src/model/admin.h \

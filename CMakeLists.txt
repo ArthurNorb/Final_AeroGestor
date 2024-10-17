@@ -25,6 +25,8 @@ set(PROJECT_SOURCES
     src/view/mainwindow.cpp
     src/view/manager_interface.cpp
     src/view/mechanic_interface.cpp
+    database/database.cpp
+    database/database.json
 )
 
 # Defina os arquivos de cabeçalho do projeto
@@ -40,6 +42,8 @@ set(PROJECT_HEADERS
     src/view/mainwindow.h
     src/view/manager_interface.h
     src/view/mechanic_interface.h
+    database/database.h
+    include/json.hpp
 )
 
 # Defina os arquivos .ui do Qt

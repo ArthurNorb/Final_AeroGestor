@@ -200,11 +200,6 @@
 		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake",
 		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake",
 		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake",
-		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QICNSPluginConfig.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
-		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake",
-		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake",
-		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake",
 		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake",
@@ -235,36 +230,11 @@
 		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake",
 		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake",
 		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake",
-		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
-		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake",
-		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake",
-		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake",
-		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
-		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake",
-		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake",
-		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake",
 		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake",
 		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake",
 		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake",
-		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
-		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake",
-		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake",
-		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake",
-		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
-		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake",
-		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake",
-		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake",
-		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
-		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake",
-		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake",
-		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake",
 		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginConfig.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginTargets.cmake",
@@ -295,6 +265,18 @@
 	"DEP_FILE_RULE_NAME" : "AeroGestor_autogen/timestamp",
 	"HEADERS" : 
 	[
+		[
+			"C:/Users/Arthur/OneDrive/Documentos/AeroGestor/database/database.h",
+			"MU",
+			"BL3K65LMA5/moc_database.cpp",
+			null
+		],
+		[
+			"C:/Users/Arthur/OneDrive/Documentos/AeroGestor/include/json.hpp",
+			"MU",
+			"6YEA5652QU/moc_json.cpp",
+			null
+		],
 		[
 			"C:/Users/Arthur/OneDrive/Documentos/AeroGestor/src/model/admin.h",
 			"MU",
@@ -433,6 +415,11 @@
 	"SETTINGS_FILE" : "C:/Users/Arthur/OneDrive/Documentos/AeroGestor/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/AeroGestor_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"C:/Users/Arthur/OneDrive/Documentos/AeroGestor/database/database.cpp",
+			"MU",
+			null
+		],
 		[
 			"C:/Users/Arthur/OneDrive/Documentos/AeroGestor/src/main.cpp",
 			"MU",

@@ -1,0 +1,45 @@
+{
+    "users": [
+      {
+        "username": "admin",
+        "password": "admin123",
+        "role": "admin"
+      },
+      {
+        "username": "manager1",
+        "password": "manager123",
+        "role": "manager"
+      },
+      {
+        "username": "mechanic1",
+        "password": "mech123",
+        "role": "mechanic"
+      }
+    ],
+    "mechanics": [
+      {
+        "username": "mechanic1",
+        "name": "John Doe",
+        "certification": "Engine Specialist"
+      }
+    ],
+    "aeronaves": [
+      {
+        "matricula": "AERO123",
+        "modelo": "Boeing 737",
+        "em_manutencao": false
+      },
+      {
+        "matricula": "AERO456",
+        "modelo": "Airbus A320",
+        "em_manutencao": true
+      }
+    ],
+    "managers": [
+      {
+        "username": "manager1",
+        "name": "Jane Smith",
+        "department": "Operations"
+      }
+    ]
+  }
