@@ -2,7 +2,7 @@
 #include <fstream>
 #include <iostream>
 
-Database::Database(const std::string& dbFilename) : dbFilename(dbFilename) {
+Database::Database(const string& dbFilename) : dbFilename(dbFilename) {
     load();  // Carrega o banco de dados ao inicializar
 }
 
@@ -11,32 +11,32 @@ Database::~Database() {
 }
 
 bool Database::load() {
-    std::ifstream file(dbFilename);
+    ifstream file(dbFilename);
     if (file.is_open()) {
         file >> database;
         file.close();
         return true;
     } else {
-        std::cerr << "Erro ao abrir o arquivo JSON para carregar o banco de dados." << std::endl;
+        cerr << "Error opening JSON file to load database." << endl;
         return false;
     }
 }
 
 bool Database::save() const {
-    std::ofstream file(dbFilename);
+    ofstream file(dbFilename);
     if (file.is_open()) {
         file << database.dump(4);  // Salva com indentação de 4 espaços
         file.close();
         return true;
     } else {
-        std::cerr << "Erro ao abrir o arquivo JSON para salvar o banco de dados." << std::endl;
+        cerr << "Error opening JSON file to save database." << endl;
         return false;
     }
 }
 
 // Funções para adicionar dados ao banco de dados
 
-void Database::addUser(const std::string& username, const std::string& password, const std::string& role) {
+void Database::addUser(const string& username, const string& password, const string& role) {
     database["users"].push_back({
         {"username", username},
         {"password", password},
@@ -44,27 +44,27 @@ void Database::addUser(const std::string& username, const std::string& password,
     });
 }
 
-void Database::addMechanic(const std::string& username, const std::string& name, const std::string& certification) {
+void Database::addMechanic(const string& username, const string& name, const string& password) {
     database["mechanics"].push_back({
         {"username", username},
         {"name", name},
-        {"certification", certification}
+        {"password", password}
     });
 }
 
-void Database::addAeronave(const std::string& matricula, const std::string& modelo, bool emManutencao) {
+void Database::addAircraft(const string& id, const string& model, bool maintence) {
     database["aircrafts"].push_back({
-        {"matricula", matricula},
-        {"modelo", modelo},
-        {"em_manutencao", emManutencao}
+        {"id", id},
+        {"model", model},
+        {"maintence", maintence}
     });
 }
 
-void Database::addManager(const std::string& username, const std::string& name, const std::string& department) {
+void Database::addManager(const string& username, const string& name, const string& password) {
     database["managers"].push_back({
         {"username", username},
         {"name", name},
-        {"department", department}
+        {"password", password}
     });
 }
 

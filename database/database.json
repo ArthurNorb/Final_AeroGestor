@@ -40,6 +40,29 @@
         }
       ],
 
+      "managers":[
+        {
+          "username": "manager0",
+          "name": "Admin manager",
+          "password": "manager123"
+        },
+        {
+          "username": "manager1",
+          "name": "Tiago Carneiro",
+          "password": "xxt2104"
+        },
+        {
+          "username": "manager2",
+          "name": "Marco Antônio",
+          "password": "njs6556"
+        },
+        {
+          "username": "manager3",
+          "name": "Guillermo Carrara",
+          "password": "poo000"
+        }
+      ],
+
       "aircrafts": [
       {
         "id": "0045",
