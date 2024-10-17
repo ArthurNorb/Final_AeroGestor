@@ -1,0 +1,14 @@
+{
+    "aeronaves": [
+      {
+        "matricula": "AERO123",
+        "modelo": "Boeing 737",
+        "em_manutencao": false
+      },
+      {
+        "matricula": "AERO456",
+        "modelo": "Airbus A320",
+        "em_manutencao": true
+      }
+    ]
+}

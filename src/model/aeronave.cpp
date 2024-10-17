@@ -2,12 +2,12 @@
 #include <iostream>
 
 // Construtor
-Aeronave::Aeronave(const std::string& matricula, const std::string& modelo)
-    : matricula(matricula), modelo(modelo), emManutencao(false), prontaParaUso(true) {}
+Aeronave::Aeronave(const std::string& id, const std::string& modelo)
+    : id(id), modelo(modelo), emManutencao(false), prontaParaUso(true) {}
 
 // Getters e Setters
-std::string Aeronave::getMatricula() const { return matricula; }
-void Aeronave::setMatricula(const std::string& matricula) { this->matricula = matricula; }
+std::string Aeronave::getid() const { return id; }
+void Aeronave::setid(const std::string& id) { this->id = id; }
 
 std::string Aeronave::getModelo() const { return modelo; }
 void Aeronave::setModelo(const std::string& modelo) { this->modelo = modelo; }
@@ -26,7 +26,7 @@ void Aeronave::registrarManutencao(const std::string& detalhes) {
 }
 
 void Aeronave::exibirHistorico() const {
-    std::cout << "Histórico de Manutenção da Aeronave " << matricula << ":\n";
+    std::cout << "Histórico de Manutenção da Aeronave " << id << ":\n";
     for (const auto& registro : historicoManutencao) {
         std::cout << registro << std::endl;
     }

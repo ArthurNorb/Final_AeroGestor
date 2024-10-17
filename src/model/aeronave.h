@@ -12,7 +12,7 @@
  */
 class Aeronave {
 private:
-    std::string matricula;              /**< Aircraft registration code */
+    std::string id;              /**< Aircraft registration code */
     std::string modelo;                 /**< Aircraft model */
     bool emManutencao;                  /**< Whether the aircraft is under maintenance */
     bool prontaParaUso;                 /**< Whether the aircraft is ready for use */

@@ -1,0 +1,9 @@
+{
+"managers": [
+    {
+      "username": "manager1",
+      "name": "Jane Smith",
+      "department": "Operations"
+    }
+  ]
+}

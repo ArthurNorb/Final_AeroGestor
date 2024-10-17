@@ -10,8 +10,10 @@
 #include "../src/model/aeronave.h"
 #include "../src/model/user.h"
 
-std::vector<Aeronave> frota;            // Frota geral
-std::vector<Aeronave> frotaEmManutencao; // Frota em manutenção
+using namespace std;
+
+vector<Aeronave> frota;            // Frota geral
+vector<Aeronave> frotaEmManutencao; // Frota em manutenção
 
 void showLoginWindow(AuthSystem& authSystem);
 
