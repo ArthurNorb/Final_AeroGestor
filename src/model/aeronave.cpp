@@ -2,18 +2,31 @@
 #include <iostream>
 
 // Construtor
-Aeronave::Aeronave(const std::string& id, const std::string& modelo)
-    : id(id), modelo(modelo), emManutencao(false), prontaParaUso(true) {}
+Aeronave::Aeronave(const string& id, const string& model)
+    : id(id), model(model), maintence(false), prontaParaUso(true) {}
+
+nlohmann::json Aeronave::toJson() const {
+    return nlohmann::json{
+        {"id", getId()},
+        {"model", getModel()},
+        {"maintence", getMaintence()}
+    };
+}
+void Aeronave::fromJson(const nlohmann::json& data) {
+    setId(data["id"]);
+    setModel(data["model"]);
+    setMaintence(data["maintence"]);
+}
 
 // Getters e Setters
-std::string Aeronave::getid() const { return id; }
-void Aeronave::setid(const std::string& id) { this->id = id; }
+std::string Aeronave::getId() const { return id; }
+void Aeronave::setId(const std::string& id) { this->id = id; }
 
-std::string Aeronave::getModelo() const { return modelo; }
-void Aeronave::setModelo(const std::string& modelo) { this->modelo = modelo; }
+std::string Aeronave::getModel() const { return model; }
+void Aeronave::setModel(const std::string& model) { this->model = model; }
 
-bool Aeronave::estaEmManutencao() const { return emManutencao; }
-void Aeronave::setEmManutencao(bool status) { emManutencao = status; }
+bool Aeronave::getMaintence() const { return maintence; }
+void Aeronave::setMaintence(bool status) { maintence = status; }
 
 bool Aeronave::estaProntaParaUso() const { return prontaParaUso; }
 void Aeronave::setProntaParaUso(bool status) { prontaParaUso = status; }
@@ -21,7 +34,7 @@ void Aeronave::setProntaParaUso(bool status) { prontaParaUso = status; }
 // Histórico de manutenção
 void Aeronave::registrarManutencao(const std::string& detalhes) {
     historicoManutencao.push_back(detalhes);
-    setEmManutencao(false);  // Manutenção concluída
+    setMaintence(false);  // Manutenção concluída
     setProntaParaUso(true);
 }
 

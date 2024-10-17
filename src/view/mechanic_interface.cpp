@@ -13,7 +13,7 @@ MecanicoInterface::MecanicoInterface(Mechanic& mec, std::vector<Aeronave>& frota
 
     // Populando o ComboBox com as aeronaves que estão em manutenção
     for (const auto& aeronave : frotaEmManutencao) {
-        comboBoxAeronaves->addItem(QString::fromStdString(aeronave.getMatricula()));
+        comboBoxAeronaves->addItem(QString::fromStdString(aeronave.getId()));
     }
 
     // Criando layout
@@ -28,12 +28,13 @@ MecanicoInterface::MecanicoInterface(Mechanic& mec, std::vector<Aeronave>& frota
     connect(buttonVoltar, &QPushButton::clicked, this, &MecanicoInterface::voltar);
 
     setLayout(mainLayout);
+    loadFrotaFromJson("C:/Users/Arthur/OneDrive/Documentos/AeroGestor/database/database.json");
 }
 
 void MecanicoInterface::marcarPronta() {
     QString matricula = comboBoxAeronaves->currentText();
     for (auto it = frotaEmManutencao.begin(); it != frotaEmManutencao.end(); ++it) {
-        if (it->getMatricula() == matricula.toStdString()) {
+        if (it->getId() == matricula.toStdString()) {
             mecanico.marcarPronta(*it);
             frota.push_back(*it);  // Voltar para a frota principal
             frotaEmManutencao.erase(it);  // Remover da lista de manutenção

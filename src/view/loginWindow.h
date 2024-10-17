@@ -7,6 +7,9 @@
 #include <QVBoxLayout>
 #include <QLabel>
 #include "../model/authSystem.h"
+#include "../../include/json.hpp"
+#include <fstream>
+#include <iostream>
 
 /**
  * @brief The LoginWindow class represents the login interface for the application.
@@ -31,6 +34,37 @@ public:
      * @param parent The parent widget (default is nullptr).
      */
     explicit LoginWindow(AuthSystem& authSystem, QWidget* parent = nullptr);
+
+    /**
+ * @brief Loads users from a JSON file for the authentication system.
+ *
+ * This function populates the authentication system with users loaded from the specified JSON file.
+ *
+ * @param filePath The path to the JSON file containing user data.
+ */
+    void loadUsersFromJson(const std::string& filePath) {
+        std::ifstream file(filePath);
+        nlohmann::json data;
+
+        if (file.is_open()) {
+            file >> data; // Lê os dados do arquivo JSON
+            file.close();
+
+            // Preenche o sistema de autenticação com os dados dos usuários
+            for (const auto& item : data["users"]) {
+                std::string role = item["role"];
+                if (role == "Admin") {
+                    authSystem.addUser(std::make_shared<Admin>(item["username"], item["password"]));
+                } else if (role == "Manager") {
+                    authSystem.addUser(std::make_shared<Manager>(item["username"], item["password"]));
+                } else if (role == "Mechanic") {
+                    authSystem.addUser(std::make_shared<Mechanic>(item["username"], item["password"]));
+                }
+            }
+        } else {
+            std::cerr << "Erro ao abrir o arquivo " << filePath << std::endl;
+        }
+    }
 
 signals:
     /**

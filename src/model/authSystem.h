@@ -18,13 +18,18 @@
  */
 class AuthSystem {
 private:
-    std::vector<std::shared_ptr<User>> users;  /**< List of registered users in the system */
+    /**
+     * @brief List of registered users in the system.
+     *
+     * This vector contains all users (e.g., Admin, Manager, Mechanic) registered in the system.
+     */
+    std::vector<std::shared_ptr<User>> users;
 
 public:
     /**
      * @brief Constructs the AuthSystem object.
      *
-     * Initializes the system for managing user authentication.
+     * Initializes the system for managing user authentication and loading users.
      */
     AuthSystem();
 
@@ -39,6 +44,25 @@ public:
      * or nullptr if the login fails.
      */
     std::shared_ptr<User> login(const std::string& username, const std::string& password);
+
+    /**
+     * @brief Loads users from a JSON file.
+     *
+     * This function reads the specified JSON file and loads the user information
+     * into the AuthSystem. It creates User objects (Admin, Manager, Mechanic) based on the role.
+     *
+     * @param filePath Path to the JSON file containing user data.
+     */
+    void loadUsersFromJson(const std::string& filePath);
+
+    /**
+ * @brief Adds a user to the authentication system.
+ *
+ * This function adds a new user to the list of registered users.
+ *
+ * @param user A shared pointer to the User object to be added.
+ */
+    void addUser(std::shared_ptr<User> user);
 };
 
 #endif // AUTHSYSTEM_H

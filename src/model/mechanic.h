@@ -3,6 +3,7 @@
 
 #include "user.h"
 #include "aeronave.h"
+#include "../../include/json.hpp"
 
 /**
  * @brief The Mechanic class represents a mechanic in the system.
@@ -47,6 +48,24 @@ public:
      * @param aeronave The aircraft to be marked as ready.
      */
     void marcarPronta(Aeronave& aeronave) const;
+
+    /**
+     * @brief Converts the Mechanic object to a JSON object.
+     *
+     * This function serializes the Mechanic object into a JSON structure for storage or transmission.
+     *
+     * @return A nlohmann::json object representing the Mechanic.
+     */
+    nlohmann::json toJson() const;
+
+    /**
+     * @brief Loads the Mechanic object from a JSON object.
+     *
+     * This function deserializes the Mechanic object from a JSON structure.
+     *
+     * @param data A nlohmann::json object containing the Mechanic data.
+     */
+    void fromJson(const nlohmann::json& data);
 };
 
 #endif // MECHANIC_H

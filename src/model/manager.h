@@ -2,7 +2,8 @@
 #define MANAGER_H
 
 #include "user.h"
-#include "aeronave.h"  // Include to allow Manager to use the Aeronave class
+#include "aeronave.h"
+#include "../../include/json.hpp"
 
 /**
  * @brief The Manager class represents a fleet manager in the system.
@@ -36,6 +37,24 @@ public:
      * @param aeronave The aircraft to be sent for maintenance.
      */
     void enviarParaManutencao(Aeronave& aeronave) const;
+
+    /**
+     * @brief Converts the Manager object to a JSON object.
+     *
+     * This function serializes the Manager object into a JSON structure for storage or transmission.
+     *
+     * @return A nlohmann::json object representing the Manager.
+     */
+    nlohmann::json toJson() const;
+
+    /**
+     * @brief Loads the Manager object from a JSON object.
+     *
+     * This function deserializes the Manager object from a JSON structure.
+     *
+     * @param data A nlohmann::json object containing the Manager data.
+     */
+    void fromJson(const nlohmann::json& data);
 };
 
 #endif // MANAGER_H

@@ -8,6 +8,9 @@
 #include <QVBoxLayout>
 #include "../model/mechanic.h"
 #include "../model/aeronave.h"
+#include "../../include/json.hpp"
+#include <fstream>
+#include <iostream>
 
 /**
  * @brief The MecanicoInterface class provides the user interface for the mechanic role.
@@ -38,6 +41,61 @@ public:
      * @param parent The parent widget (default is nullptr).
      */
     explicit MecanicoInterface(Mechanic& mecanico, std::vector<Aeronave>& frota, std::vector<Aeronave>& frotaEmManutencao, QWidget* parent = nullptr);
+
+    /**
+ * @brief Carrega a frota de aeronaves a partir de um arquivo JSON.
+ *
+ * @param filePath O caminho do arquivo JSON.
+ */
+    void loadFrotaFromJson(const std::string& filePath) {
+        std::ifstream file(filePath);
+        nlohmann::json data;
+
+        if (file.is_open()) {
+            file >> data;
+            file.close();
+
+            // Preencher o vetor frota com os dados das aeronaves do arquivo JSON
+            for (const auto& item : data["aeronaves"]) {
+                Aeronave aeronave(item["id"], item["modelo"]);
+                if (item["status"] == "em manutenção") {
+                    frotaEmManutencao.push_back(aeronave);
+                } else {
+                    frota.push_back(aeronave);
+                }
+            }
+        } else {
+            std::cerr << "Erro ao abrir o arquivo " << filePath << std::endl;
+        }
+    }
+
+    /**
+ * @brief Salva a frota de aeronaves em um arquivo JSON.
+ *
+ * @param filePath O caminho do arquivo JSON onde a frota será salva.
+ */
+    void saveFrotaToJson(const std::string& filePath) const {
+        nlohmann::json data;
+        data["aeronaves"] = nlohmann::json::array();
+
+        // Preencher o JSON com os dados das aeronaves
+        for (const auto& aeronave : frota) {
+            data["aeronaves"].push_back({
+                {"id", aeronave.getId()},
+                {"modelo", aeronave.getModel()},
+                {"maintence", aeronave.getMaintence()}
+            });
+        }
+
+        // Escrever o JSON no arquivo
+        std::ofstream file(filePath);
+        if (file.is_open()) {
+            file << data.dump(4);  // Salvar o JSON com indentação de 4 espaços
+            file.close();
+        } else {
+            std::cerr << "Erro ao salvar o arquivo " << filePath << std::endl;
+        }
+    }
 
 signals:
     /**

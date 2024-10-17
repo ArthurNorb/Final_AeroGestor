@@ -1,4 +1,6 @@
 #include <QApplication>
+#include <fstream>
+#include "../include/json.hpp"
 #include "../src/view/loginWindow.h"
 #include "../src/view/mechanic_interface.h"
 #include "../src/view/manager_interface.h"
@@ -16,17 +18,46 @@ vector<Aeronave> frota;            // Frota geral
 vector<Aeronave> frotaEmManutencao; // Frota em manutenção
 
 void showLoginWindow(AuthSystem& authSystem);
+void showUserInterface(shared_ptr<User> user, AuthSystem& authSystem);
 
-void showUserInterface(std::shared_ptr<User> user, AuthSystem& authSystem);
+/**
+ * @brief Loads the fleet of aircraft from a JSON file.
+ *
+ * This function reads the aircraft data from the specified JSON file and populates
+ * the fleet (`frota`) and maintenance fleet (`frotaEmManutencao`) vectors with
+ * the aircraft listed in the file.
+ *
+ * @param filePath The path to the JSON file containing the aircraft data.
+ */
+void loadFrotaFromJson(const string& filePath) {
+    std::ifstream file(filePath);
+    nlohmann::json data;
+
+    if (file.is_open()) {
+        file >> data; // Lê os dados do arquivo JSON
+        file.close();
+
+        for (const auto& item : data["aeronaves"]) {
+            Aeronave aeronave(item["id"], item["modelo"]);
+            aeronave.setMaintence(item["maintence"]);  // Carrega o status de manutenção
+            if (aeronave.getMaintence()) {
+                frotaEmManutencao.push_back(aeronave);
+            } else {
+                frota.push_back(aeronave);
+            }
+        }
+    } else {
+        cerr << "Erro ao abrir o arquivo " << filePath << endl;
+    }
+}
 
 int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
 
     AuthSystem auth;
 
-    // Simulação inicial da frota de aeronaves
-    frota.push_back(Aeronave("AERO123", "Boeing 737"));
-    frota.push_back(Aeronave("AERO456", "Airbus A320"));
+    auth.loadUsersFromJson("C:/Users/Arthur/OneDrive/Documentos/AeroGestor/database/database.json");
+    loadFrotaFromJson("C:/Users/Arthur/OneDrive/Documentos/AeroGestor/database/database.json");
 
     // Exibir a tela de login
     showLoginWindow(auth);
@@ -39,7 +70,7 @@ void showLoginWindow(AuthSystem& authSystem) {
     loginWindow->setWindowTitle("Login");
 
     // Captura manual de loginWindow e authSystem
-    QObject::connect(loginWindow, &LoginWindow::loginSuccess, [loginWindow, &authSystem](std::shared_ptr<User> user) mutable {
+    QObject::connect(loginWindow, &LoginWindow::loginSuccess, [loginWindow, &authSystem](shared_ptr<User> user) mutable {
         loginWindow->close();  // Fechar a janela de login
         showUserInterface(user, authSystem);  // Exibir a interface correta
     });
@@ -47,7 +78,7 @@ void showLoginWindow(AuthSystem& authSystem) {
     loginWindow->show();
 }
 
-void showUserInterface(std::shared_ptr<User> user, AuthSystem& authSystem) {
+void showUserInterface(shared_ptr<User> user, AuthSystem& authSystem) {
     if (user->getRole() == "Admin") {
         Admin* admin = new Admin(user->getUsername(), "admin123");
         AdministradorInterface* adminInterface = new AdministradorInterface(*admin, frota);

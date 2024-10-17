@@ -40,6 +40,33 @@ public:
     }
 
     /**
+     * @brief Sets the username of the user.
+     *
+     * @param newUsername The new username to be set.
+     */
+    void setUsername(const std::string& newUsername) {
+        username = newUsername;
+    }
+
+    /**
+     * @brief Gets the password of the user.
+     *
+     * @return The password as a string.
+     */
+    std::string getPassword() const {
+        return password;
+    }
+
+    /**
+     * @brief Sets the password of the user.
+     *
+     * @param newPassword The new password to be set.
+     */
+    void setPassword(const std::string& newPassword) {
+        password = newPassword;
+    }
+
+    /**
      * @brief Checks if the provided password matches the user's password.
      *
      * @param pass The password to check.

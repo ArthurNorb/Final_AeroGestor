@@ -1,11 +1,38 @@
 #include "authSystem.h"
+#include "../../include/json.hpp"
 #include <iostream>
+#include <fstream>
 
 AuthSystem::AuthSystem() {
-    // Inicializar usuários para testes
-    users.push_back(std::make_shared<Admin>("admin", "admin123"));
-    users.push_back(std::make_shared<Manager>("manager", "manager123"));
-    users.push_back(std::make_shared<Mechanic>("mechanic", "mech123"));
+   loadUsersFromJson("C:/Users/Arthur/OneDrive/Documentos/AeroGestor/database/database.json");
+}
+
+void AuthSystem::loadUsersFromJson(const std::string& filePath) {
+    std::ifstream file(filePath);
+    nlohmann::json data;
+
+    if (file.is_open()) {
+        file >> data;
+        file.close();
+
+        for (const auto& item : data["users"]) {
+            std::string role = item["role"];
+            std::shared_ptr<User> user;
+            if (role == "Admin") {
+                user = std::make_shared<Admin>(item["username"], item["password"]);
+            } else if (role == "Manager") {
+                user = std::make_shared<Manager>(item["username"], item["password"]);
+            } else if (role == "Mechanic") {
+                user = std::make_shared<Mechanic>(item["username"], item["password"]);
+            }
+
+            if (user) {
+                addUser(user); // Adiciona o usuário ao sistema
+            }
+        }
+    } else {
+        std::cerr << "Erro ao abrir o arquivo " << filePath << std::endl;
+    }
 }
 
 std::shared_ptr<User> AuthSystem::login(const std::string& username, const std::string& password) {
@@ -15,4 +42,8 @@ std::shared_ptr<User> AuthSystem::login(const std::string& username, const std::
         }
     }
     return nullptr;  // Se não encontrar, retorna nullptr
+}
+
+void AuthSystem::addUser(std::shared_ptr<User> user) {
+    users.push_back(user);
 }

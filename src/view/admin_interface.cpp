@@ -27,6 +27,8 @@ AdministradorInterface::AdministradorInterface(Admin& adm, std::vector<Aeronave>
     connect(buttonVoltar, &QPushButton::clicked, this, &AdministradorInterface::voltar);
 
     setLayout(mainLayout);
+
+    loadFrotaFromJson("C:/Users/Arthur/OneDrive/Documentos/AeroGestor/database/database.json");
 }
 
 void AdministradorInterface::cadastrarAeronave() {
@@ -48,4 +50,5 @@ void AdministradorInterface::cadastrarAeronave() {
 void AdministradorInterface::voltar() {
     emit voltarParaLogin();  // Emitir o sinal para voltar ao login
 }
+
 

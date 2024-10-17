@@ -12,7 +12,7 @@ GestorInterface::GestorInterface(Manager& gest, std::vector<Aeronave>& frota, st
 
     // Populando o ComboBox com as aeronaves
     for (const auto& aeronave : frota) {
-        comboBoxAeronaves->addItem(QString::fromStdString(aeronave.getMatricula()));
+        comboBoxAeronaves->addItem(QString::fromStdString(aeronave.getId()));
     }
 
     // Criando layout
@@ -27,12 +27,13 @@ GestorInterface::GestorInterface(Manager& gest, std::vector<Aeronave>& frota, st
     connect(buttonVoltar, &QPushButton::clicked, this, &GestorInterface::voltar);
 
     setLayout(mainLayout);
+    loadFrotaFromJson("C:/Users/Arthur/OneDrive/Documentos/AeroGestor/database/database.json");
 }
 
 void GestorInterface::enviarParaManutencao() {
     QString matricula = comboBoxAeronaves->currentText();
     for (auto it = frota.begin(); it != frota.end(); ++it) {
-        if (it->getMatricula() == matricula.toStdString()) {
+        if (it->getId() == matricula.toStdString()) {
             gestor.enviarParaManutencao(*it);  // Mover para manutenção
             frotaEmManutencao.push_back(*it);  // Adiciona à frota em manutenção
             frota.erase(it);  // Remove da frota principal

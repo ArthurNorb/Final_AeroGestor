@@ -3,6 +3,11 @@
 
 #include <string>
 #include <vector>
+#include "../../include/json.hpp"
+#include <fstream>
+#include <iostream>
+
+using namespace std;
 
 /**
  * @brief The Aeronave class represents an aircraft in the system.
@@ -13,10 +18,10 @@
 class Aeronave {
 private:
     std::string id;              /**< Aircraft registration code */
-    std::string modelo;                 /**< Aircraft model */
-    bool emManutencao;                  /**< Whether the aircraft is under maintenance */
+    std::string model;                 /**< Aircraft model */
+    bool maintence;                  /**< Whether the aircraft is under maintenance */
     bool prontaParaUso;                 /**< Whether the aircraft is ready for use */
-    std::vector<std::string> historicoManutencao; /**< Maintenance history records */
+    std::vector<std::string> historicoManutencao;    /**< Maintenance history records */
 
 public:
     /**
@@ -32,42 +37,42 @@ public:
      *
      * @return The registration code as a string.
      */
-    std::string getMatricula() const;
+    std::string getId() const;
 
     /**
      * @brief Sets the registration code of the aircraft.
      *
-     * @param matricula The new registration code.
+     * @param Id The new registration code.
      */
-    void setMatricula(const std::string& matricula);
+    void setId(const std::string& id);
 
     /**
      * @brief Gets the model of the aircraft.
      *
      * @return The model as a string.
      */
-    std::string getModelo() const;
+    std::string getModel() const;
 
     /**
      * @brief Sets the model of the aircraft.
      *
      * @param modelo The new model.
      */
-    void setModelo(const std::string& modelo);
+    void setModel(const std::string& modelo);
 
     /**
      * @brief Checks if the aircraft is under maintenance.
      *
      * @return True if the aircraft is under maintenance, false otherwise.
      */
-    bool estaEmManutencao() const;
+    bool getMaintence() const;
 
     /**
      * @brief Sets the maintenance status of the aircraft.
      *
      * @param status The new maintenance status (true for in maintenance, false for not).
      */
-    void setEmManutencao(bool status);
+    void setMaintence(bool status);
 
     /**
      * @brief Checks if the aircraft is ready for use.
@@ -94,6 +99,46 @@ public:
      * @brief Displays the maintenance history of the aircraft.
      */
     void exibirHistorico() const;
+
+    /**
+     * @brief Converts the Aircraft object to a JSON object.
+     *
+     * This function serializes the Aircraft object into a JSON structure for storage or transmission.
+     *
+     * @return A nlohmann::json object representing the Aircraft.
+     */
+    nlohmann::json toJson() const;
+
+    /**
+     * @brief Loads the Aircraft object from a JSON object.
+     *
+     * This function deserializes the Aircraft object from a JSON structure.
+     *
+     * @param data A nlohmann::json object containing the Aircraft data.
+     */
+    void fromJson(const nlohmann::json& data);
+    void static saveFrotaToJson(const std::string& filePath, const std::vector<Aeronave>& frota){
+        nlohmann::json data;
+        data["aeronaves"] = nlohmann::json::array();
+
+        // Preencher o JSON com os dados das aeronaves
+        for (const auto& aeronave : frota) {
+            data["aeronaves"].push_back({
+                {"id", aeronave.getId()},
+                {"modelo", aeronave.getModel()},
+                {"maintence", aeronave.getMaintence()}  // Caso tenha o status da aeronave
+            });
+        }
+
+        // Escrever o JSON no arquivo
+        std::ofstream file(filePath);
+        if (file.is_open()) {
+            file << data.dump(4);  // Salvar o JSON com indentação de 4 espaços
+            file.close();
+        } else {
+            std::cerr << "Erro ao abrir o arquivo " << filePath << std::endl;
+        }
+    }
 };
 
 #endif // AERONAVE_H

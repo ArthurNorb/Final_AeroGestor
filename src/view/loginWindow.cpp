@@ -27,15 +27,16 @@ LoginWindow::LoginWindow(AuthSystem& authSystem, QWidget* parent)
 }
 
 void LoginWindow::onLoginButtonClicked() {
-    QString username = usernameInput->text();
-    QString password = passwordInput->text();
+    QString username = usernameInput->text(); // Obtém o nome de usuário do campo de entrada
+    QString password = passwordInput->text(); // Obtém a senha do campo de entrada
 
-    // Autenticação usando o sistema de login já existente
-    std::shared_ptr<User> user = authSystem.login(username.toStdString(), password.toStdString());
+    // Tenta autenticar o usuário
+    auto user = authSystem.login(username.toStdString(), password.toStdString());
 
     if (user) {
-        emit loginSuccess(user);  // Emite sinal em caso de sucesso
+        emit loginSuccess(user); // Emite um sinal se o login for bem-sucedido
+        this->close(); // Fecha a janela de login
     } else {
-        QMessageBox::warning(this, "Erro", "Usuário ou senha incorretos.");
+        QMessageBox::warning(this, "Login Failed", "Invalid username or password."); // Exibe uma mensagem de erro
     }
 }
