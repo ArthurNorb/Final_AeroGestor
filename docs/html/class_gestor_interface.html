@@ -147,6 +147,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4ca4c73c96a7f1ae2eac2c9fb23f9742" id="r_a4ca4c73c96a7f1ae2eac2c9fb23f9742"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ca4c73c96a7f1ae2eac2c9fb23f9742">GestorInterface</a> (<a class="el" href="class_manager.html">Manager</a> &amp;<a class="el" href="#af975cc30c8c7230d8bf0a5ec39cffd93">gestor</a>, std::vector&lt; <a class="el" href="class_aeronave.html">Aeronave</a> &gt; &amp;<a class="el" href="#a44bdd7fd4703bd885fbf05be1992fb15">frota</a>, std::vector&lt; <a class="el" href="class_aeronave.html">Aeronave</a> &gt; &amp;<a class="el" href="#abcff639ddc578a991225a9d019f33d8e">frotaEmManutencao</a>, QWidget *parent=nullptr)</td></tr>
 <tr class="memdesc:a4ca4c73c96a7f1ae2eac2c9fb23f9742"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs the <a class="el" href="class_gestor_interface.html" title="The GestorInterface class provides the user interface for the fleet manager role.">GestorInterface</a> object.  <br /></td></tr>
 <tr class="separator:a4ca4c73c96a7f1ae2eac2c9fb23f9742"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb6c0e1ce9a346acf77595a2484f8062" id="r_acb6c0e1ce9a346acf77595a2484f8062"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb6c0e1ce9a346acf77595a2484f8062">loadFrotaFromJson</a> (const std::string &amp;filePath)</td></tr>
+<tr class="memdesc:acb6c0e1ce9a346acf77595a2484f8062"><td class="mdescLeft">&#160;</td><td class="mdescRight">Carrega a frota de aeronaves a partir de um arquivo JSON.  <br /></td></tr>
+<tr class="separator:acb6c0e1ce9a346acf77595a2484f8062"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c73db730d44c277bd9bee346a75bbe4" id="r_a9c73db730d44c277bd9bee346a75bbe4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c73db730d44c277bd9bee346a75bbe4">saveFrotaToJson</a> (const std::string &amp;filePath) const</td></tr>
+<tr class="memdesc:a9c73db730d44c277bd9bee346a75bbe4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Salva a frota de aeronaves em um arquivo JSON.  <br /></td></tr>
+<tr class="separator:a9c73db730d44c277bd9bee346a75bbe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
@@ -230,21 +236,23 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_gestor_interface_a4ca4c73c96a7f1ae2eac2c9fb23f9742_cgraph.png" border="0" usemap="#aclass_gestor_interface_a4ca4c73c96a7f1ae2eac2c9fb23f9742_cgraph" alt=""/></div>
 <map name="aclass_gestor_interface_a4ca4c73c96a7f1ae2eac2c9fb23f9742_cgraph" id="aclass_gestor_interface_a4ca4c73c96a7f1ae2eac2c9fb23f9742_cgraph">
-<area shape="rect" title="Constructs the GestorInterface object." alt="" coords="5,85,215,112"/>
+<area shape="rect" title="Constructs the GestorInterface object." alt="" coords="5,123,215,149"/>
 <area shape="rect" href="class_gestor_interface.html#a02c1f38097a864bd78fd3312ce0dbd86" title="Slot to handle the action of sending an aircraft for maintenance." alt="" coords="263,48,444,91"/>
-<area shape="poly" title=" " alt="" coords="215,83,247,79,248,85,215,89"/>
-<area shape="rect" href="class_gestor_interface.html#aa55651299f1967995eb103b97f83a2ee" title="Slot to handle the action of returning to the login screen." alt="" coords="278,115,429,141"/>
-<area shape="poly" title=" " alt="" coords="215,109,262,114,262,120,215,114"/>
+<area shape="poly" title=" " alt="" coords="161,119,258,93,259,98,162,125"/>
+<area shape="rect" href="class_gestor_interface.html#acb6c0e1ce9a346acf77595a2484f8062" title="Carrega a frota de aeronaves a partir de um arquivo JSON." alt="" coords="267,115,440,157"/>
+<area shape="poly" title=" " alt="" coords="215,133,251,133,251,139,215,139"/>
+<area shape="rect" href="class_gestor_interface.html#aa55651299f1967995eb103b97f83a2ee" title="Slot to handle the action of returning to the login screen." alt="" coords="278,181,429,208"/>
+<area shape="poly" title=" " alt="" coords="169,147,281,175,279,180,168,152"/>
 <area shape="rect" href="class_manager.html#ada1981a3ecf1fb7f66f0212338e178f9" title="Sends an aircraft for maintenance." alt="" coords="492,56,704,83"/>
 <area shape="poly" title=" " alt="" coords="444,67,476,67,476,72,444,72"/>
-<area shape="rect" href="class_aeronave.html#a5551ebaa2134c823f9019818da5ea1de" title="Gets the registration code of the aircraft." alt="" coords="771,5,927,32"/>
-<area shape="poly" title=" " alt="" coords="667,53,764,33,765,38,669,58"/>
-<area shape="rect" href="class_aeronave.html#a98aa26dc657f4a36e5ba13228a67b9f0" title="Sets the maintenance status of the aircraft." alt="" coords="752,56,946,83"/>
-<area shape="poly" title=" " alt="" coords="705,67,736,67,736,72,705,72"/>
-<area shape="rect" href="class_aeronave.html#a8a9726ce8b5d2f941b1238b5c1202b9e" title="Sets the status of whether the aircraft is ready for use." alt="" coords="753,107,945,133"/>
-<area shape="poly" title=" " alt="" coords="669,81,765,100,764,106,667,86"/>
-<area shape="rect" href="class_gestor_interface.html#a1b4590c31a735dd6983ced3d51889bf7" title="Signal emitted to return to the login screen." alt="" coords="509,107,687,149"/>
-<area shape="poly" title=" " alt="" coords="429,125,494,125,494,131,429,131"/>
+<area shape="rect" href="class_aeronave.html#ac42eb523424a958ffaaff7a5b947b021" title="Gets the registration code of the aircraft." alt="" coords="791,5,905,32"/>
+<area shape="poly" title=" " alt="" coords="667,53,776,31,777,36,668,58"/>
+<area shape="rect" href="class_aeronave.html#ab1a821655517a7e5d3e8ca1d76651155" title="Sets the maintenance status of the aircraft." alt="" coords="767,56,929,83"/>
+<area shape="poly" title=" " alt="" coords="705,67,751,67,751,72,705,72"/>
+<area shape="rect" href="class_aeronave.html#a8a9726ce8b5d2f941b1238b5c1202b9e" title="Sets the status of whether the aircraft is ready for use." alt="" coords="752,107,944,133"/>
+<area shape="poly" title=" " alt="" coords="668,81,764,100,763,106,667,86"/>
+<area shape="rect" href="class_gestor_interface.html#a1b4590c31a735dd6983ced3d51889bf7" title="Signal emitted to return to the login screen." alt="" coords="509,173,687,216"/>
+<area shape="poly" title=" " alt="" coords="429,192,494,192,494,197,429,197"/>
 </map>
 </div>
 
@@ -284,12 +292,12 @@ Here is the call graph for this function:</div>
 <area shape="rect" title="Slot to handle the action of sending an aircraft for maintenance." alt="" coords="5,48,187,91"/>
 <area shape="rect" href="class_manager.html#ada1981a3ecf1fb7f66f0212338e178f9" title="Sends an aircraft for maintenance." alt="" coords="235,56,447,83"/>
 <area shape="poly" title=" " alt="" coords="187,67,219,67,219,72,187,72"/>
-<area shape="rect" href="class_aeronave.html#a5551ebaa2134c823f9019818da5ea1de" title="Gets the registration code of the aircraft." alt="" coords="514,5,669,32"/>
-<area shape="poly" title=" " alt="" coords="410,53,507,33,508,38,411,58"/>
-<area shape="rect" href="class_aeronave.html#a98aa26dc657f4a36e5ba13228a67b9f0" title="Sets the maintenance status of the aircraft." alt="" coords="495,56,688,83"/>
-<area shape="poly" title=" " alt="" coords="447,67,479,67,479,72,447,72"/>
-<area shape="rect" href="class_aeronave.html#a8a9726ce8b5d2f941b1238b5c1202b9e" title="Sets the status of whether the aircraft is ready for use." alt="" coords="496,107,687,133"/>
-<area shape="poly" title=" " alt="" coords="411,81,508,100,507,106,410,86"/>
+<area shape="rect" href="class_aeronave.html#ac42eb523424a958ffaaff7a5b947b021" title="Gets the registration code of the aircraft." alt="" coords="534,5,647,32"/>
+<area shape="poly" title=" " alt="" coords="410,53,518,31,519,36,411,58"/>
+<area shape="rect" href="class_aeronave.html#ab1a821655517a7e5d3e8ca1d76651155" title="Sets the maintenance status of the aircraft." alt="" coords="510,56,672,83"/>
+<area shape="poly" title=" " alt="" coords="447,67,494,67,494,72,447,72"/>
+<area shape="rect" href="class_aeronave.html#a8a9726ce8b5d2f941b1238b5c1202b9e" title="Sets the status of whether the aircraft is ready for use." alt="" coords="495,107,686,133"/>
+<area shape="poly" title=" " alt="" coords="411,81,507,100,506,106,410,86"/>
 </map>
 </div>
 <div class="dynheader">
@@ -302,6 +310,82 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="247,29,215,29,215,24,247,24"/>
 </map>
 </div>
+
+</div>
+</div>
+<a id="acb6c0e1ce9a346acf77595a2484f8062" name="acb6c0e1ce9a346acf77595a2484f8062"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb6c0e1ce9a346acf77595a2484f8062">&#9670;&#160;</a></span>loadFrotaFromJson()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GestorInterface::loadFrotaFromJson </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filePath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Carrega a frota de aeronaves a partir de um arquivo JSON. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filePath</td><td>O caminho do arquivo JSON. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gestor_interface_acb6c0e1ce9a346acf77595a2484f8062_icgraph.png" border="0" usemap="#aclass_gestor_interface_acb6c0e1ce9a346acf77595a2484f8062_icgraph" alt=""/></div>
+<map name="aclass_gestor_interface_acb6c0e1ce9a346acf77595a2484f8062_icgraph" id="aclass_gestor_interface_acb6c0e1ce9a346acf77595a2484f8062_icgraph">
+<area shape="rect" title="Carrega a frota de aeronaves a partir de um arquivo JSON." alt="" coords="263,5,436,48"/>
+<area shape="rect" href="class_gestor_interface.html#a4ca4c73c96a7f1ae2eac2c9fb23f9742" title="Constructs the GestorInterface object." alt="" coords="5,13,215,40"/>
+<area shape="poly" title=" " alt="" coords="247,29,215,29,215,24,247,24"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a9c73db730d44c277bd9bee346a75bbe4" name="a9c73db730d44c277bd9bee346a75bbe4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c73db730d44c277bd9bee346a75bbe4">&#9670;&#160;</a></span>saveFrotaToJson()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GestorInterface::saveFrotaToJson </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filePath</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Salva a frota de aeronaves em um arquivo JSON. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filePath</td><td>O caminho do arquivo JSON onde a frota será salva. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -383,7 +467,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="class_gestor_interface_a1b4590c31a735dd6983ced3d51889bf7_icgraph.png" border="0" usemap="#aclass_gestor_interface_a1b4590c31a735dd6983ced3d51889bf7_icgraph" alt=""/></div>
 <map name="aclass_gestor_interface_a1b4590c31a735dd6983ced3d51889bf7_icgraph" id="aclass_gestor_interface_a1b4590c31a735dd6983ced3d51889bf7_icgraph">
 <area shape="rect" title="Signal emitted to return to the login screen." alt="" coords="559,23,738,65"/>
-<area shape="rect" href="main_8cpp.html#ace8bf616b037a82dc0fe7b4697880414" title=" " alt="" coords="370,5,501,32"/>
+<area shape="rect" href="main_8cpp.html#adc90064aaddc7fd4439ad720e69f08bd" title=" " alt="" coords="370,5,501,32"/>
 <area shape="poly" title=" " alt="" coords="544,34,501,29,502,24,544,29"/>
 <area shape="rect" href="class_gestor_interface.html#aa55651299f1967995eb103b97f83a2ee" title="Slot to handle the action of returning to the login screen." alt="" coords="360,56,511,83"/>
 <area shape="poly" title=" " alt="" coords="545,59,512,63,512,58,544,54"/>

@@ -2,7 +2,7 @@
 <area shape="rect" id="Node000001" title=" " alt="" coords="5,80,136,107"/>
 <area shape="rect" id="Node000002" href="$class_login_window.html#a8ec6f23317b7488a2cecda5f491557e1" title="Signal emitted upon successful login." alt="" coords="184,29,369,56"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,77,204,58,205,63,129,82"/>
-<area shape="rect" id="Node000003" href="$main_8cpp.html#ace8bf616b037a82dc0fe7b4697880414" title=" " alt="" coords="211,80,342,107"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#adc90064aaddc7fd4439ad720e69f08bd" title=" " alt="" coords="211,80,342,107"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="136,99,195,99,195,105,136,104"/>
 <area shape="poly" id="edge3_Node000003_Node000001" title=" " alt="" coords="210,88,151,87,151,82,210,82"/>
 <area shape="rect" id="Node000004" href="$class_administrador_interface.html#ac02ab2406eb3b449664e2329ed503109" title="Signal emitted to return to the login screen." alt="" coords="430,5,582,48"/>

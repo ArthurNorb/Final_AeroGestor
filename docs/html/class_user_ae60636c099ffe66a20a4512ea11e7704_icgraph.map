@@ -1,0 +1,9 @@
+<map id="User::setPassword" name="User::setPassword">
+<area shape="rect" id="Node000001" title="Sets the password of the user." alt="" coords="193,56,326,83"/>
+<area shape="rect" id="Node000002" href="$class_admin.html#a98d59d11d670a7564a549b9e5771e2fd" title="Loads the Admin object from a JSON object." alt="" coords="15,5,135,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,54,126,35,127,30,194,49"/>
+<area shape="rect" id="Node000003" href="$class_manager.html#aa868cb7fecf9339f8d43f6191b7a43ee" title="Loads the Manager object from a JSON object." alt="" coords="8,56,142,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="177,72,142,72,142,67,177,67"/>
+<area shape="rect" id="Node000004" href="$class_mechanic.html#abaff021870ac44076cab93fb38f88dbb" title="Loads the Mechanic object from a JSON object." alt="" coords="5,107,145,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="194,90,127,109,126,103,193,85"/>
+</map>

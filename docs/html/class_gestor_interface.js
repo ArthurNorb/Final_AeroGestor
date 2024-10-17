@@ -2,6 +2,8 @@ var class_gestor_interface =
 [
     [ "GestorInterface", "class_gestor_interface.html#a4ca4c73c96a7f1ae2eac2c9fb23f9742", null ],
     [ "enviarParaManutencao", "class_gestor_interface.html#a02c1f38097a864bd78fd3312ce0dbd86", null ],
+    [ "loadFrotaFromJson", "class_gestor_interface.html#acb6c0e1ce9a346acf77595a2484f8062", null ],
+    [ "saveFrotaToJson", "class_gestor_interface.html#a9c73db730d44c277bd9bee346a75bbe4", null ],
     [ "voltar", "class_gestor_interface.html#aa55651299f1967995eb103b97f83a2ee", null ],
     [ "voltarParaLogin", "class_gestor_interface.html#a1b4590c31a735dd6983ced3d51889bf7", null ],
     [ "buttonEnviarManutencao", "class_gestor_interface.html#a2b6c613ec3f6d7df9c44f83ba0a02e1e", null ],

@@ -1,0 +1,9 @@
+<map id="User::getUsername" name="User::getUsername">
+<area shape="rect" id="Node000001" title="Gets the username of the user." alt="" coords="178,56,313,83"/>
+<area shape="rect" id="Node000002" href="$class_admin.html#ada10315018dc37637caf083f2d0d268f" title="Converts the Admin object to a JSON object." alt="" coords="15,5,120,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,54,116,35,118,30,182,49"/>
+<area shape="rect" id="Node000003" href="$class_manager.html#a4066d31b1dcbada109ccc0d34372521c" title="Converts the Manager object to a JSON object." alt="" coords="8,56,127,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,72,127,72,127,67,162,67"/>
+<area shape="rect" id="Node000004" href="$class_mechanic.html#ad535cca9a6315d2f594573e4e84a5d57" title="Converts the Mechanic object to a JSON object." alt="" coords="5,107,130,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="182,90,118,109,116,104,181,85"/>
+</map>

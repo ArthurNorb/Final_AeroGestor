@@ -147,6 +147,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4c7962f4653cb7e98a664df94a2ac51e" id="r_a4c7962f4653cb7e98a664df94a2ac51e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c7962f4653cb7e98a664df94a2ac51e">AdministradorInterface</a> (<a class="el" href="class_admin.html">Admin</a> &amp;<a class="el" href="#accc12a2da82cf318c70850d3c81c2ca3">admin</a>, std::vector&lt; <a class="el" href="class_aeronave.html">Aeronave</a> &gt; &amp;<a class="el" href="#ace68c47a99eb5339634654051bc164a1">frota</a>, QWidget *parent=nullptr)</td></tr>
 <tr class="memdesc:a4c7962f4653cb7e98a664df94a2ac51e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs the <a class="el" href="class_administrador_interface.html" title="The AdministradorInterface class provides the user interface for the admin role.">AdministradorInterface</a> object.  <br /></td></tr>
 <tr class="separator:a4c7962f4653cb7e98a664df94a2ac51e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a902cd711e00bd2b25ae4bd0b567a1aab" id="r_a902cd711e00bd2b25ae4bd0b567a1aab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a902cd711e00bd2b25ae4bd0b567a1aab">addAeronave</a> (const <a class="el" href="class_aeronave.html">Aeronave</a> &amp;aeronave)</td></tr>
+<tr class="memdesc:a902cd711e00bd2b25ae4bd0b567a1aab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new aircraft to the fleet and saves the updated fleet to the JSON file.  <br /></td></tr>
+<tr class="separator:a902cd711e00bd2b25ae4bd0b567a1aab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a223270075f5a28650ab0d28f6a3d91f2" id="r_a223270075f5a28650ab0d28f6a3d91f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a223270075f5a28650ab0d28f6a3d91f2">loadFrotaFromJson</a> (const std::string &amp;filePath)</td></tr>
+<tr class="memdesc:a223270075f5a28650ab0d28f6a3d91f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the fleet of aircraft from a JSON file.  <br /></td></tr>
+<tr class="separator:a223270075f5a28650ab0d28f6a3d91f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
@@ -224,23 +230,69 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_administrador_interface_a4c7962f4653cb7e98a664df94a2ac51e_cgraph.png" border="0" usemap="#aclass_administrador_interface_a4c7962f4653cb7e98a664df94a2ac51e_cgraph" alt=""/></div>
 <map name="aclass_administrador_interface_a4c7962f4653cb7e98a664df94a2ac51e_cgraph" id="aclass_administrador_interface_a4c7962f4653cb7e98a664df94a2ac51e_cgraph">
-<area shape="rect" title="Constructs the AdministradorInterface object." alt="" coords="5,39,166,81"/>
+<area shape="rect" title="Constructs the AdministradorInterface object." alt="" coords="5,72,166,115"/>
 <area shape="rect" href="class_administrador_interface.html#a66b10f9815efc7adf02d737890b60b95" title="Slot to handle the action of registering a new aircraft." alt="" coords="214,5,366,48"/>
-<area shape="poly" title=" " alt="" coords="166,44,198,39,199,44,166,50"/>
-<area shape="rect" href="class_administrador_interface.html#a9ff26e3b2242c0ed567d2fd355efe8df" title="Slot to handle the action of returning to the login screen." alt="" coords="214,72,366,115"/>
-<area shape="poly" title=" " alt="" coords="166,70,199,76,198,81,166,76"/>
+<area shape="poly" title=" " alt="" coords="152,69,207,51,208,56,154,74"/>
+<area shape="rect" href="class_administrador_interface.html#a223270075f5a28650ab0d28f6a3d91f2" title="Loads the fleet of aircraft from a JSON file." alt="" coords="214,72,366,115"/>
+<area shape="poly" title=" " alt="" coords="166,91,198,91,198,96,166,96"/>
+<area shape="rect" href="class_administrador_interface.html#a9ff26e3b2242c0ed567d2fd355efe8df" title="Slot to handle the action of returning to the login screen." alt="" coords="214,139,366,181"/>
+<area shape="poly" title=" " alt="" coords="154,113,208,131,207,136,152,118"/>
 <area shape="rect" href="class_admin.html#a33d496351157262ef3e6b0703a8c18df" title="Registers a new aircraft into the fleet." alt="" coords="414,13,589,40"/>
 <area shape="poly" title=" " alt="" coords="366,24,398,24,398,29,366,29"/>
-<area shape="rect" href="class_aeronave.html#a5551ebaa2134c823f9019818da5ea1de" title="Gets the registration code of the aircraft." alt="" coords="637,13,793,40"/>
+<area shape="rect" href="class_aeronave.html#ac42eb523424a958ffaaff7a5b947b021" title="Gets the registration code of the aircraft." alt="" coords="637,13,751,40"/>
 <area shape="poly" title=" " alt="" coords="590,24,622,24,622,29,590,29"/>
-<area shape="rect" href="class_administrador_interface.html#ac02ab2406eb3b449664e2329ed503109" title="Signal emitted to return to the login screen." alt="" coords="426,72,578,115"/>
-<area shape="poly" title=" " alt="" coords="366,91,410,91,410,96,366,96"/>
+<area shape="rect" href="class_administrador_interface.html#ac02ab2406eb3b449664e2329ed503109" title="Signal emitted to return to the login screen." alt="" coords="426,139,578,181"/>
+<area shape="poly" title=" " alt="" coords="366,157,410,157,410,163,366,163"/>
 </map>
 </div>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a902cd711e00bd2b25ae4bd0b567a1aab" name="a902cd711e00bd2b25ae4bd0b567a1aab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a902cd711e00bd2b25ae4bd0b567a1aab">&#9670;&#160;</a></span>addAeronave()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AdministradorInterface::addAeronave </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_aeronave.html">Aeronave</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>aeronave</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Adds a new aircraft to the fleet and saves the updated fleet to the JSON file. </p>
+<p>This function registers a new aircraft by adding it to the vector of aircraft (<code>frota</code>) and then saves the updated list of aircraft to the specified JSON file.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">aeronave</td><td>The aircraft (<a class="el" href="class_aeronave.html" title="The Aeronave class represents an aircraft in the system.">Aeronave</a>) to be added to the fleet. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_administrador_interface_a902cd711e00bd2b25ae4bd0b567a1aab_cgraph.png" border="0" usemap="#aclass_administrador_interface_a902cd711e00bd2b25ae4bd0b567a1aab_cgraph" alt=""/></div>
+<map name="aclass_administrador_interface_a902cd711e00bd2b25ae4bd0b567a1aab_cgraph" id="aclass_administrador_interface_a902cd711e00bd2b25ae4bd0b567a1aab_cgraph">
+<area shape="rect" title="Adds a new aircraft to the fleet and saves the updated fleet to the JSON file." alt="" coords="5,5,158,48"/>
+<area shape="rect" href="class_aeronave.html#a41931dfa7983ad35fff68d873ac41315" title=" " alt="" coords="206,13,390,40"/>
+<area shape="poly" title=" " alt="" coords="158,24,190,24,190,29,158,29"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a66b10f9815efc7adf02d737890b60b95" name="a66b10f9815efc7adf02d737890b60b95"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a66b10f9815efc7adf02d737890b60b95">&#9670;&#160;</a></span>cadastrarAeronave</h2>
 
@@ -274,8 +326,8 @@ Here is the call graph for this function:</div>
 <area shape="rect" title="Slot to handle the action of registering a new aircraft." alt="" coords="5,5,158,48"/>
 <area shape="rect" href="class_admin.html#a33d496351157262ef3e6b0703a8c18df" title="Registers a new aircraft into the fleet." alt="" coords="206,13,381,40"/>
 <area shape="poly" title=" " alt="" coords="158,24,190,24,190,29,158,29"/>
-<area shape="rect" href="class_aeronave.html#a5551ebaa2134c823f9019818da5ea1de" title="Gets the registration code of the aircraft." alt="" coords="429,13,584,40"/>
-<area shape="poly" title=" " alt="" coords="382,24,413,24,413,29,382,29"/>
+<area shape="rect" href="class_aeronave.html#ac42eb523424a958ffaaff7a5b947b021" title="Gets the registration code of the aircraft." alt="" coords="429,13,542,40"/>
+<area shape="poly" title=" " alt="" coords="381,24,413,24,413,29,381,29"/>
 </map>
 </div>
 <div class="dynheader">
@@ -284,6 +336,50 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="class_administrador_interface_a66b10f9815efc7adf02d737890b60b95_icgraph.png" border="0" usemap="#aclass_administrador_interface_a66b10f9815efc7adf02d737890b60b95_icgraph" alt=""/></div>
 <map name="aclass_administrador_interface_a66b10f9815efc7adf02d737890b60b95_icgraph" id="aclass_administrador_interface_a66b10f9815efc7adf02d737890b60b95_icgraph">
 <area shape="rect" title="Slot to handle the action of registering a new aircraft." alt="" coords="214,5,366,48"/>
+<area shape="rect" href="class_administrador_interface.html#a4c7962f4653cb7e98a664df94a2ac51e" title="Constructs the AdministradorInterface object." alt="" coords="5,5,166,48"/>
+<area shape="poly" title=" " alt="" coords="198,29,166,29,166,24,198,24"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a223270075f5a28650ab0d28f6a3d91f2" name="a223270075f5a28650ab0d28f6a3d91f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a223270075f5a28650ab0d28f6a3d91f2">&#9670;&#160;</a></span>loadFrotaFromJson()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AdministradorInterface::loadFrotaFromJson </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filePath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Loads the fleet of aircraft from a JSON file. </p>
+<p>This function reads the aircraft data from the specified JSON file and populates the fleet (<code>frota</code>) with the aircraft listed in the file.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filePath</td><td>The path to the JSON file containing the aircraft data. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_administrador_interface_a223270075f5a28650ab0d28f6a3d91f2_icgraph.png" border="0" usemap="#aclass_administrador_interface_a223270075f5a28650ab0d28f6a3d91f2_icgraph" alt=""/></div>
+<map name="aclass_administrador_interface_a223270075f5a28650ab0d28f6a3d91f2_icgraph" id="aclass_administrador_interface_a223270075f5a28650ab0d28f6a3d91f2_icgraph">
+<area shape="rect" title="Loads the fleet of aircraft from a JSON file." alt="" coords="214,5,366,48"/>
 <area shape="rect" href="class_administrador_interface.html#a4c7962f4653cb7e98a664df94a2ac51e" title="Constructs the AdministradorInterface object." alt="" coords="5,5,166,48"/>
 <area shape="poly" title=" " alt="" coords="198,29,166,29,166,24,198,24"/>
 </map>
@@ -369,7 +465,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="class_administrador_interface_ac02ab2406eb3b449664e2329ed503109_icgraph.png" border="0" usemap="#aclass_administrador_interface_ac02ab2406eb3b449664e2329ed503109_icgraph" alt=""/></div>
 <map name="aclass_administrador_interface_ac02ab2406eb3b449664e2329ed503109_icgraph" id="aclass_administrador_interface_ac02ab2406eb3b449664e2329ed503109_icgraph">
 <area shape="rect" title="Signal emitted to return to the login screen." alt="" coords="511,27,664,69"/>
-<area shape="rect" href="main_8cpp.html#ace8bf616b037a82dc0fe7b4697880414" title=" " alt="" coords="322,5,453,32"/>
+<area shape="rect" href="main_8cpp.html#adc90064aaddc7fd4439ad720e69f08bd" title=" " alt="" coords="322,5,453,32"/>
 <area shape="poly" title=" " alt="" coords="496,37,453,31,454,26,496,32"/>
 <area shape="rect" href="class_administrador_interface.html#a9ff26e3b2242c0ed567d2fd355efe8df" title="Slot to handle the action of returning to the login screen." alt="" coords="311,56,463,99"/>
 <area shape="poly" title=" " alt="" coords="496,64,464,69,463,64,495,59"/>

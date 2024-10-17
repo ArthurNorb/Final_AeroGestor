@@ -135,6 +135,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7079d6aefd9d1b930d837039c1b3e7df" id="r_a7079d6aefd9d1b930d837039c1b3e7df"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7079d6aefd9d1b930d837039c1b3e7df">getUsername</a> () const</td></tr>
 <tr class="memdesc:a7079d6aefd9d1b930d837039c1b3e7df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the username of the user.  <br /></td></tr>
 <tr class="separator:a7079d6aefd9d1b930d837039c1b3e7df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dfa65bcba3e701f1a43e7221d90e253" id="r_a1dfa65bcba3e701f1a43e7221d90e253"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1dfa65bcba3e701f1a43e7221d90e253">setUsername</a> (const std::string &amp;newUsername)</td></tr>
+<tr class="memdesc:a1dfa65bcba3e701f1a43e7221d90e253"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the username of the user.  <br /></td></tr>
+<tr class="separator:a1dfa65bcba3e701f1a43e7221d90e253"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a180e5acdc4b150463652d90d54caa8fc" id="r_a180e5acdc4b150463652d90d54caa8fc"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a180e5acdc4b150463652d90d54caa8fc">getPassword</a> () const</td></tr>
+<tr class="memdesc:a180e5acdc4b150463652d90d54caa8fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the password of the user.  <br /></td></tr>
+<tr class="separator:a180e5acdc4b150463652d90d54caa8fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae60636c099ffe66a20a4512ea11e7704" id="r_ae60636c099ffe66a20a4512ea11e7704"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae60636c099ffe66a20a4512ea11e7704">setPassword</a> (const std::string &amp;newPassword)</td></tr>
+<tr class="memdesc:ae60636c099ffe66a20a4512ea11e7704"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the password of the user.  <br /></td></tr>
+<tr class="separator:ae60636c099ffe66a20a4512ea11e7704"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b89d856d334dbcc909de2ff08d20f5a" id="r_a3b89d856d334dbcc909de2ff08d20f5a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b89d856d334dbcc909de2ff08d20f5a">checkPassword</a> (const std::string &amp;pass) const</td></tr>
 <tr class="memdesc:a3b89d856d334dbcc909de2ff08d20f5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the provided password matches the user's password.  <br /></td></tr>
 <tr class="separator:a3b89d856d334dbcc909de2ff08d20f5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -253,6 +262,48 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a180e5acdc4b150463652d90d54caa8fc" name="a180e5acdc4b150463652d90d54caa8fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a180e5acdc4b150463652d90d54caa8fc">&#9670;&#160;</a></span>getPassword()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string User::getPassword </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the password of the user. </p>
+<dl class="section return"><dt>Returns</dt><dd>The password as a string. </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_user_a180e5acdc4b150463652d90d54caa8fc_icgraph.png" border="0" usemap="#aclass_user_a180e5acdc4b150463652d90d54caa8fc_icgraph" alt=""/></div>
+<map name="aclass_user_a180e5acdc4b150463652d90d54caa8fc_icgraph" id="aclass_user_a180e5acdc4b150463652d90d54caa8fc_icgraph">
+<area shape="rect" title="Gets the password of the user." alt="" coords="178,56,311,83"/>
+<area shape="rect" href="class_admin.html#ada10315018dc37637caf083f2d0d268f" title="Converts the Admin object to a JSON object." alt="" coords="15,5,120,32"/>
+<area shape="poly" title=" " alt="" coords="180,54,116,35,117,30,182,49"/>
+<area shape="rect" href="class_manager.html#a4066d31b1dcbada109ccc0d34372521c" title="Converts the Manager object to a JSON object." alt="" coords="8,56,127,83"/>
+<area shape="poly" title=" " alt="" coords="162,72,127,72,127,67,162,67"/>
+<area shape="rect" href="class_mechanic.html#ad535cca9a6315d2f594573e4e84a5d57" title="Converts the Mechanic object to a JSON object." alt="" coords="5,107,130,133"/>
+<area shape="poly" title=" " alt="" coords="182,90,117,109,116,104,180,85"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="ac91004e1544c8c2e9525594ffeb4df1a" name="ac91004e1544c8c2e9525594ffeb4df1a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac91004e1544c8c2e9525594ffeb4df1a">&#9670;&#160;</a></span>getRole()</h2>
 
@@ -309,6 +360,114 @@ Protected Attributes</h2></td></tr>
 
 <p>Gets the username of the user. </p>
 <dl class="section return"><dt>Returns</dt><dd>The username as a string. </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_user_a7079d6aefd9d1b930d837039c1b3e7df_icgraph.png" border="0" usemap="#aclass_user_a7079d6aefd9d1b930d837039c1b3e7df_icgraph" alt=""/></div>
+<map name="aclass_user_a7079d6aefd9d1b930d837039c1b3e7df_icgraph" id="aclass_user_a7079d6aefd9d1b930d837039c1b3e7df_icgraph">
+<area shape="rect" title="Gets the username of the user." alt="" coords="178,56,313,83"/>
+<area shape="rect" href="class_admin.html#ada10315018dc37637caf083f2d0d268f" title="Converts the Admin object to a JSON object." alt="" coords="15,5,120,32"/>
+<area shape="poly" title=" " alt="" coords="181,54,116,35,118,30,182,49"/>
+<area shape="rect" href="class_manager.html#a4066d31b1dcbada109ccc0d34372521c" title="Converts the Manager object to a JSON object." alt="" coords="8,56,127,83"/>
+<area shape="poly" title=" " alt="" coords="162,72,127,72,127,67,162,67"/>
+<area shape="rect" href="class_mechanic.html#ad535cca9a6315d2f594573e4e84a5d57" title="Converts the Mechanic object to a JSON object." alt="" coords="5,107,130,133"/>
+<area shape="poly" title=" " alt="" coords="182,90,118,109,116,104,181,85"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ae60636c099ffe66a20a4512ea11e7704" name="ae60636c099ffe66a20a4512ea11e7704"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae60636c099ffe66a20a4512ea11e7704">&#9670;&#160;</a></span>setPassword()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void User::setPassword </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>newPassword</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the password of the user. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newPassword</td><td>The new password to be set. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_user_ae60636c099ffe66a20a4512ea11e7704_icgraph.png" border="0" usemap="#aclass_user_ae60636c099ffe66a20a4512ea11e7704_icgraph" alt=""/></div>
+<map name="aclass_user_ae60636c099ffe66a20a4512ea11e7704_icgraph" id="aclass_user_ae60636c099ffe66a20a4512ea11e7704_icgraph">
+<area shape="rect" title="Sets the password of the user." alt="" coords="193,56,326,83"/>
+<area shape="rect" href="class_admin.html#a98d59d11d670a7564a549b9e5771e2fd" title="Loads the Admin object from a JSON object." alt="" coords="15,5,135,32"/>
+<area shape="poly" title=" " alt="" coords="193,54,126,35,127,30,194,49"/>
+<area shape="rect" href="class_manager.html#aa868cb7fecf9339f8d43f6191b7a43ee" title="Loads the Manager object from a JSON object." alt="" coords="8,56,142,83"/>
+<area shape="poly" title=" " alt="" coords="177,72,142,72,142,67,177,67"/>
+<area shape="rect" href="class_mechanic.html#abaff021870ac44076cab93fb38f88dbb" title="Loads the Mechanic object from a JSON object." alt="" coords="5,107,145,133"/>
+<area shape="poly" title=" " alt="" coords="194,90,127,109,126,103,193,85"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1dfa65bcba3e701f1a43e7221d90e253" name="a1dfa65bcba3e701f1a43e7221d90e253"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1dfa65bcba3e701f1a43e7221d90e253">&#9670;&#160;</a></span>setUsername()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void User::setUsername </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>newUsername</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the username of the user. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newUsername</td><td>The new username to be set. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_user_a1dfa65bcba3e701f1a43e7221d90e253_icgraph.png" border="0" usemap="#aclass_user_a1dfa65bcba3e701f1a43e7221d90e253_icgraph" alt=""/></div>
+<map name="aclass_user_a1dfa65bcba3e701f1a43e7221d90e253_icgraph" id="aclass_user_a1dfa65bcba3e701f1a43e7221d90e253_icgraph">
+<area shape="rect" title="Sets the username of the user." alt="" coords="193,56,328,83"/>
+<area shape="rect" href="class_admin.html#a98d59d11d670a7564a549b9e5771e2fd" title="Loads the Admin object from a JSON object." alt="" coords="15,5,135,32"/>
+<area shape="poly" title=" " alt="" coords="194,54,126,35,127,30,195,49"/>
+<area shape="rect" href="class_manager.html#aa868cb7fecf9339f8d43f6191b7a43ee" title="Loads the Manager object from a JSON object." alt="" coords="8,56,142,83"/>
+<area shape="poly" title=" " alt="" coords="177,72,142,72,142,67,177,67"/>
+<area shape="rect" href="class_mechanic.html#abaff021870ac44076cab93fb38f88dbb" title="Loads the Mechanic object from a JSON object." alt="" coords="5,107,145,133"/>
+<area shape="poly" title=" " alt="" coords="195,90,127,109,126,103,194,85"/>
+</map>
+</div>
 
 </div>
 </div>

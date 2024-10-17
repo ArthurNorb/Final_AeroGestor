@@ -103,35 +103,31 @@ $(function(){initNavTree('database_8h_source.html',''); initResizable(true); });
 <a href="database_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef DATABASE_H</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define DATABASE_H</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="sqlite3_8h.html">../../sqlite3.h</a>&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;../sqlite3.h&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="foldopen" id="foldopen00014" data-start="{" data-end="};">
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="class_database.html">   14</a></span><span class="keyword">class </span><a class="code hl_class" href="class_database.html">Database</a> {</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <a class="code hl_function" href="class_database.html#a3ff4b2e284130cdbb794a8e265d798aa">Database</a>(<span class="keyword">const</span> std::string&amp; dbName);</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <a class="code hl_function" href="class_database.html#a84d399a2ad58d69daab9b05330e1316d">~Database</a>();</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="class_database.html#a571f9128e8207b0e2fc4b1a06af60a20">createTables</a>();</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="class_database.html#af144bef23ceb3b4bfd1b482db0665631">insertUser</a>(<span class="keyword">const</span> std::string&amp; username, <span class="keyword">const</span> std::string&amp; password, <span class="keyword">const</span> std::string&amp; role);</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="class_database.html#ab863759c5f56be3683aaa4797c0fc9e6">   54</a></span>    <a class="code hl_typedef" href="sqlite3_8h.html#a0ef6f2646262c8a9b24368d8ac140f69">sqlite3</a>* <a class="code hl_variable" href="class_database.html#ab863759c5f56be3683aaa4797c0fc9e6">db</a>; </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>};</div>
+<div class="foldopen" id="foldopen00008" data-start="{" data-end="};">
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="class_database.html">    8</a></span><span class="keyword">class </span><a class="code hl_class" href="class_database.html">Database</a> {</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="class_database.html#a3ff4b2e284130cdbb794a8e265d798aa">   10</a></span>    <a class="code hl_function" href="class_database.html#a3ff4b2e284130cdbb794a8e265d798aa">Database</a>(<span class="keyword">const</span> std::string&amp; dbName);</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="class_database.html#a84d399a2ad58d69daab9b05330e1316d">   11</a></span>    <a class="code hl_function" href="class_database.html#a84d399a2ad58d69daab9b05330e1316d">~Database</a>();</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="class_database.html#a571f9128e8207b0e2fc4b1a06af60a20">   13</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="class_database.html#a571f9128e8207b0e2fc4b1a06af60a20">createTables</a>();</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="class_database.html#af144bef23ceb3b4bfd1b482db0665631">   14</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="class_database.html#af144bef23ceb3b4bfd1b482db0665631">insertUser</a>(<span class="keyword">const</span> std::string&amp; username, <span class="keyword">const</span> std::string&amp; password, <span class="keyword">const</span> std::string&amp; role);</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="class_database.html#ab863759c5f56be3683aaa4797c0fc9e6">   17</a></span>    sqlite3* <a class="code hl_variable" href="class_database.html#ab863759c5f56be3683aaa4797c0fc9e6">db</a>;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>};</div>
 </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="preprocessor">#endif </span><span class="comment">// DATABASE_H</span></div>
-<div class="ttc" id="aclass_database_html"><div class="ttname"><a href="class_database.html">Database</a></div><div class="ttdoc">The Database class provides an interface for interacting with the SQLite database.</div><div class="ttdef"><b>Definition</b> database.h:14</div></div>
-<div class="ttc" id="aclass_database_html_a3ff4b2e284130cdbb794a8e265d798aa"><div class="ttname"><a href="class_database.html#a3ff4b2e284130cdbb794a8e265d798aa">Database::Database</a></div><div class="ttdeci">Database(const std::string &amp;dbName)</div><div class="ttdoc">Constructs a Database object.</div><div class="ttdef"><b>Definition</b> database.cpp:3</div></div>
-<div class="ttc" id="aclass_database_html_a571f9128e8207b0e2fc4b1a06af60a20"><div class="ttname"><a href="class_database.html#a571f9128e8207b0e2fc4b1a06af60a20">Database::createTables</a></div><div class="ttdeci">bool createTables()</div><div class="ttdoc">Creates the necessary tables in the database.</div><div class="ttdef"><b>Definition</b> database.cpp:14</div></div>
-<div class="ttc" id="aclass_database_html_a84d399a2ad58d69daab9b05330e1316d"><div class="ttname"><a href="class_database.html#a84d399a2ad58d69daab9b05330e1316d">Database::~Database</a></div><div class="ttdeci">~Database()</div><div class="ttdoc">Destructor for the Database class.</div><div class="ttdef"><b>Definition</b> database.cpp:10</div></div>
-<div class="ttc" id="aclass_database_html_ab863759c5f56be3683aaa4797c0fc9e6"><div class="ttname"><a href="class_database.html#ab863759c5f56be3683aaa4797c0fc9e6">Database::db</a></div><div class="ttdeci">sqlite3 * db</div><div class="ttdef"><b>Definition</b> database.h:54</div></div>
-<div class="ttc" id="aclass_database_html_af144bef23ceb3b4bfd1b482db0665631"><div class="ttname"><a href="class_database.html#af144bef23ceb3b4bfd1b482db0665631">Database::insertUser</a></div><div class="ttdeci">bool insertUser(const std::string &amp;username, const std::string &amp;password, const std::string &amp;role)</div><div class="ttdoc">Inserts a new user into the Users table.</div><div class="ttdef"><b>Definition</b> database.cpp:31</div></div>
-<div class="ttc" id="asqlite3_8h_html"><div class="ttname"><a href="sqlite3_8h.html">sqlite3.h</a></div></div>
-<div class="ttc" id="asqlite3_8h_html_a0ef6f2646262c8a9b24368d8ac140f69"><div class="ttname"><a href="sqlite3_8h.html#a0ef6f2646262c8a9b24368d8ac140f69">sqlite3</a></div><div class="ttdeci">struct sqlite3 sqlite3</div><div class="ttdef"><b>Definition</b> sqlite3.h:227</div></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#endif </span><span class="comment">// DATABASE_H</span></div>
+<div class="ttc" id="aclass_database_html"><div class="ttname"><a href="class_database.html">Database</a></div><div class="ttdef"><b>Definition</b> database.h:8</div></div>
+<div class="ttc" id="aclass_database_html_a3ff4b2e284130cdbb794a8e265d798aa"><div class="ttname"><a href="class_database.html#a3ff4b2e284130cdbb794a8e265d798aa">Database::Database</a></div><div class="ttdeci">Database(const std::string &amp;dbName)</div></div>
+<div class="ttc" id="aclass_database_html_a571f9128e8207b0e2fc4b1a06af60a20"><div class="ttname"><a href="class_database.html#a571f9128e8207b0e2fc4b1a06af60a20">Database::createTables</a></div><div class="ttdeci">bool createTables()</div></div>
+<div class="ttc" id="aclass_database_html_a84d399a2ad58d69daab9b05330e1316d"><div class="ttname"><a href="class_database.html#a84d399a2ad58d69daab9b05330e1316d">Database::~Database</a></div><div class="ttdeci">~Database()</div></div>
+<div class="ttc" id="aclass_database_html_ab863759c5f56be3683aaa4797c0fc9e6"><div class="ttname"><a href="class_database.html#ab863759c5f56be3683aaa4797c0fc9e6">Database::db</a></div><div class="ttdeci">sqlite3 * db</div><div class="ttdef"><b>Definition</b> database.h:17</div></div>
+<div class="ttc" id="aclass_database_html_af144bef23ceb3b4bfd1b482db0665631"><div class="ttname"><a href="class_database.html#af144bef23ceb3b4bfd1b482db0665631">Database::insertUser</a></div><div class="ttdeci">bool insertUser(const std::string &amp;username, const std::string &amp;password, const std::string &amp;role)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -1,9 +1,10 @@
 var searchData=
 [
-  ['main_0',['main',['../main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main.cpp']]],
-  ['mainwindow_1',['MainWindow',['../class_main_window.html#a996c5a2b6f77944776856f08ec30858d',1,'MainWindow']]],
-  ['manager_2',['Manager',['../class_manager.html#a034bab9787af758e13985ad1d3f3ecf2',1,'Manager']]],
-  ['marcarpronta_3',['marcarPronta',['../class_mechanic.html#aabd49c2ed94dd66e7f993364fa333ef0',1,'Mechanic::marcarPronta()'],['../class_mecanico_interface.html#abccf1cfe3d6f86df987fb442acf4acbd',1,'MecanicoInterface::marcarPronta()']]],
-  ['mecanicointerface_4',['MecanicoInterface',['../class_mecanico_interface.html#a12f661b3a2d9f6428d7e4cc6ea613b84',1,'MecanicoInterface']]],
-  ['mechanic_5',['Mechanic',['../class_mechanic.html#a31cad918529c3994b13a9882673ca855',1,'Mechanic']]]
+  ['gestorinterface_0',['GestorInterface',['../class_gestor_interface.html#a4ca4c73c96a7f1ae2eac2c9fb23f9742',1,'GestorInterface']]],
+  ['getid_1',['getId',['../class_aeronave.html#ac42eb523424a958ffaaff7a5b947b021',1,'Aeronave']]],
+  ['getmaintence_2',['getMaintence',['../class_aeronave.html#ab60c2a79f3e914f7ff7b5ba670e7c421',1,'Aeronave']]],
+  ['getmodel_3',['getModel',['../class_aeronave.html#a3625b396b1286e7d560f9b818f299641',1,'Aeronave']]],
+  ['getpassword_4',['getPassword',['../class_user.html#a180e5acdc4b150463652d90d54caa8fc',1,'User']]],
+  ['getrole_5',['getRole',['../class_admin.html#a1909a3af75a43b186fddad54ca5e47e5',1,'Admin::getRole()'],['../class_manager.html#a16c487866ac852b904b8f3bd338fbade',1,'Manager::getRole()'],['../class_mechanic.html#a26ed53dc8ec6f8b80ed7a199604532ed',1,'Mechanic::getRole()'],['../class_user.html#ac91004e1544c8c2e9525594ffeb4df1a',1,'User::getRole() const =0']]],
+  ['getusername_6',['getUsername',['../class_user.html#a7079d6aefd9d1b930d837039c1b3e7df',1,'User']]]
 ];

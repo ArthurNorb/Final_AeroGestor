@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['frota_0',['frota',['../class_administrador_interface.html#ace68c47a99eb5339634654051bc164a1',1,'AdministradorInterface::frota'],['../class_gestor_interface.html#a44bdd7fd4703bd885fbf05be1992fb15',1,'GestorInterface::frota'],['../class_mecanico_interface.html#ae0e8c4169f3af20d84ccc403e46612cd',1,'MecanicoInterface::frota'],['../main_8cpp.html#a3667d13937bdd146aa5bfbbeae6fb54e',1,'frota:&#160;main.cpp']]],
-  ['frotaemmanutencao_1',['frotaEmManutencao',['../class_gestor_interface.html#abcff639ddc578a991225a9d019f33d8e',1,'GestorInterface::frotaEmManutencao'],['../class_mecanico_interface.html#a77ad12e0cf60e05ea4654a199e600167',1,'MecanicoInterface::frotaEmManutencao'],['../main_8cpp.html#a6a245da811145c9a22e701ea3c0ae58f',1,'frotaEmManutencao:&#160;main.cpp']]]
+  ['editarusuario_0',['editarUsuario',['../class_admin.html#a3af59ec99ade5a544415e5a90ddd9eff',1,'Admin::editarUsuario(Mechanic &amp;mechanic, const std::string &amp;novoNome) const'],['../class_admin.html#a02b6070903f891f392ccb20347b22807',1,'Admin::editarUsuario(Manager &amp;manager, const std::string &amp;novoNome) const']]],
+  ['enviarparamanutencao_1',['enviarParaManutencao',['../class_manager.html#ada1981a3ecf1fb7f66f0212338e178f9',1,'Manager::enviarParaManutencao()'],['../class_gestor_interface.html#a02c1f38097a864bd78fd3312ce0dbd86',1,'GestorInterface::enviarParaManutencao()']]],
+  ['estaprontaparauso_2',['estaProntaParaUso',['../class_aeronave.html#aa03c61707fe7cfd6ccb9664efe2fb083',1,'Aeronave']]],
+  ['exibirhistorico_3',['exibirHistorico',['../class_aeronave.html#a6d235b92e657cdb55a74bebe6708b745',1,'Aeronave']]]
 ];

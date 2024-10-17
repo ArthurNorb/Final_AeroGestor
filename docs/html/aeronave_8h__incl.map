@@ -1,7 +1,13 @@
 <map id="src/model/aeronave.h" name="src/model/aeronave.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,152,32"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="12,80,65,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="74,34,55,68,50,65,69,31"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="90,80,147,107"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="88,31,107,65,102,68,83,34"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="162,5,308,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,80,59,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,35,74,80,73,75,198,30"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="83,80,141,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="215,35,148,74,145,69,212,30"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="165,80,304,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="237,33,237,64,232,64,232,33"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="329,80,394,107"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="258,30,327,70,325,74,255,35"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="418,80,489,107"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="274,30,404,73,402,78,272,35"/>
 </map>

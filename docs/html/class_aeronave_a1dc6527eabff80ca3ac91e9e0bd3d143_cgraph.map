@@ -1,0 +1,9 @@
+<map id="Aeronave::fromJson" name="Aeronave::fromJson">
+<area shape="rect" id="Node000001" title="Loads the Aircraft object from a JSON object." alt="" coords="5,56,144,83"/>
+<area shape="rect" id="Node000002" href="$class_aeronave.html#ab5a8e252f0019f116afd6d30db05402a" title="Sets the registration code of the aircraft." alt="" coords="216,5,330,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="129,53,202,34,204,39,130,58"/>
+<area shape="rect" id="Node000003" href="$class_aeronave.html#ab1a821655517a7e5d3e8ca1d76651155" title="Sets the maintenance status of the aircraft." alt="" coords="192,56,354,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="144,67,176,67,176,72,144,72"/>
+<area shape="rect" id="Node000004" href="$class_aeronave.html#a2aa0c20536b1bc2a99fd363ea0e1b2ea" title="Sets the model of the aircraft." alt="" coords="204,107,342,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="130,81,204,100,202,105,129,86"/>
+</map>

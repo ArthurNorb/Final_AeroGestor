@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['gestorinterface_0',['GestorInterface',['../class_gestor_interface.html#a4ca4c73c96a7f1ae2eac2c9fb23f9742',1,'GestorInterface']]],
-  ['getmatricula_1',['getMatricula',['../class_aeronave.html#a5551ebaa2134c823f9019818da5ea1de',1,'Aeronave']]],
-  ['getmodelo_2',['getModelo',['../class_aeronave.html#a7d2025a7df3f995f02eafdb8555d6496',1,'Aeronave']]],
-  ['getrole_3',['getRole',['../class_admin.html#a1909a3af75a43b186fddad54ca5e47e5',1,'Admin::getRole()'],['../class_manager.html#a16c487866ac852b904b8f3bd338fbade',1,'Manager::getRole()'],['../class_mechanic.html#a26ed53dc8ec6f8b80ed7a199604532ed',1,'Mechanic::getRole()'],['../class_user.html#ac91004e1544c8c2e9525594ffeb4df1a',1,'User::getRole() const =0']]],
-  ['getusername_4',['getUsername',['../class_user.html#a7079d6aefd9d1b930d837039c1b3e7df',1,'User']]]
+  ['editarusuario_0',['editarUsuario',['../class_admin.html#a3af59ec99ade5a544415e5a90ddd9eff',1,'Admin::editarUsuario(Mechanic &amp;mechanic, const std::string &amp;novoNome) const'],['../class_admin.html#a02b6070903f891f392ccb20347b22807',1,'Admin::editarUsuario(Manager &amp;manager, const std::string &amp;novoNome) const']]],
+  ['enviarparamanutencao_1',['enviarParaManutencao',['../class_manager.html#ada1981a3ecf1fb7f66f0212338e178f9',1,'Manager::enviarParaManutencao()'],['../class_gestor_interface.html#a02c1f38097a864bd78fd3312ce0dbd86',1,'GestorInterface::enviarParaManutencao()']]],
+  ['estaprontaparauso_2',['estaProntaParaUso',['../class_aeronave.html#aa03c61707fe7cfd6ccb9664efe2fb083',1,'Aeronave']]],
+  ['exibirhistorico_3',['exibirHistorico',['../class_aeronave.html#a6d235b92e657cdb55a74bebe6708b745',1,'Aeronave']]]
 ];

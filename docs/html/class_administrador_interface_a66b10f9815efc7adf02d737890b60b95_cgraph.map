@@ -2,6 +2,6 @@
 <area shape="rect" id="Node000001" title="Slot to handle the action of registering a new aircraft." alt="" coords="5,5,158,48"/>
 <area shape="rect" id="Node000002" href="$class_admin.html#a33d496351157262ef3e6b0703a8c18df" title="Registers a new aircraft into the fleet." alt="" coords="206,13,381,40"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,24,190,24,190,29,158,29"/>
-<area shape="rect" id="Node000003" href="$class_aeronave.html#a5551ebaa2134c823f9019818da5ea1de" title="Gets the registration code of the aircraft." alt="" coords="429,13,584,40"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="382,24,413,24,413,29,382,29"/>
+<area shape="rect" id="Node000003" href="$class_aeronave.html#ac42eb523424a958ffaaff7a5b947b021" title="Gets the registration code of the aircraft." alt="" coords="429,13,542,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="381,24,413,24,413,29,381,29"/>
 </map>

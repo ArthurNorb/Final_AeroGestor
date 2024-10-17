@@ -1,9 +1,9 @@
 <map id="Manager::enviarParaManutencao" name="Manager::enviarParaManutencao">
 <area shape="rect" id="Node000001" title="Sends an aircraft for maintenance." alt="" coords="5,56,218,83"/>
-<area shape="rect" id="Node000002" href="$class_aeronave.html#a5551ebaa2134c823f9019818da5ea1de" title="Gets the registration code of the aircraft." alt="" coords="285,5,440,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,53,277,33,278,38,182,58"/>
-<area shape="rect" id="Node000003" href="$class_aeronave.html#a98aa26dc657f4a36e5ba13228a67b9f0" title="Sets the maintenance status of the aircraft." alt="" coords="266,56,459,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="218,67,250,67,250,72,218,72"/>
-<area shape="rect" id="Node000004" href="$class_aeronave.html#a8a9726ce8b5d2f941b1238b5c1202b9e" title="Sets the status of whether the aircraft is ready for use." alt="" coords="267,107,458,133"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="182,81,278,100,277,106,181,86"/>
+<area shape="rect" id="Node000002" href="$class_aeronave.html#ac42eb523424a958ffaaff7a5b947b021" title="Gets the registration code of the aircraft." alt="" coords="305,5,418,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,53,289,31,290,36,182,58"/>
+<area shape="rect" id="Node000003" href="$class_aeronave.html#ab1a821655517a7e5d3e8ca1d76651155" title="Sets the maintenance status of the aircraft." alt="" coords="280,56,442,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="218,67,265,67,265,72,218,72"/>
+<area shape="rect" id="Node000004" href="$class_aeronave.html#a8a9726ce8b5d2f941b1238b5c1202b9e" title="Sets the status of whether the aircraft is ready for use." alt="" coords="266,107,457,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="182,81,278,100,277,106,180,86"/>
 </map>

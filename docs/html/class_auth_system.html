@@ -118,10 +118,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0c22dad4caea62efbfe7f99dedbe15a0" id="r_a0c22dad4caea62efbfe7f99dedbe15a0"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_user.html">User</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c22dad4caea62efbfe7f99dedbe15a0">login</a> (const std::string &amp;username, const std::string &amp;password)</td></tr>
 <tr class="memdesc:a0c22dad4caea62efbfe7f99dedbe15a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validates user login credentials.  <br /></td></tr>
 <tr class="separator:a0c22dad4caea62efbfe7f99dedbe15a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5663b0956806fc225ec013da056a8ebe" id="r_a5663b0956806fc225ec013da056a8ebe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5663b0956806fc225ec013da056a8ebe">loadUsersFromJson</a> (const std::string &amp;filePath)</td></tr>
+<tr class="memdesc:a5663b0956806fc225ec013da056a8ebe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads users from a JSON file.  <br /></td></tr>
+<tr class="separator:a5663b0956806fc225ec013da056a8ebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4590ca25ddc27a8c0244537debf06b5" id="r_ac4590ca25ddc27a8c0244537debf06b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4590ca25ddc27a8c0244537debf06b5">addUser</a> (std::shared_ptr&lt; <a class="el" href="class_user.html">User</a> &gt; user)</td></tr>
+<tr class="memdesc:ac4590ca25ddc27a8c0244537debf06b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a user to the authentication system.  <br /></td></tr>
+<tr class="separator:ac4590ca25ddc27a8c0244537debf06b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a22096574db87d408b6240bb53c35d42e" id="r_a22096574db87d408b6240bb53c35d42e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::shared_ptr&lt; <a class="el" href="class_user.html">User</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22096574db87d408b6240bb53c35d42e">users</a></td></tr>
+<tr class="memdesc:a22096574db87d408b6240bb53c35d42e"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of registered users in the system.  <br /></td></tr>
 <tr class="separator:a22096574db87d408b6240bb53c35d42e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -144,11 +151,113 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Constructs the <a class="el" href="class_auth_system.html" title="The AuthSystem class manages user authentication.">AuthSystem</a> object. </p>
-<p>Initializes the system for managing user authentication. </p>
+<p>Initializes the system for managing user authentication and loading users. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_auth_system_a2afbea58b44387724eaf1dbdeb93628d_cgraph.png" border="0" usemap="#aclass_auth_system_a2afbea58b44387724eaf1dbdeb93628d_cgraph" alt=""/></div>
+<map name="aclass_auth_system_a2afbea58b44387724eaf1dbdeb93628d_cgraph" id="aclass_auth_system_a2afbea58b44387724eaf1dbdeb93628d_cgraph">
+<area shape="rect" title="Constructs the AuthSystem object." alt="" coords="5,5,179,32"/>
+<area shape="rect" href="class_auth_system.html#a5663b0956806fc225ec013da056a8ebe" title="Loads users from a JSON file." alt="" coords="227,5,445,32"/>
+<area shape="poly" title=" " alt="" coords="179,16,211,16,211,21,179,21"/>
+<area shape="rect" href="class_auth_system.html#ac4590ca25ddc27a8c0244537debf06b5" title="Adds a user to the authentication system." alt="" coords="493,5,643,32"/>
+<area shape="poly" title=" " alt="" coords="446,16,478,16,478,21,446,21"/>
+</map>
+</div>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ac4590ca25ddc27a8c0244537debf06b5" name="ac4590ca25ddc27a8c0244537debf06b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4590ca25ddc27a8c0244537debf06b5">&#9670;&#160;</a></span>addUser()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AuthSystem::addUser </td>
+          <td>(</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="class_user.html">User</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>user</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds a user to the authentication system. </p>
+<p>This function adds a new user to the list of registered users.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">user</td><td>A shared pointer to the <a class="el" href="class_user.html" title="The User class represents a base user in the system.">User</a> object to be added. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_auth_system_ac4590ca25ddc27a8c0244537debf06b5_icgraph.png" border="0" usemap="#aclass_auth_system_ac4590ca25ddc27a8c0244537debf06b5_icgraph" alt=""/></div>
+<map name="aclass_auth_system_ac4590ca25ddc27a8c0244537debf06b5_icgraph" id="aclass_auth_system_ac4590ca25ddc27a8c0244537debf06b5_icgraph">
+<area shape="rect" title="Adds a user to the authentication system." alt="" coords="499,56,649,83"/>
+<area shape="rect" href="class_auth_system.html#a5663b0956806fc225ec013da056a8ebe" title="Loads users from a JSON file." alt="" coords="230,31,448,57"/>
+<area shape="poly" title=" " alt="" coords="483,62,448,58,449,53,484,57"/>
+<area shape="rect" href="class_login_window.html#a1cfcdc67ea18d7511084236162f0e3cb" title="Loads users from a JSON file for the authentication system." alt="" coords="227,81,451,108"/>
+<area shape="poly" title=" " alt="" coords="484,82,452,85,451,80,483,76"/>
+<area shape="rect" href="class_auth_system.html#a2afbea58b44387724eaf1dbdeb93628d" title="Constructs the AuthSystem object." alt="" coords="5,5,179,32"/>
+<area shape="poly" title=" " alt="" coords="214,34,179,30,179,25,215,29"/>
+<area shape="rect" href="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="67,56,117,83"/>
+<area shape="poly" title=" " alt="" coords="214,59,117,70,117,64,214,54"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a5663b0956806fc225ec013da056a8ebe" name="a5663b0956806fc225ec013da056a8ebe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5663b0956806fc225ec013da056a8ebe">&#9670;&#160;</a></span>loadUsersFromJson()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AuthSystem::loadUsersFromJson </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filePath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Loads users from a JSON file. </p>
+<p>This function reads the specified JSON file and loads the user information into the <a class="el" href="class_auth_system.html" title="The AuthSystem class manages user authentication.">AuthSystem</a>. It creates <a class="el" href="class_user.html" title="The User class represents a base user in the system.">User</a> objects (<a class="el" href="class_admin.html" title="The Admin class represents an administrator in the system.">Admin</a>, <a class="el" href="class_manager.html" title="The Manager class represents a fleet manager in the system.">Manager</a>, <a class="el" href="class_mechanic.html" title="The Mechanic class represents a mechanic in the system.">Mechanic</a>) based on the role.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filePath</td><td>Path to the JSON file containing user data. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_auth_system_a5663b0956806fc225ec013da056a8ebe_cgraph.png" border="0" usemap="#aclass_auth_system_a5663b0956806fc225ec013da056a8ebe_cgraph" alt=""/></div>
+<map name="aclass_auth_system_a5663b0956806fc225ec013da056a8ebe_cgraph" id="aclass_auth_system_a5663b0956806fc225ec013da056a8ebe_cgraph">
+<area shape="rect" title="Loads users from a JSON file." alt="" coords="5,5,224,32"/>
+<area shape="rect" href="class_auth_system.html#ac4590ca25ddc27a8c0244537debf06b5" title="Adds a user to the authentication system." alt="" coords="272,5,422,32"/>
+<area shape="poly" title=" " alt="" coords="224,16,256,16,256,21,224,21"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_auth_system_a5663b0956806fc225ec013da056a8ebe_icgraph.png" border="0" usemap="#aclass_auth_system_a5663b0956806fc225ec013da056a8ebe_icgraph" alt=""/></div>
+<map name="aclass_auth_system_a5663b0956806fc225ec013da056a8ebe_icgraph" id="aclass_auth_system_a5663b0956806fc225ec013da056a8ebe_icgraph">
+<area shape="rect" title="Loads users from a JSON file." alt="" coords="227,31,445,57"/>
+<area shape="rect" href="class_auth_system.html#a2afbea58b44387724eaf1dbdeb93628d" title="Constructs the AuthSystem object." alt="" coords="5,5,179,32"/>
+<area shape="poly" title=" " alt="" coords="211,34,179,30,179,25,211,28"/>
+<area shape="rect" href="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="67,56,117,83"/>
+<area shape="poly" title=" " alt="" coords="212,60,117,69,117,64,211,54"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a0c22dad4caea62efbfe7f99dedbe15a0" name="a0c22dad4caea62efbfe7f99dedbe15a0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0c22dad4caea62efbfe7f99dedbe15a0">&#9670;&#160;</a></span>login()</h2>
 
@@ -213,7 +322,9 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>List of registered users in the system </p>
+
+<p>List of registered users in the system. </p>
+<p>This vector contains all users (e.g., <a class="el" href="class_admin.html" title="The Admin class represents an administrator in the system.">Admin</a>, <a class="el" href="class_manager.html" title="The Manager class represents a fleet manager in the system.">Manager</a>, <a class="el" href="class_mechanic.html" title="The Mechanic class represents a mechanic in the system.">Mechanic</a>) registered in the system. </p>
 
 </div>
 </div>

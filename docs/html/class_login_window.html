@@ -145,6 +145,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3a6b4aff66de55ad665ace12f451d155" id="r_a3a6b4aff66de55ad665ace12f451d155"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a6b4aff66de55ad665ace12f451d155">LoginWindow</a> (<a class="el" href="class_auth_system.html">AuthSystem</a> &amp;<a class="el" href="#a6d3cd5fcacd5a1f4f2e47939e62d8925">authSystem</a>, QWidget *parent=nullptr)</td></tr>
 <tr class="memdesc:a3a6b4aff66de55ad665ace12f451d155"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs the <a class="el" href="class_login_window.html" title="The LoginWindow class represents the login interface for the application.">LoginWindow</a> object.  <br /></td></tr>
 <tr class="separator:a3a6b4aff66de55ad665ace12f451d155"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cfcdc67ea18d7511084236162f0e3cb" id="r_a1cfcdc67ea18d7511084236162f0e3cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cfcdc67ea18d7511084236162f0e3cb">loadUsersFromJson</a> (const std::string &amp;filePath)</td></tr>
+<tr class="memdesc:a1cfcdc67ea18d7511084236162f0e3cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads users from a JSON file for the authentication system.  <br /></td></tr>
+<tr class="separator:a1cfcdc67ea18d7511084236162f0e3cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
@@ -220,6 +223,50 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a1cfcdc67ea18d7511084236162f0e3cb" name="a1cfcdc67ea18d7511084236162f0e3cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cfcdc67ea18d7511084236162f0e3cb">&#9670;&#160;</a></span>loadUsersFromJson()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LoginWindow::loadUsersFromJson </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filePath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Loads users from a JSON file for the authentication system. </p>
+<p>This function populates the authentication system with users loaded from the specified JSON file.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filePath</td><td>The path to the JSON file containing user data. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_login_window_a1cfcdc67ea18d7511084236162f0e3cb_cgraph.png" border="0" usemap="#aclass_login_window_a1cfcdc67ea18d7511084236162f0e3cb_cgraph" alt=""/></div>
+<map name="aclass_login_window_a1cfcdc67ea18d7511084236162f0e3cb_cgraph" id="aclass_login_window_a1cfcdc67ea18d7511084236162f0e3cb_cgraph">
+<area shape="rect" title="Loads users from a JSON file for the authentication system." alt="" coords="5,5,230,32"/>
+<area shape="rect" href="class_auth_system.html#ac4590ca25ddc27a8c0244537debf06b5" title="Adds a user to the authentication system." alt="" coords="278,5,428,32"/>
+<area shape="poly" title=" " alt="" coords="230,16,262,16,262,21,230,21"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a8ec6f23317b7488a2cecda5f491557e1" name="a8ec6f23317b7488a2cecda5f491557e1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8ec6f23317b7488a2cecda5f491557e1">&#9670;&#160;</a></span>loginSuccess</h2>
 
@@ -259,7 +306,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="223,27,191,26,191,20,223,22"/>
 <area shape="rect" href="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="73,56,123,83"/>
 <area shape="poly" title=" " alt="" coords="253,91,123,75,123,70,253,86"/>
-<area shape="rect" href="main_8cpp.html#ace8bf616b037a82dc0fe7b4697880414" title=" " alt="" coords="32,107,164,133"/>
+<area shape="rect" href="main_8cpp.html#adc90064aaddc7fd4439ad720e69f08bd" title=" " alt="" coords="32,107,164,133"/>
 <area shape="poly" title=" " alt="" coords="254,117,164,125,164,120,254,112"/>
 <area shape="poly" title=" " alt="" coords="178,102,268,94,268,99,178,107"/>
 </map>

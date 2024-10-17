@@ -4,6 +4,7 @@ var annotated_dup =
     [ "AdministradorInterface", "class_administrador_interface.html", "class_administrador_interface" ],
     [ "Aeronave", "class_aeronave.html", "class_aeronave" ],
     [ "AuthSystem", "class_auth_system.html", "class_auth_system" ],
+    [ "Database", "class_database.html", "class_database" ],
     [ "GestorInterface", "class_gestor_interface.html", "class_gestor_interface" ],
     [ "LoginWindow", "class_login_window.html", "class_login_window" ],
     [ "MainWindow", "class_main_window.html", "class_main_window" ],

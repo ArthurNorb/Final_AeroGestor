@@ -1,7 +1,9 @@
 var class_mecanico_interface =
 [
     [ "MecanicoInterface", "class_mecanico_interface.html#a12f661b3a2d9f6428d7e4cc6ea613b84", null ],
+    [ "loadFrotaFromJson", "class_mecanico_interface.html#ac7cdcf0c256728e052a9f3bbd0004f0e", null ],
     [ "marcarPronta", "class_mecanico_interface.html#abccf1cfe3d6f86df987fb442acf4acbd", null ],
+    [ "saveFrotaToJson", "class_mecanico_interface.html#a0be8265a96c4dac1eb2c3e75fe8a74f7", null ],
     [ "voltar", "class_mecanico_interface.html#ab2748e581152f44a96676aa9a543afb1", null ],
     [ "voltarParaLogin", "class_mecanico_interface.html#aaa6b9f948d97315129ee821a6acd75d5", null ],
     [ "buttonMarcarPronta", "class_mecanico_interface.html#adeaa0af7803aa985864b40d38bf34085", null ],

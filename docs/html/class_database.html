@@ -105,35 +105,25 @@ $(function(){initNavTree('class_database.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 
-<p>The <a class="el" href="class_database.html" title="The Database class provides an interface for interacting with the SQLite database.">Database</a> class provides an interface for interacting with the SQLite database.  
- <a href="#details">More...</a></p>
-
 <p><code>#include &lt;<a class="el" href="database_8h_source.html">database.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a3ff4b2e284130cdbb794a8e265d798aa" id="r_a3ff4b2e284130cdbb794a8e265d798aa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ff4b2e284130cdbb794a8e265d798aa">Database</a> (const std::string &amp;dbName)</td></tr>
-<tr class="memdesc:a3ff4b2e284130cdbb794a8e265d798aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="class_database.html" title="The Database class provides an interface for interacting with the SQLite database.">Database</a> object.  <br /></td></tr>
 <tr class="separator:a3ff4b2e284130cdbb794a8e265d798aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84d399a2ad58d69daab9b05330e1316d" id="r_a84d399a2ad58d69daab9b05330e1316d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84d399a2ad58d69daab9b05330e1316d">~Database</a> ()</td></tr>
-<tr class="memdesc:a84d399a2ad58d69daab9b05330e1316d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor for the <a class="el" href="class_database.html" title="The Database class provides an interface for interacting with the SQLite database.">Database</a> class.  <br /></td></tr>
 <tr class="separator:a84d399a2ad58d69daab9b05330e1316d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a571f9128e8207b0e2fc4b1a06af60a20" id="r_a571f9128e8207b0e2fc4b1a06af60a20"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a571f9128e8207b0e2fc4b1a06af60a20">createTables</a> ()</td></tr>
-<tr class="memdesc:a571f9128e8207b0e2fc4b1a06af60a20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the necessary tables in the database.  <br /></td></tr>
 <tr class="separator:a571f9128e8207b0e2fc4b1a06af60a20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af144bef23ceb3b4bfd1b482db0665631" id="r_af144bef23ceb3b4bfd1b482db0665631"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af144bef23ceb3b4bfd1b482db0665631">insertUser</a> (const std::string &amp;username, const std::string &amp;password, const std::string &amp;role)</td></tr>
-<tr class="memdesc:af144bef23ceb3b4bfd1b482db0665631"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a new user into the Users table.  <br /></td></tr>
 <tr class="separator:af144bef23ceb3b4bfd1b482db0665631"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ab863759c5f56be3683aaa4797c0fc9e6" id="r_ab863759c5f56be3683aaa4797c0fc9e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="sqlite3_8h.html#a0ef6f2646262c8a9b24368d8ac140f69">sqlite3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab863759c5f56be3683aaa4797c0fc9e6">db</a></td></tr>
+<tr class="memitem:ab863759c5f56be3683aaa4797c0fc9e6" id="r_ab863759c5f56be3683aaa4797c0fc9e6"><td class="memItemLeft" align="right" valign="top">sqlite3 *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab863759c5f56be3683aaa4797c0fc9e6">db</a></td></tr>
 <tr class="separator:ab863759c5f56be3683aaa4797c0fc9e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The <a class="el" href="class_database.html" title="The Database class provides an interface for interacting with the SQLite database.">Database</a> class provides an interface for interacting with the SQLite database. </p>
-<p>This class manages the connection to the SQLite database and provides methods for creating tables and inserting user data. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3ff4b2e284130cdbb794a8e265d798aa" name="a3ff4b2e284130cdbb794a8e265d798aa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3ff4b2e284130cdbb794a8e265d798aa">&#9670;&#160;</a></span>Database()</h2>
 
@@ -148,27 +138,6 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Constructs a <a class="el" href="class_database.html" title="The Database class provides an interface for interacting with the SQLite database.">Database</a> object. </p>
-<p>This constructor opens a connection to the specified SQLite database.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">dbName</td><td>The name of the database file to open or create. </td></tr>
-  </table>
-  </dd>
-</dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_database_a3ff4b2e284130cdbb794a8e265d798aa_cgraph.png" border="0" usemap="#aclass_database_a3ff4b2e284130cdbb794a8e265d798aa_cgraph" alt=""/></div>
-<map name="aclass_database_a3ff4b2e284130cdbb794a8e265d798aa_cgraph" id="aclass_database_a3ff4b2e284130cdbb794a8e265d798aa_cgraph">
-<area shape="rect" title="Constructs a Database object." alt="" coords="5,31,147,57"/>
-<area shape="rect" href="sqlite3_8h.html#ae0d58565fa198e724fc2bb5381b3299f" title=" " alt="" coords="195,5,301,32"/>
-<area shape="poly" title=" " alt="" coords="147,31,179,26,180,31,148,36"/>
-<area shape="rect" href="sqlite3_8h.html#a97ba966ed1acc38409786258268f5f71" title=" " alt="" coords="201,56,295,83"/>
-<area shape="poly" title=" " alt="" coords="148,52,185,57,185,63,147,57"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -187,19 +156,6 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Destructor for the <a class="el" href="class_database.html" title="The Database class provides an interface for interacting with the SQLite database.">Database</a> class. </p>
-<p>This destructor closes the connection to the SQLite database. </p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_database_a84d399a2ad58d69daab9b05330e1316d_cgraph.png" border="0" usemap="#aclass_database_a84d399a2ad58d69daab9b05330e1316d_cgraph" alt=""/></div>
-<map name="aclass_database_a84d399a2ad58d69daab9b05330e1316d_cgraph" id="aclass_database_a84d399a2ad58d69daab9b05330e1316d_cgraph">
-<area shape="rect" title="Destructor for the Database class." alt="" coords="5,5,155,32"/>
-<area shape="rect" href="sqlite3_8h.html#ac43c9032fc6ef3b2a231dc3a9fa44b2d" title=" " alt="" coords="203,5,300,32"/>
-<area shape="poly" title=" " alt="" coords="155,16,187,16,187,21,155,21"/>
-</map>
-</div>
-
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -217,22 +173,6 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Creates the necessary tables in the database. </p>
-<p>This method creates the Users table if it does not already exist.</p>
-<dl class="section return"><dt>Returns</dt><dd>True if the table was created successfully, false otherwise. </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_database_a571f9128e8207b0e2fc4b1a06af60a20_cgraph.png" border="0" usemap="#aclass_database_a571f9128e8207b0e2fc4b1a06af60a20_cgraph" alt=""/></div>
-<map name="aclass_database_a571f9128e8207b0e2fc4b1a06af60a20_cgraph" id="aclass_database_a571f9128e8207b0e2fc4b1a06af60a20_cgraph">
-<area shape="rect" title="Creates the necessary tables in the database." alt="" coords="5,31,165,57"/>
-<area shape="rect" href="sqlite3_8h.html#a97487ec8150e0bcc8fa392ab8f0e24db" title=" " alt="" coords="213,5,307,32"/>
-<area shape="poly" title=" " alt="" coords="164,30,197,25,198,30,165,35"/>
-<area shape="rect" href="sqlite3_8h.html#a6552349e36a8a691af5487999ab09519" title=" " alt="" coords="216,56,304,83"/>
-<area shape="poly" title=" " alt="" coords="165,53,201,58,200,63,164,58"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -260,30 +200,6 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Inserts a new user into the Users table. </p>
-<p>This method adds a new user with the specified username, password, and role.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">username</td><td>The username of the user to insert. </td></tr>
-    <tr><td class="paramname">password</td><td>The password of the user to insert. </td></tr>
-    <tr><td class="paramname">role</td><td>The role of the user (e.g., 'admin', 'manager', 'mechanic'). </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>True if the user was inserted successfully, false otherwise. </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_database_af144bef23ceb3b4bfd1b482db0665631_cgraph.png" border="0" usemap="#aclass_database_af144bef23ceb3b4bfd1b482db0665631_cgraph" alt=""/></div>
-<map name="aclass_database_af144bef23ceb3b4bfd1b482db0665631_cgraph" id="aclass_database_af144bef23ceb3b4bfd1b482db0665631_cgraph">
-<area shape="rect" title="Inserts a new user into the Users table." alt="" coords="5,31,151,57"/>
-<area shape="rect" href="sqlite3_8h.html#a97487ec8150e0bcc8fa392ab8f0e24db" title=" " alt="" coords="199,5,293,32"/>
-<area shape="poly" title=" " alt="" coords="151,30,183,25,184,31,152,36"/>
-<area shape="rect" href="sqlite3_8h.html#a6552349e36a8a691af5487999ab09519" title=" " alt="" coords="202,56,290,83"/>
-<area shape="poly" title=" " alt="" coords="152,52,187,58,186,63,151,58"/>
-</map>
-</div>
-
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -297,7 +213,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="sqlite3_8h.html#a0ef6f2646262c8a9b24368d8ac140f69">sqlite3</a>* Database::db</td>
+          <td class="memname">sqlite3* Database::db</td>
         </tr>
       </table>
   </td>
@@ -306,13 +222,11 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Pointer to the SQLite database connection </p>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following files:<ul>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>src/database/<a class="el" href="database_8h_source.html">database.h</a></li>
-<li>src/database/<a class="el" href="database_8cpp.html">database.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

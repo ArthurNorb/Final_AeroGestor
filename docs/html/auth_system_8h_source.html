@@ -106,24 +106,39 @@ $(function(){initNavTree('auth_system_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;memory&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;string&gt;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="user_8h.html">user.h</a>&quot;</span>  <span class="comment">// Base class</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="foldopen" id="foldopen00015" data-start="{" data-end="};">
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="class_auth_system.html">   15</a></span><span class="keyword">class </span><a class="code hl_class" href="class_auth_system.html">AuthSystem</a> {</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="class_auth_system.html#a22096574db87d408b6240bb53c35d42e">   17</a></span>    std::vector&lt;std::shared_ptr&lt;User&gt;&gt; <a class="code hl_variable" href="class_auth_system.html#a22096574db87d408b6240bb53c35d42e">users</a>;  </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <a class="code hl_function" href="class_auth_system.html#a2afbea58b44387724eaf1dbdeb93628d">AuthSystem</a>();</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    std::shared_ptr&lt;User&gt; <a class="code hl_function" href="class_auth_system.html#a0c22dad4caea62efbfe7f99dedbe15a0">login</a>(<span class="keyword">const</span> std::string&amp; username, <span class="keyword">const</span> std::string&amp; password);</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>};</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="user_8h.html">user.h</a>&quot;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;<a class="code" href="admin_8h.html">admin.h</a>&quot;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;<a class="code" href="manager_8h.html">manager.h</a>&quot;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="mechanic_8h.html">mechanic.h</a>&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="aeronave_8h.html">aeronave.h</a>&quot;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="foldopen" id="foldopen00019" data-start="{" data-end="};">
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="class_auth_system.html">   19</a></span><span class="keyword">class </span><a class="code hl_class" href="class_auth_system.html">AuthSystem</a> {</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="class_auth_system.html#a22096574db87d408b6240bb53c35d42e">   26</a></span>    std::vector&lt;std::shared_ptr&lt;User&gt;&gt; <a class="code hl_variable" href="class_auth_system.html#a22096574db87d408b6240bb53c35d42e">users</a>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <a class="code hl_function" href="class_auth_system.html#a2afbea58b44387724eaf1dbdeb93628d">AuthSystem</a>();</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    std::shared_ptr&lt;User&gt; <a class="code hl_function" href="class_auth_system.html#a0c22dad4caea62efbfe7f99dedbe15a0">login</a>(<span class="keyword">const</span> std::string&amp; username, <span class="keyword">const</span> std::string&amp; password);</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_auth_system.html#a5663b0956806fc225ec013da056a8ebe">loadUsersFromJson</a>(<span class="keyword">const</span> std::string&amp; filePath);</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_auth_system.html#ac4590ca25ddc27a8c0244537debf06b5">addUser</a>(std::shared_ptr&lt;User&gt; user);</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>};</div>
 </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="preprocessor">#endif </span><span class="comment">// AUTHSYSTEM_H</span></div>
-<div class="ttc" id="aclass_auth_system_html"><div class="ttname"><a href="class_auth_system.html">AuthSystem</a></div><div class="ttdoc">The AuthSystem class manages user authentication.</div><div class="ttdef"><b>Definition</b> authSystem.h:15</div></div>
-<div class="ttc" id="aclass_auth_system_html_a0c22dad4caea62efbfe7f99dedbe15a0"><div class="ttname"><a href="class_auth_system.html#a0c22dad4caea62efbfe7f99dedbe15a0">AuthSystem::login</a></div><div class="ttdeci">std::shared_ptr&lt; User &gt; login(const std::string &amp;username, const std::string &amp;password)</div><div class="ttdoc">Validates user login credentials.</div><div class="ttdef"><b>Definition</b> authSystem.cpp:11</div></div>
-<div class="ttc" id="aclass_auth_system_html_a22096574db87d408b6240bb53c35d42e"><div class="ttname"><a href="class_auth_system.html#a22096574db87d408b6240bb53c35d42e">AuthSystem::users</a></div><div class="ttdeci">std::vector&lt; std::shared_ptr&lt; User &gt; &gt; users</div><div class="ttdef"><b>Definition</b> authSystem.h:17</div></div>
-<div class="ttc" id="aclass_auth_system_html_a2afbea58b44387724eaf1dbdeb93628d"><div class="ttname"><a href="class_auth_system.html#a2afbea58b44387724eaf1dbdeb93628d">AuthSystem::AuthSystem</a></div><div class="ttdeci">AuthSystem()</div><div class="ttdoc">Constructs the AuthSystem object.</div><div class="ttdef"><b>Definition</b> authSystem.cpp:4</div></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="preprocessor">#endif </span><span class="comment">// AUTHSYSTEM_H</span></div>
+<div class="ttc" id="aadmin_8h_html"><div class="ttname"><a href="admin_8h.html">admin.h</a></div></div>
+<div class="ttc" id="aaeronave_8h_html"><div class="ttname"><a href="aeronave_8h.html">aeronave.h</a></div></div>
+<div class="ttc" id="aclass_auth_system_html"><div class="ttname"><a href="class_auth_system.html">AuthSystem</a></div><div class="ttdoc">The AuthSystem class manages user authentication.</div><div class="ttdef"><b>Definition</b> authSystem.h:19</div></div>
+<div class="ttc" id="aclass_auth_system_html_a0c22dad4caea62efbfe7f99dedbe15a0"><div class="ttname"><a href="class_auth_system.html#a0c22dad4caea62efbfe7f99dedbe15a0">AuthSystem::login</a></div><div class="ttdeci">std::shared_ptr&lt; User &gt; login(const std::string &amp;username, const std::string &amp;password)</div><div class="ttdoc">Validates user login credentials.</div><div class="ttdef"><b>Definition</b> authSystem.cpp:38</div></div>
+<div class="ttc" id="aclass_auth_system_html_a22096574db87d408b6240bb53c35d42e"><div class="ttname"><a href="class_auth_system.html#a22096574db87d408b6240bb53c35d42e">AuthSystem::users</a></div><div class="ttdeci">std::vector&lt; std::shared_ptr&lt; User &gt; &gt; users</div><div class="ttdoc">List of registered users in the system.</div><div class="ttdef"><b>Definition</b> authSystem.h:26</div></div>
+<div class="ttc" id="aclass_auth_system_html_a2afbea58b44387724eaf1dbdeb93628d"><div class="ttname"><a href="class_auth_system.html#a2afbea58b44387724eaf1dbdeb93628d">AuthSystem::AuthSystem</a></div><div class="ttdeci">AuthSystem()</div><div class="ttdoc">Constructs the AuthSystem object.</div><div class="ttdef"><b>Definition</b> authSystem.cpp:6</div></div>
+<div class="ttc" id="aclass_auth_system_html_a5663b0956806fc225ec013da056a8ebe"><div class="ttname"><a href="class_auth_system.html#a5663b0956806fc225ec013da056a8ebe">AuthSystem::loadUsersFromJson</a></div><div class="ttdeci">void loadUsersFromJson(const std::string &amp;filePath)</div><div class="ttdoc">Loads users from a JSON file.</div><div class="ttdef"><b>Definition</b> authSystem.cpp:10</div></div>
+<div class="ttc" id="aclass_auth_system_html_ac4590ca25ddc27a8c0244537debf06b5"><div class="ttname"><a href="class_auth_system.html#ac4590ca25ddc27a8c0244537debf06b5">AuthSystem::addUser</a></div><div class="ttdeci">void addUser(std::shared_ptr&lt; User &gt; user)</div><div class="ttdoc">Adds a user to the authentication system.</div><div class="ttdef"><b>Definition</b> authSystem.cpp:47</div></div>
+<div class="ttc" id="amanager_8h_html"><div class="ttname"><a href="manager_8h.html">manager.h</a></div></div>
+<div class="ttc" id="amechanic_8h_html"><div class="ttname"><a href="mechanic_8h.html">mechanic.h</a></div></div>
 <div class="ttc" id="auser_8h_html"><div class="ttname"><a href="user_8h.html">user.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

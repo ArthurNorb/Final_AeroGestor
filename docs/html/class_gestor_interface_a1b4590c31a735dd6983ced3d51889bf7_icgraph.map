@@ -1,6 +1,6 @@
 <map id="GestorInterface::voltarParaLogin" name="GestorInterface::voltarParaLogin">
 <area shape="rect" id="Node000001" title="Signal emitted to return to the login screen." alt="" coords="559,23,738,65"/>
-<area shape="rect" id="Node000002" href="$main_8cpp.html#ace8bf616b037a82dc0fe7b4697880414" title=" " alt="" coords="370,5,501,32"/>
+<area shape="rect" id="Node000002" href="$main_8cpp.html#adc90064aaddc7fd4439ad720e69f08bd" title=" " alt="" coords="370,5,501,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="544,34,501,29,502,24,544,29"/>
 <area shape="rect" id="Node000005" href="$class_gestor_interface.html#aa55651299f1967995eb103b97f83a2ee" title="Slot to handle the action of returning to the login screen." alt="" coords="360,56,511,83"/>
 <area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="545,59,512,63,512,58,544,54"/>

@@ -1,0 +1,25 @@
+<map id="Aeronave::getId" name="Aeronave::getId">
+<area shape="rect" id="Node000001" title="Gets the registration code of the aircraft." alt="" coords="752,131,866,157"/>
+<area shape="rect" id="Node000002" href="$class_admin.html#a33d496351157262ef3e6b0703a8c18df" title="Registers a new aircraft into the fleet." alt="" coords="510,21,686,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="779,123,744,96,703,70,654,51,656,46,706,66,747,91,783,118"/>
+<area shape="rect" id="Node000005" href="$class_manager.html#ada1981a3ecf1fb7f66f0212338e178f9" title="Sends an aircraft for maintenance." alt="" coords="492,80,704,107"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="737,129,704,121,657,110,658,105,705,116,738,124"/>
+<area shape="rect" id="Node000008" href="$class_mechanic.html#aabd49c2ed94dd66e7f993364fa333ef0" title="Marks an aircraft as ready for use." alt="" coords="516,131,680,157"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="737,147,680,147,680,141,737,141"/>
+<area shape="rect" id="Node000011" href="$class_aeronave.html#a3cb32456e825257828a2271dcf941a62" title="Converts the Aircraft object to a JSON object." alt="" coords="536,181,660,208"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="738,164,705,172,658,183,657,178,704,167,737,159"/>
+<area shape="rect" id="Node000012" href="$class_mechanic.html#aed43f0355905b40655b22f17bc54f92f" title="Checks the status of an aircraft." alt="" coords="505,232,691,259"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="783,170,748,197,705,222,674,234,673,229,703,218,745,193,780,166"/>
+<area shape="rect" id="Node000003" href="$class_administrador_interface.html#a66b10f9815efc7adf02d737890b60b95" title="Slot to handle the action of registering a new aircraft." alt="" coords="277,5,430,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="495,34,430,32,430,26,495,29"/>
+<area shape="rect" id="Node000004" href="$class_administrador_interface.html#a4c7962f4653cb7e98a664df94a2ac51e" title="Constructs the AdministradorInterface object." alt="" coords="30,5,190,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="261,29,191,29,191,24,261,24"/>
+<area shape="rect" id="Node000006" href="$class_gestor_interface.html#a02c1f38097a864bd78fd3312ce0dbd86" title="Slot to handle the action of sending an aircraft for maintenance." alt="" coords="263,72,444,115"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="477,96,445,96,445,91,477,91"/>
+<area shape="rect" id="Node000007" href="$class_gestor_interface.html#a4ca4c73c96a7f1ae2eac2c9fb23f9742" title="Constructs the GestorInterface object." alt="" coords="5,80,215,107"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="247,96,215,96,215,91,247,91"/>
+<area shape="rect" id="Node000009" href="$class_mecanico_interface.html#abccf1cfe3d6f86df987fb442acf4acbd" title="Slot to handle the action of marking an aircraft as ready." alt="" coords="285,139,422,181"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="501,153,422,158,422,153,500,148"/>
+<area shape="rect" id="Node000010" href="$class_mecanico_interface.html#a12f661b3a2d9f6428d7e4cc6ea613b84" title="Constructs the MecanicoInterface object." alt="" coords="42,139,178,181"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="270,163,178,163,178,157,270,157"/>
+</map>

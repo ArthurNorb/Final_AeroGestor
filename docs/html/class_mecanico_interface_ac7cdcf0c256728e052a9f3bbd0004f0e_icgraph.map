@@ -1,0 +1,5 @@
+<map id="MecanicoInterface::loadFrotaFromJson" name="MecanicoInterface::loadFrotaFromJson">
+<area shape="rect" id="Node000001" title="Carrega a frota de aeronaves a partir de um arquivo JSON." alt="" coords="190,5,326,48"/>
+<area shape="rect" id="Node000002" href="$class_mecanico_interface.html#a12f661b3a2d9f6428d7e4cc6ea613b84" title="Constructs the MecanicoInterface object." alt="" coords="5,5,142,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,29,142,29,142,24,174,24"/>
+</map>

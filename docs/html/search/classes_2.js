@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['loginwindow_0',['LoginWindow',['../class_login_window.html',1,'']]]
+  ['gestorinterface_0',['GestorInterface',['../class_gestor_interface.html',1,'']]]
 ];

@@ -1,0 +1,7 @@
+<map id="Admin::fromJson" name="Admin::fromJson">
+<area shape="rect" id="Node000001" title="Loads the Admin object from a JSON object." alt="" coords="5,31,126,57"/>
+<area shape="rect" id="Node000002" href="$class_user.html#ae60636c099ffe66a20a4512ea11e7704" title="Sets the password of the user." alt="" coords="175,5,308,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,33,159,28,159,33,126,38"/>
+<area shape="rect" id="Node000003" href="$class_user.html#a1dfa65bcba3e701f1a43e7221d90e253" title="Sets the username of the user." alt="" coords="174,56,309,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="126,50,159,55,158,60,126,55"/>
+</map>

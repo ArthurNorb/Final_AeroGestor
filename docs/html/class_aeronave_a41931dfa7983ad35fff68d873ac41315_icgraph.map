@@ -1,0 +1,5 @@
+<map id="Aeronave::saveFrotaToJson" name="Aeronave::saveFrotaToJson">
+<area shape="rect" id="Node000001" title=" " alt="" coords="206,13,390,40"/>
+<area shape="rect" id="Node000002" href="$class_administrador_interface.html#a902cd711e00bd2b25ae4bd0b567a1aab" title="Adds a new aircraft to the fleet and saves the updated fleet to the JSON file." alt="" coords="5,5,158,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="190,29,158,29,158,24,190,24"/>
+</map>

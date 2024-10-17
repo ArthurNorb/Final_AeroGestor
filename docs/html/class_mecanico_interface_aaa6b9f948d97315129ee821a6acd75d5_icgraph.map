@@ -1,6 +1,6 @@
 <map id="MecanicoInterface::voltarParaLogin" name="MecanicoInterface::voltarParaLogin">
 <area shape="rect" id="Node000001" title="Signal emitted to return to the login screen." alt="" coords="471,27,608,69"/>
-<area shape="rect" id="Node000002" href="$main_8cpp.html#ace8bf616b037a82dc0fe7b4697880414" title=" " alt="" coords="290,5,421,32"/>
+<area shape="rect" id="Node000002" href="$main_8cpp.html#adc90064aaddc7fd4439ad720e69f08bd" title=" " alt="" coords="290,5,421,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="456,37,421,32,421,26,457,32"/>
 <area shape="rect" id="Node000005" href="$class_mecanico_interface.html#ab2748e581152f44a96676aa9a543afb1" title="Slot to handle the action of returning to the login screen." alt="" coords="287,56,423,99"/>
 <area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="456,64,424,69,424,64,456,59"/>

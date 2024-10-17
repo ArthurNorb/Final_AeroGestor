@@ -2,10 +2,10 @@
 <area shape="rect" id="Node000001" title="Slot to handle the action of marking an aircraft as ready." alt="" coords="5,48,142,91"/>
 <area shape="rect" id="Node000002" href="$class_mechanic.html#aabd49c2ed94dd66e7f993364fa333ef0" title="Marks an aircraft as ready for use." alt="" coords="190,56,353,83"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="142,67,174,67,174,72,142,72"/>
-<area shape="rect" id="Node000003" href="$class_aeronave.html#ab6f1c72551bb33a8d611b6e8efcb2fe8" title="Checks if the aircraft is under maintenance." alt="" coords="401,5,601,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="335,53,422,33,423,39,336,58"/>
-<area shape="rect" id="Node000004" href="$class_aeronave.html#a5551ebaa2134c823f9019818da5ea1de" title="Gets the registration code of the aircraft." alt="" coords="424,56,579,83"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="353,67,408,67,408,72,353,72"/>
-<area shape="rect" id="Node000005" href="$class_aeronave.html#a8a9726ce8b5d2f941b1238b5c1202b9e" title="Sets the status of whether the aircraft is ready for use." alt="" coords="406,107,597,133"/>
-<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="336,81,423,100,422,105,335,86"/>
+<area shape="rect" id="Node000003" href="$class_aeronave.html#ac42eb523424a958ffaaff7a5b947b021" title="Gets the registration code of the aircraft." alt="" coords="440,5,553,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="334,53,424,32,425,37,335,58"/>
+<area shape="rect" id="Node000004" href="$class_aeronave.html#ab60c2a79f3e914f7ff7b5ba670e7c421" title="Checks if the aircraft is under maintenance." alt="" coords="416,56,578,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="353,67,400,67,400,72,353,72"/>
+<area shape="rect" id="Node000005" href="$class_aeronave.html#a8a9726ce8b5d2f941b1238b5c1202b9e" title="Sets the status of whether the aircraft is ready for use." alt="" coords="401,107,592,133"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="335,81,420,100,419,105,334,86"/>
 </map>

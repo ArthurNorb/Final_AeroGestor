@@ -124,25 +124,46 @@ $(function(){initNavTree('user_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    }</div>
 </div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="foldopen" id="foldopen00048" data-start="{" data-end="}">
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="class_user.html#a3b89d856d334dbcc909de2ff08d20f5a">   48</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="class_user.html#a3b89d856d334dbcc909de2ff08d20f5a">checkPassword</a>(<span class="keyword">const</span> std::string&amp; pass)<span class="keyword"> const </span>{</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <span class="keywordflow">return</span> pass == <a class="code hl_variable" href="class_user.html#ac2f2e75b15e8eb6cbb030fc85a6cd59f">password</a>;</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    }</div>
+<div class="foldopen" id="foldopen00047" data-start="{" data-end="}">
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="class_user.html#a1dfa65bcba3e701f1a43e7221d90e253">   47</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_user.html#a1dfa65bcba3e701f1a43e7221d90e253">setUsername</a>(<span class="keyword">const</span> std::string&amp; newUsername) {</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        <a class="code hl_variable" href="class_user.html#aacbb807e514280f69e00bec7d71f3aee">username</a> = newUsername;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    }</div>
 </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="class_user.html#ac91004e1544c8c2e9525594ffeb4df1a">   59</a></span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="class_user.html#ac91004e1544c8c2e9525594ffeb4df1a">getRole</a>() <span class="keyword">const</span> = 0;  <span class="comment">// Pure virtual method for user role</span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>};</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="foldopen" id="foldopen00056" data-start="{" data-end="}">
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="class_user.html#a180e5acdc4b150463652d90d54caa8fc">   56</a></span>    std::string <a class="code hl_function" href="class_user.html#a180e5acdc4b150463652d90d54caa8fc">getPassword</a>()<span class="keyword"> const </span>{</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="class_user.html#ac2f2e75b15e8eb6cbb030fc85a6cd59f">password</a>;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    }</div>
 </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="preprocessor">#endif </span><span class="comment">// USER_H</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="foldopen" id="foldopen00065" data-start="{" data-end="}">
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="class_user.html#ae60636c099ffe66a20a4512ea11e7704">   65</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_user.html#ae60636c099ffe66a20a4512ea11e7704">setPassword</a>(<span class="keyword">const</span> std::string&amp; newPassword) {</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        <a class="code hl_variable" href="class_user.html#ac2f2e75b15e8eb6cbb030fc85a6cd59f">password</a> = newPassword;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    }</div>
+</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="foldopen" id="foldopen00075" data-start="{" data-end="}">
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="class_user.html#a3b89d856d334dbcc909de2ff08d20f5a">   75</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="class_user.html#a3b89d856d334dbcc909de2ff08d20f5a">checkPassword</a>(<span class="keyword">const</span> std::string&amp; pass)<span class="keyword"> const </span>{</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>        <span class="keywordflow">return</span> pass == <a class="code hl_variable" href="class_user.html#ac2f2e75b15e8eb6cbb030fc85a6cd59f">password</a>;</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    }</div>
+</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="class_user.html#ac91004e1544c8c2e9525594ffeb4df1a">   86</a></span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="class_user.html#ac91004e1544c8c2e9525594ffeb4df1a">getRole</a>() <span class="keyword">const</span> = 0;  <span class="comment">// Pure virtual method for user role</span></div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>};</div>
+</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="preprocessor">#endif </span><span class="comment">// USER_H</span></div>
 <div class="ttc" id="aclass_user_html"><div class="ttname"><a href="class_user.html">User</a></div><div class="ttdoc">The User class represents a base user in the system.</div><div class="ttdef"><b>Definition</b> user.h:13</div></div>
-<div class="ttc" id="aclass_user_html_a3b89d856d334dbcc909de2ff08d20f5a"><div class="ttname"><a href="class_user.html#a3b89d856d334dbcc909de2ff08d20f5a">User::checkPassword</a></div><div class="ttdeci">bool checkPassword(const std::string &amp;pass) const</div><div class="ttdoc">Checks if the provided password matches the user's password.</div><div class="ttdef"><b>Definition</b> user.h:48</div></div>
+<div class="ttc" id="aclass_user_html_a180e5acdc4b150463652d90d54caa8fc"><div class="ttname"><a href="class_user.html#a180e5acdc4b150463652d90d54caa8fc">User::getPassword</a></div><div class="ttdeci">std::string getPassword() const</div><div class="ttdoc">Gets the password of the user.</div><div class="ttdef"><b>Definition</b> user.h:56</div></div>
+<div class="ttc" id="aclass_user_html_a1dfa65bcba3e701f1a43e7221d90e253"><div class="ttname"><a href="class_user.html#a1dfa65bcba3e701f1a43e7221d90e253">User::setUsername</a></div><div class="ttdeci">void setUsername(const std::string &amp;newUsername)</div><div class="ttdoc">Sets the username of the user.</div><div class="ttdef"><b>Definition</b> user.h:47</div></div>
+<div class="ttc" id="aclass_user_html_a3b89d856d334dbcc909de2ff08d20f5a"><div class="ttname"><a href="class_user.html#a3b89d856d334dbcc909de2ff08d20f5a">User::checkPassword</a></div><div class="ttdeci">bool checkPassword(const std::string &amp;pass) const</div><div class="ttdoc">Checks if the provided password matches the user's password.</div><div class="ttdef"><b>Definition</b> user.h:75</div></div>
 <div class="ttc" id="aclass_user_html_a634d7ad22c3d2b5fed35f71e10d98628"><div class="ttname"><a href="class_user.html#a634d7ad22c3d2b5fed35f71e10d98628">User::~User</a></div><div class="ttdeci">virtual ~User()=default</div><div class="ttdoc">Virtual destructor for the User class.</div></div>
 <div class="ttc" id="aclass_user_html_a7079d6aefd9d1b930d837039c1b3e7df"><div class="ttname"><a href="class_user.html#a7079d6aefd9d1b930d837039c1b3e7df">User::getUsername</a></div><div class="ttdeci">std::string getUsername() const</div><div class="ttdoc">Gets the username of the user.</div><div class="ttdef"><b>Definition</b> user.h:38</div></div>
 <div class="ttc" id="aclass_user_html_aacbb807e514280f69e00bec7d71f3aee"><div class="ttname"><a href="class_user.html#aacbb807e514280f69e00bec7d71f3aee">User::username</a></div><div class="ttdeci">std::string username</div><div class="ttdef"><b>Definition</b> user.h:15</div></div>
 <div class="ttc" id="aclass_user_html_ab06ceb4f480164e2a2f90e204c40fc7b"><div class="ttname"><a href="class_user.html#ab06ceb4f480164e2a2f90e204c40fc7b">User::User</a></div><div class="ttdeci">User(const std::string &amp;username, const std::string &amp;password)</div><div class="ttdoc">Constructs a User object.</div><div class="ttdef"><b>Definition</b> user.h:25</div></div>
 <div class="ttc" id="aclass_user_html_ac2f2e75b15e8eb6cbb030fc85a6cd59f"><div class="ttname"><a href="class_user.html#ac2f2e75b15e8eb6cbb030fc85a6cd59f">User::password</a></div><div class="ttdeci">std::string password</div><div class="ttdef"><b>Definition</b> user.h:16</div></div>
 <div class="ttc" id="aclass_user_html_ac91004e1544c8c2e9525594ffeb4df1a"><div class="ttname"><a href="class_user.html#ac91004e1544c8c2e9525594ffeb4df1a">User::getRole</a></div><div class="ttdeci">virtual std::string getRole() const =0</div><div class="ttdoc">Gets the role of the user.</div></div>
+<div class="ttc" id="aclass_user_html_ae60636c099ffe66a20a4512ea11e7704"><div class="ttname"><a href="class_user.html#ae60636c099ffe66a20a4512ea11e7704">User::setPassword</a></div><div class="ttdeci">void setPassword(const std::string &amp;newPassword)</div><div class="ttdoc">Sets the password of the user.</div><div class="ttdef"><b>Definition</b> user.h:65</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

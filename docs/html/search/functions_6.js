@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['onloginbuttonclicked_0',['onLoginButtonClicked',['../class_login_window.html#ac0936177b2035e7de1a7dace2de33fb6',1,'LoginWindow']]]
+  ['insertuser_0',['insertUser',['../class_database.html#af144bef23ceb3b4bfd1b482db0665631',1,'Database']]]
 ];

@@ -1,0 +1,7 @@
+<map id="loadFrotaFromJson" name="loadFrotaFromJson">
+<area shape="rect" id="Node000001" title="Loads the fleet of aircraft from a JSON file." alt="" coords="5,31,139,57"/>
+<area shape="rect" id="Node000002" href="$class_aeronave.html#ab60c2a79f3e914f7ff7b5ba670e7c421" title="Checks if the aircraft is under maintenance." alt="" coords="187,5,349,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,33,171,29,171,34,140,38"/>
+<area shape="rect" id="Node000003" href="$class_aeronave.html#ab1a821655517a7e5d3e8ca1d76651155" title="Sets the maintenance status of the aircraft." alt="" coords="187,56,349,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="140,50,171,54,171,59,139,55"/>
+</map>

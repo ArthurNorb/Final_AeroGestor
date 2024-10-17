@@ -1,7 +1,7 @@
 <map id="Aeronave::registrarManutencao" name="Aeronave::registrarManutencao">
 <area shape="rect" id="Node000001" title="Registers a maintenance activity for the aircraft." alt="" coords="5,31,208,57"/>
-<area shape="rect" id="Node000002" href="$class_aeronave.html#a98aa26dc657f4a36e5ba13228a67b9f0" title="Sets the maintenance status of the aircraft." alt="" coords="256,5,449,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,31,240,28,240,33,208,36"/>
-<area shape="rect" id="Node000003" href="$class_aeronave.html#a8a9726ce8b5d2f941b1238b5c1202b9e" title="Sets the status of whether the aircraft is ready for use." alt="" coords="257,56,448,83"/>
+<area shape="rect" id="Node000002" href="$class_aeronave.html#ab1a821655517a7e5d3e8ca1d76651155" title="Sets the maintenance status of the aircraft." alt="" coords="270,5,432,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,31,254,26,255,31,208,36"/>
+<area shape="rect" id="Node000003" href="$class_aeronave.html#a8a9726ce8b5d2f941b1238b5c1202b9e" title="Sets the status of whether the aircraft is ready for use." alt="" coords="256,56,447,83"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="208,52,241,55,240,61,208,57"/>
 </map>

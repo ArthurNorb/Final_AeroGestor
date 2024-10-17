@@ -1,0 +1,7 @@
+<map id="Admin::toJson" name="Admin::toJson">
+<area shape="rect" id="Node000001" title="Converts the Admin object to a JSON object." alt="" coords="5,31,111,57"/>
+<area shape="rect" id="Node000002" href="$class_user.html#a180e5acdc4b150463652d90d54caa8fc" title="Gets the password of the user." alt="" coords="160,5,293,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,33,144,28,144,34,112,39"/>
+<area shape="rect" id="Node000003" href="$class_user.html#a7079d6aefd9d1b930d837039c1b3e7df" title="Gets the username of the user." alt="" coords="159,56,294,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="112,49,143,54,142,59,111,55"/>
+</map>

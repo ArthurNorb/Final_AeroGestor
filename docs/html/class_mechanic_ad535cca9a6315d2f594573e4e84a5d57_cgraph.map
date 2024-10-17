@@ -1,0 +1,7 @@
+<map id="Mechanic::toJson" name="Mechanic::toJson">
+<area shape="rect" id="Node000001" title="Converts the Mechanic object to a JSON object." alt="" coords="5,31,130,57"/>
+<area shape="rect" id="Node000002" href="$class_user.html#a180e5acdc4b150463652d90d54caa8fc" title="Gets the password of the user." alt="" coords="179,5,312,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="130,33,163,28,164,33,130,38"/>
+<area shape="rect" id="Node000003" href="$class_user.html#a7079d6aefd9d1b930d837039c1b3e7df" title="Gets the username of the user." alt="" coords="178,56,313,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="130,50,162,55,162,60,130,55"/>
+</map>

@@ -147,6 +147,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a12f661b3a2d9f6428d7e4cc6ea613b84" id="r_a12f661b3a2d9f6428d7e4cc6ea613b84"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12f661b3a2d9f6428d7e4cc6ea613b84">MecanicoInterface</a> (<a class="el" href="class_mechanic.html">Mechanic</a> &amp;<a class="el" href="#acd5c3a2c3c07244473490bfe98a5904f">mecanico</a>, std::vector&lt; <a class="el" href="class_aeronave.html">Aeronave</a> &gt; &amp;<a class="el" href="#ae0e8c4169f3af20d84ccc403e46612cd">frota</a>, std::vector&lt; <a class="el" href="class_aeronave.html">Aeronave</a> &gt; &amp;<a class="el" href="#a77ad12e0cf60e05ea4654a199e600167">frotaEmManutencao</a>, QWidget *parent=nullptr)</td></tr>
 <tr class="memdesc:a12f661b3a2d9f6428d7e4cc6ea613b84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs the <a class="el" href="class_mecanico_interface.html" title="The MecanicoInterface class provides the user interface for the mechanic role.">MecanicoInterface</a> object.  <br /></td></tr>
 <tr class="separator:a12f661b3a2d9f6428d7e4cc6ea613b84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7cdcf0c256728e052a9f3bbd0004f0e" id="r_ac7cdcf0c256728e052a9f3bbd0004f0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7cdcf0c256728e052a9f3bbd0004f0e">loadFrotaFromJson</a> (const std::string &amp;filePath)</td></tr>
+<tr class="memdesc:ac7cdcf0c256728e052a9f3bbd0004f0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Carrega a frota de aeronaves a partir de um arquivo JSON.  <br /></td></tr>
+<tr class="separator:ac7cdcf0c256728e052a9f3bbd0004f0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0be8265a96c4dac1eb2c3e75fe8a74f7" id="r_a0be8265a96c4dac1eb2c3e75fe8a74f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0be8265a96c4dac1eb2c3e75fe8a74f7">saveFrotaToJson</a> (const std::string &amp;filePath) const</td></tr>
+<tr class="memdesc:a0be8265a96c4dac1eb2c3e75fe8a74f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Salva a frota de aeronaves em um arquivo JSON.  <br /></td></tr>
+<tr class="separator:a0be8265a96c4dac1eb2c3e75fe8a74f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
@@ -230,27 +236,72 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_mecanico_interface_a12f661b3a2d9f6428d7e4cc6ea613b84_cgraph.png" border="0" usemap="#aclass_mecanico_interface_a12f661b3a2d9f6428d7e4cc6ea613b84_cgraph" alt=""/></div>
 <map name="aclass_mecanico_interface_a12f661b3a2d9f6428d7e4cc6ea613b84_cgraph" id="aclass_mecanico_interface_a12f661b3a2d9f6428d7e4cc6ea613b84_cgraph">
-<area shape="rect" title="Constructs the MecanicoInterface object." alt="" coords="5,81,142,124"/>
-<area shape="rect" href="class_mecanico_interface.html#abccf1cfe3d6f86df987fb442acf4acbd" title="Slot to handle the action of marking an aircraft as ready." alt="" coords="190,48,326,91"/>
-<area shape="poly" title=" " alt="" coords="141,88,174,82,175,87,142,93"/>
-<area shape="rect" href="class_mecanico_interface.html#ab2748e581152f44a96676aa9a543afb1" title="Slot to handle the action of returning to the login screen." alt="" coords="190,115,326,157"/>
-<area shape="poly" title=" " alt="" coords="142,112,175,118,174,123,141,118"/>
-<area shape="rect" href="class_mechanic.html#aabd49c2ed94dd66e7f993364fa333ef0" title="Marks an aircraft as ready for use." alt="" coords="374,56,537,83"/>
-<area shape="poly" title=" " alt="" coords="326,67,358,67,358,72,326,72"/>
-<area shape="rect" href="class_aeronave.html#ab6f1c72551bb33a8d611b6e8efcb2fe8" title="Checks if the aircraft is under maintenance." alt="" coords="585,5,786,32"/>
-<area shape="poly" title=" " alt="" coords="519,53,606,33,607,39,520,58"/>
-<area shape="rect" href="class_aeronave.html#a5551ebaa2134c823f9019818da5ea1de" title="Gets the registration code of the aircraft." alt="" coords="608,56,763,83"/>
-<area shape="poly" title=" " alt="" coords="538,67,592,67,592,72,538,72"/>
-<area shape="rect" href="class_aeronave.html#a8a9726ce8b5d2f941b1238b5c1202b9e" title="Sets the status of whether the aircraft is ready for use." alt="" coords="590,107,781,133"/>
-<area shape="poly" title=" " alt="" coords="520,81,607,100,606,105,519,86"/>
-<area shape="rect" href="class_mecanico_interface.html#aaa6b9f948d97315129ee821a6acd75d5" title="Signal emitted to return to the login screen." alt="" coords="388,115,524,157"/>
-<area shape="poly" title=" " alt="" coords="326,133,372,133,372,139,326,139"/>
+<area shape="rect" title="Constructs the MecanicoInterface object." alt="" coords="5,72,142,115"/>
+<area shape="rect" href="class_mecanico_interface.html#ac7cdcf0c256728e052a9f3bbd0004f0e" title="Carrega a frota de aeronaves a partir de um arquivo JSON." alt="" coords="190,5,326,48"/>
+<area shape="poly" title=" " alt="" coords="133,69,182,51,184,56,135,74"/>
+<area shape="rect" href="class_mecanico_interface.html#abccf1cfe3d6f86df987fb442acf4acbd" title="Slot to handle the action of marking an aircraft as ready." alt="" coords="190,72,326,115"/>
+<area shape="poly" title=" " alt="" coords="142,91,174,91,174,96,142,96"/>
+<area shape="rect" href="class_mecanico_interface.html#ab2748e581152f44a96676aa9a543afb1" title="Slot to handle the action of returning to the login screen." alt="" coords="190,139,326,181"/>
+<area shape="poly" title=" " alt="" coords="135,113,184,130,182,136,133,118"/>
+<area shape="rect" href="class_mechanic.html#aabd49c2ed94dd66e7f993364fa333ef0" title="Marks an aircraft as ready for use." alt="" coords="374,80,537,107"/>
+<area shape="poly" title=" " alt="" coords="326,91,358,91,358,96,326,96"/>
+<area shape="rect" href="class_aeronave.html#ac42eb523424a958ffaaff7a5b947b021" title="Gets the registration code of the aircraft." alt="" coords="624,29,738,56"/>
+<area shape="poly" title=" " alt="" coords="518,77,608,56,610,61,519,82"/>
+<area shape="rect" href="class_aeronave.html#ab60c2a79f3e914f7ff7b5ba670e7c421" title="Checks if the aircraft is under maintenance." alt="" coords="600,80,762,107"/>
+<area shape="poly" title=" " alt="" coords="537,91,585,91,585,96,537,96"/>
+<area shape="rect" href="class_aeronave.html#a8a9726ce8b5d2f941b1238b5c1202b9e" title="Sets the status of whether the aircraft is ready for use." alt="" coords="585,131,777,157"/>
+<area shape="poly" title=" " alt="" coords="519,105,604,124,603,129,518,110"/>
+<area shape="rect" href="class_mecanico_interface.html#aaa6b9f948d97315129ee821a6acd75d5" title="Signal emitted to return to the login screen." alt="" coords="388,139,524,181"/>
+<area shape="poly" title=" " alt="" coords="326,157,372,157,372,163,326,163"/>
 </map>
 </div>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ac7cdcf0c256728e052a9f3bbd0004f0e" name="ac7cdcf0c256728e052a9f3bbd0004f0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7cdcf0c256728e052a9f3bbd0004f0e">&#9670;&#160;</a></span>loadFrotaFromJson()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MecanicoInterface::loadFrotaFromJson </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filePath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Carrega a frota de aeronaves a partir de um arquivo JSON. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filePath</td><td>O caminho do arquivo JSON. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_mecanico_interface_ac7cdcf0c256728e052a9f3bbd0004f0e_icgraph.png" border="0" usemap="#aclass_mecanico_interface_ac7cdcf0c256728e052a9f3bbd0004f0e_icgraph" alt=""/></div>
+<map name="aclass_mecanico_interface_ac7cdcf0c256728e052a9f3bbd0004f0e_icgraph" id="aclass_mecanico_interface_ac7cdcf0c256728e052a9f3bbd0004f0e_icgraph">
+<area shape="rect" title="Carrega a frota de aeronaves a partir de um arquivo JSON." alt="" coords="190,5,326,48"/>
+<area shape="rect" href="class_mecanico_interface.html#a12f661b3a2d9f6428d7e4cc6ea613b84" title="Constructs the MecanicoInterface object." alt="" coords="5,5,142,48"/>
+<area shape="poly" title=" " alt="" coords="174,29,142,29,142,24,174,24"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="abccf1cfe3d6f86df987fb442acf4acbd" name="abccf1cfe3d6f86df987fb442acf4acbd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abccf1cfe3d6f86df987fb442acf4acbd">&#9670;&#160;</a></span>marcarPronta</h2>
 
@@ -284,12 +335,12 @@ Here is the call graph for this function:</div>
 <area shape="rect" title="Slot to handle the action of marking an aircraft as ready." alt="" coords="5,48,142,91"/>
 <area shape="rect" href="class_mechanic.html#aabd49c2ed94dd66e7f993364fa333ef0" title="Marks an aircraft as ready for use." alt="" coords="190,56,353,83"/>
 <area shape="poly" title=" " alt="" coords="142,67,174,67,174,72,142,72"/>
-<area shape="rect" href="class_aeronave.html#ab6f1c72551bb33a8d611b6e8efcb2fe8" title="Checks if the aircraft is under maintenance." alt="" coords="401,5,601,32"/>
-<area shape="poly" title=" " alt="" coords="335,53,422,33,423,39,336,58"/>
-<area shape="rect" href="class_aeronave.html#a5551ebaa2134c823f9019818da5ea1de" title="Gets the registration code of the aircraft." alt="" coords="424,56,579,83"/>
-<area shape="poly" title=" " alt="" coords="353,67,408,67,408,72,353,72"/>
-<area shape="rect" href="class_aeronave.html#a8a9726ce8b5d2f941b1238b5c1202b9e" title="Sets the status of whether the aircraft is ready for use." alt="" coords="406,107,597,133"/>
-<area shape="poly" title=" " alt="" coords="336,81,423,100,422,105,335,86"/>
+<area shape="rect" href="class_aeronave.html#ac42eb523424a958ffaaff7a5b947b021" title="Gets the registration code of the aircraft." alt="" coords="440,5,553,32"/>
+<area shape="poly" title=" " alt="" coords="334,53,424,32,425,37,335,58"/>
+<area shape="rect" href="class_aeronave.html#ab60c2a79f3e914f7ff7b5ba670e7c421" title="Checks if the aircraft is under maintenance." alt="" coords="416,56,578,83"/>
+<area shape="poly" title=" " alt="" coords="353,67,400,67,400,72,353,72"/>
+<area shape="rect" href="class_aeronave.html#a8a9726ce8b5d2f941b1238b5c1202b9e" title="Sets the status of whether the aircraft is ready for use." alt="" coords="401,107,592,133"/>
+<area shape="poly" title=" " alt="" coords="335,81,420,100,419,105,334,86"/>
 </map>
 </div>
 <div class="dynheader">
@@ -302,6 +353,39 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="174,29,142,29,142,24,174,24"/>
 </map>
 </div>
+
+</div>
+</div>
+<a id="a0be8265a96c4dac1eb2c3e75fe8a74f7" name="a0be8265a96c4dac1eb2c3e75fe8a74f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0be8265a96c4dac1eb2c3e75fe8a74f7">&#9670;&#160;</a></span>saveFrotaToJson()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MecanicoInterface::saveFrotaToJson </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filePath</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Salva a frota de aeronaves em um arquivo JSON. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filePath</td><td>O caminho do arquivo JSON onde a frota será salva. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -383,7 +467,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="class_mecanico_interface_aaa6b9f948d97315129ee821a6acd75d5_icgraph.png" border="0" usemap="#aclass_mecanico_interface_aaa6b9f948d97315129ee821a6acd75d5_icgraph" alt=""/></div>
 <map name="aclass_mecanico_interface_aaa6b9f948d97315129ee821a6acd75d5_icgraph" id="aclass_mecanico_interface_aaa6b9f948d97315129ee821a6acd75d5_icgraph">
 <area shape="rect" title="Signal emitted to return to the login screen." alt="" coords="471,27,608,69"/>
-<area shape="rect" href="main_8cpp.html#ace8bf616b037a82dc0fe7b4697880414" title=" " alt="" coords="290,5,421,32"/>
+<area shape="rect" href="main_8cpp.html#adc90064aaddc7fd4439ad720e69f08bd" title=" " alt="" coords="290,5,421,32"/>
 <area shape="poly" title=" " alt="" coords="456,37,421,32,421,26,457,32"/>
 <area shape="rect" href="class_mecanico_interface.html#ab2748e581152f44a96676aa9a543afb1" title="Slot to handle the action of returning to the login screen." alt="" coords="287,56,423,99"/>
 <area shape="poly" title=" " alt="" coords="456,64,424,69,424,64,456,59"/>

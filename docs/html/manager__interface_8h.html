@@ -110,35 +110,48 @@ $(function(){initNavTree('manager__interface_8h.html',''); initResizable(true); 
 <code>#include &quot;<a class="el" href="manager_8h_source.html">../model/manager.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="aeronave_8h_source.html">../model/aeronave.h</a>&quot;</code><br />
 <code>#include &lt;vector&gt;</code><br />
+<code>#include &quot;../../include/json.hpp&quot;</code><br />
+<code>#include &lt;fstream&gt;</code><br />
+<code>#include &lt;iostream&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for manager_interface.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="manager__interface_8h__incl.png" border="0" usemap="#asrc_2view_2manager__interface_8h" alt=""/></div>
 <map name="asrc_2view_2manager__interface_8h" id="asrc_2view_2manager__interface_8h">
-<area shape="rect" title=" " alt="" coords="333,5,526,32"/>
+<area shape="rect" title=" " alt="" coords="475,5,667,32"/>
 <area shape="rect" title=" " alt="" coords="5,80,78,107"/>
-<area shape="poly" title=" " alt="" coords="349,35,93,82,92,77,348,30"/>
+<area shape="poly" title=" " alt="" coords="475,31,301,51,93,82,92,77,300,45,474,26"/>
 <area shape="rect" title=" " alt="" coords="101,80,198,107"/>
-<area shape="poly" title=" " alt="" coords="381,35,213,78,212,73,380,30"/>
+<area shape="poly" title=" " alt="" coords="490,35,213,82,212,77,490,30"/>
 <area shape="rect" title=" " alt="" coords="221,80,320,107"/>
-<area shape="poly" title=" " alt="" coords="403,35,314,75,311,71,401,30"/>
+<area shape="poly" title=" " alt="" coords="519,35,336,79,335,74,518,30"/>
 <area shape="rect" title=" " alt="" coords="345,80,407,107"/>
-<area shape="poly" title=" " alt="" coords="422,34,397,69,392,66,418,31"/>
+<area shape="poly" title=" " alt="" coords="538,35,423,78,421,73,536,30"/>
 <area shape="rect" title=" " alt="" coords="432,80,534,107"/>
-<area shape="poly" title=" " alt="" coords="441,31,467,66,462,69,437,34"/>
-<area shape="rect" href="manager_8h.html" title=" " alt="" coords="558,80,691,107"/>
-<area shape="poly" title=" " alt="" coords="464,30,577,72,575,77,462,35"/>
-<area shape="rect" href="aeronave_8h.html" title=" " alt="" coords="667,155,752,181"/>
-<area shape="poly" title=" " alt="" coords="527,26,632,45,676,60,705,78,713,92,718,108,718,140,712,140,712,109,709,94,701,82,674,64,631,50,526,32"/>
-<area shape="rect" title=" " alt="" coords="721,229,778,256"/>
-<area shape="poly" title=" " alt="" coords="527,28,643,47,694,61,728,78,752,100,764,123,769,149,767,182,760,215,755,214,762,181,763,150,759,125,747,103,725,82,692,66,642,52,526,33"/>
-<area shape="rect" href="user_8h.html" title=" " alt="" coords="585,155,642,181"/>
-<area shape="poly" title=" " alt="" coords="625,108,620,140,615,139,620,107"/>
-<area shape="poly" title=" " alt="" coords="641,105,685,143,682,147,637,109"/>
-<area shape="rect" title=" " alt="" coords="635,229,688,256"/>
-<area shape="poly" title=" " alt="" coords="624,180,647,215,643,218,620,183"/>
-<area shape="poly" title=" " alt="" coords="703,183,680,218,676,215,699,180"/>
-<area shape="poly" title=" " alt="" coords="719,181,738,214,733,217,714,183"/>
+<area shape="poly" title=" " alt="" coords="557,35,511,72,508,68,554,30"/>
+<area shape="rect" href="manager_8h.html" title=" " alt="" coords="608,80,742,107"/>
+<area shape="poly" title=" " alt="" coords="590,30,646,69,643,73,587,35"/>
+<area shape="rect" href="aeronave_8h.html" title=" " alt="" coords="736,155,822,181"/>
+<area shape="poly" title=" " alt="" coords="665,30,713,48,736,61,756,78,773,108,780,139,775,140,768,110,751,82,733,66,711,53,663,35"/>
+<area shape="rect" title=" " alt="" coords="754,229,812,256"/>
+<area shape="poly" title=" " alt="" coords="664,30,724,48,754,61,782,78,810,100,831,122,841,149,836,182,825,203,811,220,807,216,821,200,831,180,836,150,827,125,807,103,779,82,752,66,722,53,662,35"/>
+<area shape="rect" title=" " alt="" coords="513,229,652,256"/>
+<area shape="poly" title=" " alt="" coords="574,32,584,214,579,214,569,33"/>
+<area shape="rect" title=" " alt="" coords="836,229,901,256"/>
+<area shape="poly" title=" " alt="" coords="668,23,706,30,744,41,782,56,817,78,842,108,859,144,867,181,870,214,865,214,862,182,854,146,838,111,813,82,780,61,743,46,704,35,667,28"/>
+<area shape="rect" title=" " alt="" coords="924,229,996,256"/>
+<area shape="poly" title=" " alt="" coords="668,21,712,28,758,39,804,55,847,78,883,108,912,145,935,182,951,214,947,216,931,185,908,148,879,112,844,82,802,60,757,44,711,33,667,27"/>
+<area shape="rect" href="user_8h.html" title=" " alt="" coords="654,155,712,181"/>
+<area shape="poly" title=" " alt="" coords="679,107,682,139,677,139,674,108"/>
+<area shape="poly" title=" " alt="" coords="694,105,750,143,747,148,691,109"/>
+<area shape="poly" title=" " alt="" coords="669,109,601,217,596,215,665,106"/>
+<area shape="rect" title=" " alt="" coords="676,229,730,256"/>
+<area shape="poly" title=" " alt="" coords="689,181,698,214,693,215,684,183"/>
+<area shape="poly" title=" " alt="" coords="767,184,729,221,725,217,764,180"/>
+<area shape="poly" title=" " alt="" coords="782,182,784,214,779,214,777,182"/>
+<area shape="poly" title=" " alt="" coords="746,184,632,226,631,221,744,179"/>
+<area shape="poly" title=" " alt="" coords="796,180,843,217,839,221,793,184"/>
+<area shape="poly" title=" " alt="" coords="811,179,915,221,913,226,809,184"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">

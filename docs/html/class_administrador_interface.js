@@ -1,7 +1,9 @@
 var class_administrador_interface =
 [
     [ "AdministradorInterface", "class_administrador_interface.html#a4c7962f4653cb7e98a664df94a2ac51e", null ],
+    [ "addAeronave", "class_administrador_interface.html#a902cd711e00bd2b25ae4bd0b567a1aab", null ],
     [ "cadastrarAeronave", "class_administrador_interface.html#a66b10f9815efc7adf02d737890b60b95", null ],
+    [ "loadFrotaFromJson", "class_administrador_interface.html#a223270075f5a28650ab0d28f6a3d91f2", null ],
     [ "voltar", "class_administrador_interface.html#a9ff26e3b2242c0ed567d2fd355efe8df", null ],
     [ "voltarParaLogin", "class_administrador_interface.html#ac02ab2406eb3b449664e2329ed503109", null ],
     [ "admin", "class_administrador_interface.html#accc12a2da82cf318c70850d3c81c2ca3", null ],

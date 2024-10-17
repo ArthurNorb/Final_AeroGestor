@@ -1,12 +1,22 @@
 <map id="src/model/admin.h" name="src/model/admin.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="35,5,163,32"/>
-<area shape="rect" id="Node000002" href="$main_8cpp.html" title=" " alt="" coords="5,155,102,181"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="58,42,36,59,19,81,15,100,20,119,43,153,39,156,15,121,10,100,14,79,32,55,55,38"/>
-<area shape="rect" id="Node000003" href="$admin_8cpp.html" title=" " alt="" coords="28,80,170,107"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="102,48,102,80,96,80,96,48"/>
-<area shape="rect" id="Node000004" href="$admin__interface_8h.html" title=" " alt="" coords="194,80,372,107"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="146,36,252,77,250,82,144,41"/>
-<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="229,114,95,157,93,151,228,109"/>
-<area shape="rect" id="Node000005" href="$admin__interface_8cpp.html" title=" " alt="" coords="187,155,378,181"/>
-<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="286,122,286,154,280,154,280,122"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="441,5,569,32"/>
+<area shape="rect" id="Node000002" href="$main_8cpp.html" title=" " alt="" coords="387,229,484,256"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="585,21,616,28,647,39,676,55,700,78,717,105,724,131,720,157,704,183,689,195,667,206,610,222,544,233,484,240,484,235,543,228,608,217,666,201,686,191,700,180,715,155,718,131,712,107,696,82,673,60,645,44,614,33,583,26"/>
+<area shape="rect" id="Node000003" href="$admin_8cpp.html" title=" " alt="" coords="342,80,484,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="479,44,430,82,427,78,475,40"/>
+<area shape="rect" id="Node000004" href="$auth_system_8h.html" title=" " alt="" coords="154,80,317,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="444,39,283,82,282,77,443,34"/>
+<area shape="rect" id="Node000008" href="$admin__interface_8h.html" title=" " alt="" coords="508,80,686,107"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="534,40,583,78,579,82,531,44"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="306,109,348,127,387,153,403,171,417,191,434,228,429,230,412,194,399,174,383,157,345,132,304,114"/>
+<area shape="rect" id="Node000005" href="$auth_system_8cpp.html" title=" " alt="" coords="195,155,372,181"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="254,118,277,153,273,156,250,121"/>
+<area shape="rect" id="Node000006" href="$login_window_8h.html" title=" " alt="" coords="12,155,171,181"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="198,116,118,156,116,152,196,112"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="167,182,387,229,386,234,166,188"/>
+<area shape="rect" id="Node000007" href="$login_window_8cpp.html" title=" " alt="" coords="5,229,178,256"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="94,197,94,229,89,229,89,197"/>
+<area shape="poly" id="edge10_Node000008_Node000002" title=" " alt="" coords="551,115,518,133,488,157,460,194,443,230,438,228,455,192,484,153,515,129,549,111"/>
+<area shape="rect" id="Node000009" href="$admin__interface_8cpp.html" title=" " alt="" coords="498,155,690,181"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="598,123,597,154,592,154,593,122"/>
 </map>

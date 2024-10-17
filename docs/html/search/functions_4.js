@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['login_0',['login',['../class_auth_system.html#a0c22dad4caea62efbfe7f99dedbe15a0',1,'AuthSystem']]],
-  ['loginsuccess_1',['loginSuccess',['../class_login_window.html#a8ec6f23317b7488a2cecda5f491557e1',1,'LoginWindow']]],
-  ['loginwindow_2',['LoginWindow',['../class_login_window.html#a3a6b4aff66de55ad665ace12f451d155',1,'LoginWindow']]]
+  ['fromjson_0',['fromJson',['../class_admin.html#a98d59d11d670a7564a549b9e5771e2fd',1,'Admin::fromJson()'],['../class_aeronave.html#a1dc6527eabff80ca3ac91e9e0bd3d143',1,'Aeronave::fromJson()'],['../class_manager.html#aa868cb7fecf9339f8d43f6191b7a43ee',1,'Manager::fromJson()'],['../class_mechanic.html#abaff021870ac44076cab93fb38f88dbb',1,'Mechanic::fromJson()']]]
 ];
