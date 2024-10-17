@@ -1,14 +1,22 @@
 {
     "aeronaves": [
       {
-        "matricula": "AERO123",
-        "modelo": "Boeing 737",
-        "em_manutencao": false
+        "id": "0045",
+        "model": "Boeng 737",
+        "capacity": 400,
+        "maintence": false
       },
       {
-        "matricula": "AERO456",
-        "modelo": "Airbus A320",
-        "em_manutencao": true
+        "id": "1209",
+        "model": "Airbus A380",
+        "capacity": 520,
+        "maintence": true
+      },
+      {
+        "id": "0573",
+        "model": "Antonov An-255 Mriya",
+        "capacity": 250,
+        "maintence": false
       }
     ]
 }

@@ -1,0 +1,24 @@
+{
+    "mechanics": [
+      {
+        "username": "mech0",
+        "name": "Admin mech",
+        "password": "mech123"
+      },
+      {
+        "username": "mech1",
+        "name": "Tiago Carneiro",
+        "password": "xxt2104"
+      },
+      {
+        "username": "mech2",
+        "name": "Marco Antônio",
+        "password": "njs6556"
+      },
+      {
+        "username": "mech3",
+        "name": "Guillermo Carrara",
+        "password": "oai3521"
+      }
+    ]
+}
